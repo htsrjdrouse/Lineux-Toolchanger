@@ -1,0 +1,1 @@
+{"valveselect":0,"valve":[{"id":0,"input":"100","bypass":"150","output":"200"}],"wash":{"washval":100,"washtime":30},"waste":{"wasteval":100},"pcv":{"pcvval":200,"sensorlevel":500}}

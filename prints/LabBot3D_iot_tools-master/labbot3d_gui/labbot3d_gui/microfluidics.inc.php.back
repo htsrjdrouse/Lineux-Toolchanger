@@ -1,0 +1,173 @@
+<style>
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+</style>
+<? $jsonmicrofl = json_decode(file_get_contents('microfluidics.json'), true);?>
+<? if(isset($_POST['editvalvepos'])){ 
+ $_SESSION['labbot3d']['editvalvepos'] = 1; 
+ $_SESSION['labbot3d']['valve'] = $_POST['selvalve']; 
+}?>
+<? if(isset($_POST['savevalvepos'])){ 
+ $_SESSION['labbot3d']['editvalvepos'] = 0; 
+ $_SESSION['labbot3d']['valve'] = $_POST['selvalve']; 
+ $jsonmicrofl['valve'][$_POST['selvalve']]['output'] = $_POST['outputpos'];  
+ $jsonmicrofl['valve'][$_POST['selvalve']]['input'] = $_POST['inputpos'];  
+ $jsonmicrofl['valve'][$_POST['selvalve']]['bypass'] = $_POST['bypasspos'];  
+ closejson($jsonmicrofl,'microfluidics.json');
+ echo "<meta http-equiv='refresh' content='0'>";
+}?>
+<? if(isset($_POST['valvesub'])){ 
+ $_SESSION['labbot3d']['editvalvepos'] = 0; 
+ $_SESSION['labbot3d']['valve'] = $_POST['selvalve']; 
+ publish_message('valve-'.$_POST['selvalve'].'-'.$_POST['valvepos'], 'labbot3d_1_control', 'localhost', 1883, 5);
+}?>
+<? if(isset($_POST['turnon5v'])){ 
+ $_SESSION['labbot3d']['valveon'] = 1;
+ publish_message('turnon5v', 'labbot3d_1_control', 'localhost', 1883, 5);
+ echo "<meta http-equiv='refresh' content='0'>";
+}?>
+<? if(isset($_POST['turnon5v'])){ 
+ $_SESSION['labbot3d']['valveon'] = 0;
+ publish_message('turnoff5v', 'labbot3d_1_control', 'localhost', 1883, 5);
+ echo "<meta http-equiv='refresh' content='0'>";
+}?>
+<? if(isset($_POST['editwashdry'])){ 
+ $_SESSION['labbot3d']['editwashdry'] = 1;
+ echo "<meta http-equiv='refresh' content='0'>";
+}?>
+<? if(isset($_POST['savewashdry'])){ 
+ $_SESSION['labbot3d']['editwashdry'] = 0;
+ publish_message('setwashval '.$_POST['washval'].'-setdryval '.$_POST['wasteval'], 'labbot3d_1_control', 'localhost', 1883, 5);
+ echo "<meta http-equiv='refresh' content='0'>";
+}?>
+<? if(isset($_POST['savepcv'])){ 
+ $_SESSION['labbot3d']['editpcv'] = 0;
+ publish_message('setpcvval '.$_POST['pcvval'], 'labbot3d_1_control', 'localhost', 1883, 5);
+ echo "<meta http-equiv='refresh' content='0'>";
+}?>
+<? if(isset($_POST['editpcv'])){ 
+ $_SESSION['labbot3d']['editpcv'] = 1;
+ echo "<meta http-equiv='refresh' content='0'>";
+}?>
+
+
+
+
+
+<div class="col span_6_of_12" style="background-color:white;text-align:left;">
+<? print_r($jsonmicrofl['valve']); ?>
+<br>
+<form action=<?=$_SERVER['PHP_SELF']?> method=post><font size=2>
+<? if (!isset($_SESSION['labbot3d']['valveon'])){$_SESSION['labbot3d']['valveon'] = 0; }?>
+<? if($_SESSION['labbot3d']['valveon'] == 0){?> <input type=submit name=turnon5V value="Turn on power to valves"> <? } ?>
+<? if($_SESSION['labbot3d']['valveon'] == 1){?> <input type=submit name=turnoff5V value="Turn off power to valves"> <? } ?>
+<br><br>
+</form>
+<form action=<?=$_SERVER['PHP_SELF']?> method=post><font size=2>
+
+<b>Select valve</b>
+<? if(!isset($_SESSION['labbot3d']['valve'])){$_SESSION['labbot3d']['valve'] = 0; } ?>
+<select name=selvalve>
+  <? foreach($jsonmicrofl['valve'] as $jj){?>
+  <? if ($_SESSION['labbot3d']['valve'] == $jj['id']) { $sel = "selected"; } else { $sel = ""; } ?>
+  <option value=<?=$jj['id']?> <?=$sel?>><?=($jj['id']+1)?></option>';
+  <? } ?> 
+</select>
+<br>
+<? if(!isset($_SESSION['labbot3d']['valvepos'])){$_SESSION['labbot3d']['valvepos'] = "input"; } ?>
+<? if(!isset($_SESSION['labbot3d']['editvalvepos'])){$_SESSION['labbot3d']['editvalvepos'] = 0; } ?>
+<input type=radio name=valvepos value=input id=input <? if($_SESSION['labbot3d']['valvepos'] == "input"){?> checked <? } ?>>
+<label for="input">Input 
+<? if($_SESSION['labbot3d']['editvalvepos'] == 1) { ?> <input type=text name=inputpos value=<?=$jsonmicrofl['valve'][$_SESSION['labbot3d']['valve']]['input'] ?> size=3> <? } ?>
+</label>
+<input type=radio name=valvepos value=bypass id=bypass <? if($_SESSION['labbot3d']['valvepos'] == "bypass"){?> checked <? } ?>>
+<label for="bypass">Bypass
+<? if($_SESSION['labbot3d']['editvalvepos'] == 1) { ?> <input type=text name=bypasspos value=<?=$jsonmicrofl['valve'][$_SESSION['labbot3d']['valve']]['bypass']?>  size=3> <? } ?>
+</label>
+<input type=radio name=valvepos value=output id=output <? if($_SESSION['labbot3d']['valvepos'] == "output"){?> checked <? } ?>>
+<label for="output">Output
+<? if($_SESSION['labbot3d']['editvalvepos'] == 1) { ?> <input type=text name=outputpos value=<?=$jsonmicrofl['valve'][$_SESSION['labbot3d']['valve']]['output']?> size=3> <? } ?>
+</label>
+<br>
+<br>
+<? if($_SESSION['labbot3d']['editvalvepos'] == 0){ ?>
+<input type=submit name=valvesub value="Go to valve position">
+<input type=submit name=editvalvepos value="Edit valve positions">
+<? } ?>
+<? if($_SESSION['labbot3d']['editvalvepos'] == 1){ ?>
+<input type=submit name=savevalvepos value="Save valve positions">
+<? } ?>
+
+</form>
+</div>
+<div class="col span_5_of_12"  style="background-color:white;text-align:left;">
+
+
+<form action=<?=$_SERVER['PHP_SELF']?> method=post><font size=2>
+<? if(!isset($_SESSION['labbot3d']['washon'])){ $_SESSION['labbot3d']['washon'] = 0; } ?>
+<? if(!isset($_SESSION['labbot3d']['dryon'])){ $_SESSION['labbot3d']['dryon'] = 0; } ?>
+<? if(!isset($_SESSION['labbot3d']['editwashdry'])){ $_SESSION['labbot3d']['editwashdry'] = 0; } ?>
+
+<? if($_SESSION['labbot3d']['editwashdry'] == 1) { ?>
+<input type=submit name=savewashdry value="Save wash waste settings">
+<? } else { ?>
+<input type=submit name=editwashdry value="Edit wash waste settings">
+<? } ?>
+<br><br>
+<table><tr><td>
+<? if($_SESSION['labbot3d']['washon'] == 0) { ?>
+<input type=submit name=washon value="Wash on">
+
+<? } else { ?>
+<input type=submit name=washoff value="Wash off">
+<? } ?><br>
+<? if($_SESSION['labbot3d']['editwashdry'] == 1) { ?>
+ <input type=text name=washval value=<?=$jsonmicrofl['wash']['washval']?> size=3>
+<? } ?>
+
+</td><td>
+<? if($_SESSION['labbot3d']['dryon'] == 0) { ?>
+<input type=submit name=dryon value="Dry on">
+<? } else { ?>
+<input type=submit name=dryoff value="Dry off">
+<? } ?><br>
+<? if($_SESSION['labbot3d']['editwashdry'] == 1) { ?>
+ <input type=text name=wasteval value=<?=$jsonmicrofl['waste']['wasteval']?> size=3>
+<? } ?>
+</td></tr></table>
+</form>
+<br><br>
+<b>Pressure compensation</b>
+<? if(!isset($_SESSION['labbot3d']['editpcv'])) { $_SESSION['labbot3d']['editpcv'] = 0; } ?>
+
+<? if($_SESSION['labbot3d']['editpcv'] == 1) { ?>
+<input type=submit name=savepcv value="Save pressure compensation settings">
+<br>
+<input type=text name=pcvval value=<?=$jsonmicrofl['pcv']['pcvval']?> size=3>
+<br>
+<? if(!isset($_SESSION['labbot3d']['manpcv'])) { $_SESSION['labbot3d']['manpcv'] = 0; } ?>
+<? if($_SESSION['labbot3d']['manpcv'] == 0) { ?>
+<input type=submit name=manpcv value="Manually control PCV">
+<? } else { ?>
+<input type=submit name=feedbackpcv value="Turn on feedback PCV">
+<? } ?>
+<br>
+
+<? } else { ?>
+<input type=submit name=editpcv value="Edit pressure compensation settings">
+<? } ?>
+
+
+
+
+
+
+
+
+
+</div>

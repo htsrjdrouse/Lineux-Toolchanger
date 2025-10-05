@@ -1,0 +1,293 @@
+//Calling gotowells function
+//Camera offset: DX -1 DY 72.5 DZ 70_2
+//Go to the microplate wells 3_2 0 Position X 175 Y 2
+renamesnap 3_2_0_2
+//Go into well
+G1X174Y74.5Z70F5000_2
+snap
+//Go into well
+G1X183Y74.5Z70F5000_2
+snap
+//Go into well
+G1X192Y74.5Z70F5000_2
+snap
+//Go into well
+G1X201Y74.5Z70F5000_2
+snap
+//Go into well
+G1X210Y74.5Z70F5000_2
+snap
+//Go into well
+G1X219Y74.5Z70F5000_2
+snap
+//Go into well
+G1X228Y74.5Z70F5000_2
+snap
+//Go into well
+G1X237Y74.5Z70F5000_2
+snap
+//Go into well
+G1X174Y83.5Z70F5000_2
+snap
+//Go into well
+G1X183Y83.5Z70F5000_2
+snap
+//Go into well
+G1X192Y83.5Z70F5000_2
+snap
+//Go into well
+G1X201Y83.5Z70F5000_2
+snap
+//Go into well
+G1X210Y83.5Z70F5000_2
+snap
+//Go into well
+G1X219Y83.5Z70F5000_2
+snap
+//Go into well
+G1X228Y83.5Z70F5000_2
+snap
+//Go into well
+G1X237Y83.5Z70F5000_2
+snap
+//Go into well
+G1X174Y92.5Z70F5000_2
+snap
+//Go into well
+G1X183Y92.5Z70F5000_2
+snap
+//Go into well
+G1X192Y92.5Z70F5000_2
+snap
+//Go into well
+G1X201Y92.5Z70F5000_2
+snap
+//Go into well
+G1X210Y92.5Z70F5000_2
+snap
+//Go into well
+G1X219Y92.5Z70F5000_2
+snap
+//Go into well
+G1X228Y92.5Z70F5000_2
+snap
+//Go into well
+G1X237Y92.5Z70F5000_2
+snap
+//Go into well
+G1X174Y101.5Z70F5000_2
+snap
+//Go into well
+G1X183Y101.5Z70F5000_2
+snap
+//Go into well
+G1X192Y101.5Z70F5000_2
+snap
+//Go into well
+G1X201Y101.5Z70F5000_2
+snap
+//Go into well
+G1X210Y101.5Z70F5000_2
+snap
+//Go into well
+G1X219Y101.5Z70F5000_2
+snap
+//Go into well
+G1X228Y101.5Z70F5000_2
+snap
+//Go into well
+G1X237Y101.5Z70F5000_2
+snap
+//Go into well
+G1X174Y110.5Z70F5000_2
+snap
+//Go into well
+G1X183Y110.5Z70F5000_2
+snap
+//Go into well
+G1X192Y110.5Z70F5000_2
+snap
+//Go into well
+G1X201Y110.5Z70F5000_2
+snap
+//Go into well
+G1X210Y110.5Z70F5000_2
+snap
+//Go into well
+G1X219Y110.5Z70F5000_2
+snap
+//Go into well
+G1X228Y110.5Z70F5000_2
+snap
+//Go into well
+G1X237Y110.5Z70F5000_2
+snap
+//Go into well
+G1X174Y119.5Z70F5000_2
+snap
+//Go into well
+G1X183Y119.5Z70F5000_2
+snap
+//Go into well
+G1X192Y119.5Z70F5000_2
+snap
+//Go into well
+G1X201Y119.5Z70F5000_2
+snap
+//Go into well
+G1X210Y119.5Z70F5000_2
+snap
+//Go into well
+G1X219Y119.5Z70F5000_2
+snap
+//Go into well
+G1X228Y119.5Z70F5000_2
+snap
+//Go into well
+G1X237Y119.5Z70F5000_2
+snap
+//Go into well
+G1X174Y128.5Z70F5000_2
+snap
+//Go into well
+G1X183Y128.5Z70F5000_2
+snap
+//Go into well
+G1X192Y128.5Z70F5000_2
+snap
+//Go into well
+G1X201Y128.5Z70F5000_2
+snap
+//Go into well
+G1X210Y128.5Z70F5000_2
+snap
+//Go into well
+G1X219Y128.5Z70F5000_2
+snap
+//Go into well
+G1X228Y128.5Z70F5000_2
+snap
+//Go into well
+G1X237Y128.5Z70F5000_2
+snap
+//Go into well
+G1X174Y137.5Z70F5000_2
+snap
+//Go into well
+G1X183Y137.5Z70F5000_2
+snap
+//Go into well
+G1X192Y137.5Z70F5000_2
+snap
+//Go into well
+G1X201Y137.5Z70F5000_2
+snap
+//Go into well
+G1X210Y137.5Z70F5000_2
+snap
+//Go into well
+G1X219Y137.5Z70F5000_2
+snap
+//Go into well
+G1X228Y137.5Z70F5000_2
+snap
+//Go into well
+G1X237Y137.5Z70F5000_2
+snap
+//Go into well
+G1X174Y146.5Z70F5000_2
+snap
+//Go into well
+G1X183Y146.5Z70F5000_2
+snap
+//Go into well
+G1X192Y146.5Z70F5000_2
+snap
+//Go into well
+G1X201Y146.5Z70F5000_2
+snap
+//Go into well
+G1X210Y146.5Z70F5000_2
+snap
+//Go into well
+G1X219Y146.5Z70F5000_2
+snap
+//Go into well
+G1X228Y146.5Z70F5000_2
+snap
+//Go into well
+G1X237Y146.5Z70F5000_2
+snap
+//Go into well
+G1X174Y155.5Z70F5000_2
+snap
+//Go into well
+G1X183Y155.5Z70F5000_2
+snap
+//Go into well
+G1X192Y155.5Z70F5000_2
+snap
+//Go into well
+G1X201Y155.5Z70F5000_2
+snap
+//Go into well
+G1X210Y155.5Z70F5000_2
+snap
+//Go into well
+G1X219Y155.5Z70F5000_2
+snap
+//Go into well
+G1X228Y155.5Z70F5000_2
+snap
+//Go into well
+G1X237Y155.5Z70F5000_2
+snap
+//Go into well
+G1X174Y164.5Z70F5000_2
+snap
+//Go into well
+G1X183Y164.5Z70F5000_2
+snap
+//Go into well
+G1X192Y164.5Z70F5000_2
+snap
+//Go into well
+G1X201Y164.5Z70F5000_2
+snap
+//Go into well
+G1X210Y164.5Z70F5000_2
+snap
+//Go into well
+G1X219Y164.5Z70F5000_2
+snap
+//Go into well
+G1X228Y164.5Z70F5000_2
+snap
+//Go into well
+G1X237Y164.5Z70F5000_2
+snap
+//Go into well
+G1X174Y173.5Z70F5000_2
+snap
+//Go into well
+G1X183Y173.5Z70F5000_2
+snap
+//Go into well
+G1X192Y173.5Z70F5000_2
+snap
+//Go into well
+G1X201Y173.5Z70F5000_2
+snap
+//Go into well
+G1X210Y173.5Z70F5000_2
+snap
+//Go into well
+G1X219Y173.5Z70F5000_2
+snap
+//Go into well
+G1X228Y173.5Z70F5000_2
+snap
+//Go into well
+G1X237Y173.5Z70F5000_2
+snap
+

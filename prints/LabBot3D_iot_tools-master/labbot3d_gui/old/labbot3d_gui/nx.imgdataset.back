@@ -1,0 +1,1 @@
+{"smoothielastcommand":"G28 X0","currcoord":{"Y":0,"X":0,"Z":0,"E":0},"views":"Manual","posflag":0,"parsedposition":{"Y":0,"X":0,"Z":0,"E":100},"linact":{"steprate":"1618","position":0,"steps":"1727"},"camtrig":0,"zmmmove":"10","zfeedrate":"100","position":"","asteprate":500,"asteps":"1750","camstream":0,"mmmove":"10","speed":{"xyjogfeed":6000,"extruderfeed":600,"zjogfeed":200}}

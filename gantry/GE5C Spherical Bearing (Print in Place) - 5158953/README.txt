@@ -1,0 +1,1 @@
+GE5C Spherical Bearing (Print in Place) by Keemo2020 on Thingiverse: https://www.thingiverse.com/thing:5158953

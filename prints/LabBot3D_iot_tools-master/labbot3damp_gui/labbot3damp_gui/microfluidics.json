@@ -1,0 +1,1 @@
+{"washpcvtime":"2000","valve":[{"input":"0","id":0,"bypass":"45","output":"90"}],"pcv":{"pcvval":"255"},"valveselect":0,"heaton":0,"wash":{"washtime":30,"washval":255},"tiplist":[1,0,0,0,0,0,0,0],"waste":{"wasteval":255},"manpcv":1,"sensorvalue":"25"}

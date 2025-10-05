@@ -1,0 +1,12 @@
+import serial,time
+ser = serial.Serial('/dev/ttyACM0', 115200, timeout=0.5)
+time.sleep(2)
+a = ser.readlines()
+ser.write("G1X100Y0Z0F2000\r\n")
+ser.readline()
+ser.write("G1X110Y0Z0F2000\r\n")
+ser.readline()
+ser.write("G1X120Y0Z0F2000\r\n")
+ser.readline()
+ser.close()
+time.sleep(4)

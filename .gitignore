@@ -1,0 +1,9 @@
+# Large CAD files
+*.step
+*.STEP
+
+# Large STL files in specific directories
+toolchange_lock_dock_check/*.stl
+
+# Large archives
+prints/*.zip

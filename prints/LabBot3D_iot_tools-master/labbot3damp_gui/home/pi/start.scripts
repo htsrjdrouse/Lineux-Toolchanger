@@ -1,0 +1,3 @@
+#!/bin/sh
+python /var/www/html/labbot3damp_gui/caller.labbot3d.subscriber.py > /dev/null &
+node /var/www/html/labbot3damp_gui/labbot3dstream.node/index.js > /dev/null &

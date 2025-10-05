@@ -1,0 +1,1996 @@
+<?php
+
+
+
+$inputcmd = stripslashes($json['ramplastcommand']);
+
+
+//(preg_match('/clear/', $htscmd))
+if ((isset($_GET['cli'])) and (preg_match('/chatbot .*/',$_GET['cli']))){
+        logger($logger, '</ul>-----------<br>',1);
+	sleep(1);
+	$query = preg_replace('/^chatbot /', '', $_GET['cli']);
+	$msg = chatbotsocketclient($query);
+	$msg = preg_replace('/\$/', '&nbsp;', $msg);
+	if (strlen($msg) > 0){
+	  $msgar = preg_split('/--/', $msg);
+	  for($i=0;$i<count($msgar);$i++){
+	   if ($i == count($msgar)-1) {
+	     $tl =  '<font color="pink">chatbot: '.$msgar[count($msgar)-1-$i].'</font><br>';
+	   }
+	   else {
+	     $tl =  '<font color="pink">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '.$msgar[count($msgar)-1-$i].'</font><br>';
+	   }
+	   logger($logger, $tl,1);
+	  }
+	}
+	else {
+	  logger($logger, 'chatbot: Sorry I have no answer for you<br>',1);
+	}
+}
+
+
+if ((isset($_GET['cli'])) and ($_GET['cli'] == "STOP SOCKETS")){
+	$json["sockets"] = 0;
+        logger($logger, '</ul>-----------<br>',1);
+        stopsockets();
+
+}
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "START SOCKETS")){
+	//Syringe socket
+        logger($logger, '</ul>-----------<br>',1);
+        startsockets();
+}
+
+
+
+
+
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "STOP")){
+	/*
+        $url = 'runner.php?mmmove=&tcli=poweroff';
+  	closejson($json);
+	header('Location: '.$url);
+	*/
+	$json["stop"] ="1";
+  	$inputcmd = $json['ramplastcommand'];
+  	$result = powerrelaysocketclient('poweroff',$json);
+	$msg =  'Turning system power off<br>';
+	logger($logger, $msg,1);
+}
+
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "GO")){
+	/*
+        $url = 'runner.php?mmmove=&tcli=poweron';
+  	closejson($json);
+	header('Location: '.$url);
+	*/
+	//{"transferlist":["powerupsmoothie go","powerupsyringe go","powerupvalve go","finish 0"]}
+	$json["stop"] ="0";
+  	$inputcmd = $json['ramplastcommand'];
+  	$json = powerrelaysocketclient('poweron',$json);
+	$msg =  'Turning system power on<br>';
+	logger($logger, $msg,1);
+
+}
+
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "Position")){
+  $json = smoothiesocketreportposition('M114',$json);
+  $inputcmd = $json['ramplastcommand'];
+  logger($logger, 'Current position: '.$json['smoothiemessage'].'<br>',1);
+  $json = reportp1lacposition($json,$logger);
+
+}
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "Move (mm)")){
+  $mmmove = $_GET['mmmove'];
+  $json['mmmove'] = $mmmove;
+  $json['view'] = "B"; 
+}
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "ZMove (mm)")){
+  $zmmmove = $_GET['zmmmove'];
+  $json['zmmmove'] = $zmmmove;
+}
+
+
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "Z up")){
+	if ($json["stop"] == "0"){
+	  $moveval = $json['zmmmove'];
+	  $json = smoothiesocketrelativemove($json,$logger,'Z',$moveval);
+	  echo $json['smoothiemessage'].'<br>';
+  	  $inputcmd = $json['ramplastcommand'];
+	 }
+	 else {
+	  $msg = 'System halted, you need to press the "GO" button!<br>';
+  	  logger($logger, $msg.'<br>',1);
+	 }
+}
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "Z down")){
+	if ($json["stop"] == "0"){
+	  $moveval = ($json['zmmmove']*-1);
+	  $json = smoothiesocketrelativemove($json,$logger,'Z',$moveval);
+	  echo $json['smoothiemessage'].'<br>';
+  	  $inputcmd = $json['ramplastcommand'];
+	 }
+	 else {
+	  $msg = 'System halted, you need to press the "GO" button!<br>';
+  	  logger($logger, $msg.'<br>',1);
+	 }
+}
+
+
+
+
+
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "Front")){
+	if ($json["stop"] == "0"){
+	  $moveval = $json['mmmove'];
+	  $json = smoothiesocketrelativemove($json,$logger,'Y',$moveval);
+	  echo $json['smoothiemessage'].'<br>';
+  	  $inputcmd = $json['ramplastcommand'];
+	 }
+	 else {
+	  $msg = 'System halted, you need to press the "GO" button!<br>';
+  	  logger($logger, $msg.'<br>',1);
+	 }
+}
+
+
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "Back")){
+	if ($json["stop"] == "0"){
+	  $moveval = ($json['mmmove']* -1);
+	  $json = smoothiesocketrelativemove($json,$logger,'Y',$moveval);
+	  echo $json['smoothiemessage'].'<br>';
+  	  $inputcmd = $json['ramplastcommand'];
+	 }
+	 else {
+	  $msg = 'System halted, you need to press the "GO" button!<br>';
+  	  logger($logger, $msg.'<br>',1);
+	 }
+}
+
+
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "Left")){
+	if ($json["stop"] == "0"){
+	  $moveval = ($json['mmmove'] * -1);
+	  $json = smoothiesocketrelativemove($json,$logger,'X',$moveval);
+	  echo $json['smoothiemessage'].'<br>';
+  	  $inputcmd = $json['ramplastcommand'];
+	 }
+	 else {
+	  $msg = 'System halted, you need to press the "GO" button!<br>';
+  	  logger($logger, $msg.'<br>',1);
+	 }
+}
+
+
+else if ((isset($_GET['cli'])) and ($_GET['cli'] == "Right")){
+	if ($json["stop"] == "0"){
+	  $moveval = $json['mmmove'];
+	  $json = smoothiesocketrelativemove($json,$logger,'X',$moveval);
+	  echo $json['smoothiemessage'].'<br>';
+  	  $inputcmd = $json['ramplastcommand'];
+	 }
+	 else {
+	  $msg = 'System halted, you need to press the "GO" button!<br>';
+  	  logger($logger, $msg.'<br>',1);
+	 }
+}
+
+//Not sure what this is ....
+/*
+else if ((isset($_GET['cli'])) and ($_GET['formtyp'] == 'macroscript')){
+
+
+}
+*/
+
+else if ((isset($_GET['cli'])) and ($_GET['formtyp'] == 'clicmd')){
+	//echo 'its getting called<br>';
+	$htscmd = $_GET['cli'];
+	$inputcmd = $htscmd;
+	//echo $htscmd.' received<br>';
+	$json['htscmd'] = $htscmd;
+	//$imgdataset = './imgdataset';
+	//$json = json_decode(file_get_contents($imgdataset), true);
+	file_put_contents($imgdataset, json_encode($json));
+	
+	//CLEAR LOGGER
+	 if (preg_match('/clear/', $htscmd)){
+	   logger($logger, 'Logger cleared<br>',0);
+	 }
+	 if (preg_match('/^help/', $htscmd)){
+	   logger($logger, '</font></ul><font face=arial size=1><font color=yellow><br>',1);
+	   logger($logger, 'headcamstream stop: stop the headcam stream ('.$json['servers']['gantryhead'].')<br></ul>',1);
+	   logger($logger, 'headcamstream start: starts the headcam stream ('.$json['servers']['gantryhead'].')<br>',1);
+	   logger($logger, 'headcam snap: takes a picture and the file is saved based on the x-y-z position as a jpg ('.$json['servers']['gantryhead'].')<br>',1);
+	   logger($logger, 'strobcam stop: starts the stroboscope ('.$json['servers']['strobcampi'].')<br>',1);
+	   logger($logger, 'strobcam start: starts the stroboscope ('.$json['servers']['strobcampi'].')<br>',1);
+	   logger($logger, 'analyze strobimages (sample): quantifies the strobimages, sample id is called (note no whitespace characters, please use _ instead) ('.$json['servers']['chubox'].')<br>',1);
+	   logger($logger, 'strobcam snap (image number) (delay): takes a picture and the file is saved based on the timestamp,voltage and pulse width as a jpg ('.$json['servers']['strobcampi'].')<br>',1);
+	   logger($logger, '<br>-----------CAMERAS------------<br><ul>',1);
+	   logger($logger, '<br></ul>',1);
+	   logger($logger, 'e1tempset (value): this sets the temperature (based on raw thermistor values) <br>',1);
+	   logger($logger, 'e1tempread: this reads the raw thermistor temperature <br>',1);
+	   logger($logger, '<br>-----------Extruder temp control ------------<br><ul>',1);
+	   logger($logger, '<br></ul>',1);
+	   /*
+	   logger($logger, 's1 steps: sets the stepper motor steps per forward and backward command <br></ul>',1);
+	   logger($logger, 's1 steprate: sets the stepper motor feedrate <br>',1);
+	   logger($logger, 's1 retractsteps: sets the stepper motor steps per forward and backward command <br></ul>',1);
+	   logger($logger, 's1 retractsteprate: sets the stepper motor feedrate <br>',1);
+
+	   logger($logger, 's1 homing: homes the syringe plunger and sets the step count to 0 <br>',1);
+	   logger($logger, 's1 contforward: moves the syringe forward continuously <br>',1);
+	   logger($logger, 's1 contbackward: moves the syringe plunger backward continuously <br>',1);
+	   logger($logger, 's1 contstop: stops syringe plunger continuous motion <br>',1);
+	   logger($logger, 's1 backward: moves the syringe plunger backward so many steps <br>',1);
+	   logger($logger, 's1 forward: moves the syringe plunger forward so many steps <br>',1);
+	   logger($logger, 's1 settings: gets the stepper motor details (steps, steprate, stepcount, endstop status and valve position <br>',1);
+	   */
+	   logger($logger, 's1 valvebypass: positions the syringe1 valve to bypass <br>',1);
+	   logger($logger, 's1 valveinput: positions the syringe1 valve to input <br>',1);
+	   logger($logger, 's1 valveoutput: positions the syringe1 valve to output <br>',1);
+ 	   /*
+	   logger($logger, 's1 check: check to see if a connection to the syringe pump is established <br>',1);
+	   logger($logger, 's1 aspirate: using syringe 1 to load into tip <br>',1);
+	   logger($logger, 's1 dispense: using syringe 1 to dispense out of tip tip <br>',1);
+ 	   */
+	   logger($logger, '<br>-----------HTSR SYRINGE PUMP SOCKET ------------<br><ul>',1);
+	   logger($logger, '<br></ul>',1);
+ 	   /*
+	   logger($logger, 'syringe initialize <br></ul>',1);
+	   logger($logger, 'syringe valve input: set valve input position <br>',1);
+	   logger($logger, 'syringe valve output: set valve output position <br>',1);
+	   logger($logger, 'syringe valve bypass: set valve bypass position <br>',1);
+ 	   */
+	   logger($logger, 'syringepump stop <br>',1);
+	   logger($logger, 'syringewash (wash time): this flushes the line during the wash cycle<br>',1);
+	   logger($logger, 'fillsyringe (volume) (flowrate): fills syringe of system fluid for priming tip, set volume (ul) and flow rate (ul/s)<br>',1);
+	   logger($logger, 'aspirate (volume) (flowrate): aspirates set volume (ul) and flow rate (ul/s)<br>',1);
+	   logger($logger, 'dispense (volume) (flowrate): dispenses set volume (ul) and flow rate (ul/s)<br>',1);
+	   logger($logger, 'flushsyringe (cycles):  fills and dispenses syringe volume (250ul)<br>',1);
+	   logger($logger, '<br>-----------CAVRO SYRINGE PUMP SOCKET ------------<br><ul>',1);
+	   logger($logger, 'For syringe pumps there are 2 options, Cavro style and HTSR arduino stye<br></ul>',1);
+	   logger($logger, '<br>-----------SYRINGE PUMPS ------------<br><ul>',1);
+	   logger($logger, 'poweroff: disconnects the power <br></ul>',1);
+	   logger($logger, 'poweron: connects the power <br>',1);
+	   logger($logger, '<br>-----------POWER RELAY SOCKET ------------<br><ul>',1);
+	   logger($logger, 'p1 setflag (integer): dispenses upon sensing a 3V signal, 1 is on and 0 is off ('.$json['servers']['powerpumpraspi'].')<br></ul>',1);
+	   logger($logger, 'p1 stroboscope off: turns stroboscope off <br>',1);
+	   logger($logger, 'p1 stroboscope on: turns stroboscope on  <br>',1);
+	   logger($logger, 'p1 ledtime (integer): how long the led flashes ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'p1 leddelay (integer): time delay from piezo actuation and led flashing microseconds ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'p1 pulse (integer): adjusts the pulse width microseconds ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'p1 frequency (integer): adjusts the frequency in hertz ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'p1 volt (integer): adjusts the voltage (note: its a 12 bit scale 1-4096)('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'p1 drops (integer): sets number of drops per dispense event ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'p1 dispense: generates a drop or a set of droplets ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'p1 settings: reports the piezo amplifier settings ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'p1 check: checks to see if you are connected to piezo amplifier ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+
+	   logger($logger, '<br>-----------WAVE GENERATOR SOCKET ------------<br><ul>',1);
+	   logger($logger, '<br></ul>',1);
+	   /*
+	   logger($logger, 'syringevalve off: disconnects 5V  syringe pump valve <br></ul>',1);
+	   logger($logger, 'syringevalve on: connects 5V to syringe pump valve<br>',1);
+	   logger($logger, 'syringemotor off: disconnects 12V from syringe pump motor<br>',1);
+	   logger($logger, 'syringemotor on: connects 12V to syringe pump motor<br>',1);
+	   */
+	   logger($logger, 'dry off: turns off the dry (waste) pump <br>',1);
+	   logger($logger, 'dry on: turns on the dry (waste) pump <br>',1);
+	   logger($logger, 'pressurepump off: turns off the pressure compensation pump <br>',1);
+	   logger($logger, 'pressurepump on: turns on the pressure compensation pump <br>',1);
+	   logger($logger, 'pcv off: turns off the pressure compensation pump liquid level sensor feedback<br>',1);
+	   logger($logger, 'pcv on: turns on the pressure compensation pump liquid level sensor feedback<br>',1);
+	   logger($logger, 'rangevalue (integer): sensor goes hi to low so once below level by certain range pcv pump goes off<br>',1);
+
+	   logger($logger, 'wash off: turns off the wash pump <br>',1);
+	   logger($logger, 'wash on: turns on the wash pump <br>',1);
+	   logger($logger, 'P1motor stop: turns off tip 1 linear actuator motor <br>',1);
+	   logger($logger, 'P1move (position): moves the tip 1 linear actuator to defined position <br>',1);
+	   logger($logger, 'setliquidlevel (number): sets the liquid level and reports current level <br>',1);
+	   logger($logger, 'reportliquidlevel: reports current level <br>',1);
+	   logger($logger, 'fan off or MH2: starts the fan ('.$json['servers']['wavepi'].')<br>',1);
+	   logger($logger, '<ul>fan on or MH1: starts the fan ('.$json['servers']['wavepi'].')<br>',1);
+	   logger($logger, '</ul><br>-----------WASH, DRY, PRESSURE ------------<br>',1);
+
+
+	   logger($logger, 'hts_s1_valveinput go: Puts servo valve in input position (loading into nozzle)<br>',1);
+	   logger($logger, 'hts_s1_valveoutput go: Puts servo valve in output position (dispensing out of nozzle)<br>',1);
+	   logger($logger, 'hts_s1_valvebypass go: Puts servo valve in bypass position<br>',1);
+	   /*
+
+	   logger($logger, 'hts_s1_homing go: homing<br>',1);
+	   logger($logger, 'hts_s1_backward go: syringe punger goes backward as if aspirating<br>',1);
+	   logger($logger, 'hts_s1_forward go: syringe plunger goes forward as if dispensing<br>',1);
+	   logger($logger, 'hts_s1_contstop go: This turns the continuous motion off<br>',1);
+	   logger($logger, 'hts_s1_contbackgo go: This moves the pump continuously backward (aspirating)<br>',1);
+	   logger($logger, 'hts_s1_contforgo go: This moves the pump continuously forward (dispensing)<br>',1);
+	   logger($logger, 'hts_s1_setsteprate [steprate]: This sets the pump speed <br>',1);
+	   logger($logger, 'hts_s1_setsteps [step]: This sets the number of steps <br>',1);
+	   logger($logger, 'hts_s1_retractsetsteprate [steprate]: This sets the retraction speed for pump 1 <br>',1);
+	   logger($logger, 'hts_s1_retractsetsteps [step]: This sets the number of retraction steps for pump 1<br>',1);
+
+	   */
+	   logger($logger, 'backtoz: this goes back to your defined z position which is P1move 0500 and '.$json['ztrav'].'<br>',1);
+	   logger($logger, 'gotowell [well]: goes to well position<br>',1);
+	   logger($logger, 'strobon go: turns stroboscope on (this is a gearman function) <br>',1);
+	   logger($logger, 'stroboff go: turns stroboscope off (this is a gearman function) <br>',1);
+	   logger($logger, 'gotostrob: goes to stroboscope position<br>',1);
+	   logger($logger, 'fillsyringe [volume_flowrate]: fills the syringe pump, the volume and flowrate are _ delimited, usefule for priming tip<br>',1);
+	   logger($logger, 'dispense [volume_flowrate]: dispenses using syringe pump, the volume and flowrate are _ delimited<br>',1);
+	   logger($logger, 'aspirate [volume_flowrate]: aspirates using syringe pump, the volume and flowrate are _ delimited<br>',1);
+	   logger($logger, 'setdrops [number]: sets the number of drops to piezo dispense NOTE: needs to be added runner.php <br>',1);
+	   logger($logger, 'fire: this initiates the piezo dispensing<br>',1);
+	   logger($logger, 'strobsnap: takes image or images of strobcam the file name is saved in savestrobimgpath defined folder (timestamp)_(volts)_(pulsewidth)_(leddelay).jpg<br>',1);
+	   logger($logger, 'analyzestrobimg: analyzes the collection of strob images taken<br>',1);
+
+	   logger($logger, 'headcamsnap: takes image of headcam the file name is saved in saveimgpath defined folder as the coordinate XYZ position<br>',1);
+	   logger($logger, 'gotowaste: goes to waste position z bed moves but not linear actuator<br>',1);
+	   logger($logger, 'gotodry: goes to dry position z bed moves but not linear actuator<br>',1);
+	   logger($logger, 'dry: dries the tips (goes to the dry position then goes to default z position)<br>',1);
+	   logger($logger, 'gotowash: goes to wash position z bed moves but not linear actuator<br>',1);
+	   logger($logger, 'wash: wash  the tips (goes to wash position, turns on pumps then goes to default z position)<br>',1);
+	   logger($logger, 'delay: create a delay<br>',1);
+	   logger($logger, 'P1position: reports the linear actuator position (pololu)<br>',1);
+	   logger($logger, 'P1move: moves linear actuator 1 to a specific position (pololu)<br>',1);
+	   logger($logger, 'position: reports the position (smoothie)<br>',1);
+	   logger($logger, 'move [position]: moves to a specific XYZ gcode position (smoothie)<br>',1);
+	   logger($logger, 'down: relative move down - extent is a json variable zmmmove:0.5 in imgdataset (smoothie)<br>',1);
+	   logger($logger, 'up: relative move up - extent is a json variable zmmmove:0.5 in imgdataset (smoothie)<br>',1);
+	   logger($logger, 'right: relative move right - extent is a json variable mmmove:5 in imgdataset (smoothie)<br>',1);
+	   logger($logger, 'left: relative move left - extent is a json variable mmmove:5 in imgdataset (smoothie)<br>',1);
+	   logger($logger, 'backward: relative move backward - extent is a json variable mmmove:5 in imgdataset (smoothie)<br>',1);
+	   logger($logger, '<ul>forward: relative move forward - extent is a json variable mmmove:5 in imgdataset (smoothie)<br>',1);
+	   logger($logger, 'In repstrapfunctionslib.php, readgcodefile function checks the commands to make sure they are properly formed before adding to taskjob json file. This function is called by runner.php when checking the gcode file. If more functions added then readgcodefile will need to be adapted<br>',1);
+	   logger($logger, 'The gearman socket server script, smoothie.gearman.worker.php, contains the list of functions that call more details functions in repstrapfunctionslib.php<br>',1);
+	   logger($logger, 'The script that spawns the process is runner.php, this organizes the commands that gets compiled to taskjob json file<br>',1);
+	   logger($logger, 'This reference is useful when compiling gcode files. These functions are collected in taskjob JSON file and run by spawning a separate process which is tracked by javascript, myscript.js. Gearman functions can also be called through the CLI interface and these are described in that section<br>',1);
+	   logger($logger, '</ul><br>-----------GEARMAN FUNCTIONS------------<br>',1);
+	   logger($logger, 'setspeed (number): set speed<br>',1);
+	   logger($logger, 'get ztravel: gets the z bed height<br>',1);
+	   logger($logger, 'set ztravel (number): sets the z bed height<br>',1);
+	   logger($logger, 'trigger off or MH4: stops the 5V trigger ('.$json['servers']['smoothiedriver'].')<br>',1);
+	   logger($logger, 'trigger on or MH3: starts the 5V trigger ('.$json['servers']['smoothiedriver'].')<br>',1);
+	   logger($logger, 'movebackward (number): relative move mm backward<br>',1);
+	   logger($logger, 'moveforward (number): relative move mm forward<br>',1);
+	   logger($logger, 'moveleft (number): relative move mm to left<br>',1);
+	   logger($logger, 'moveright (number): relative move mm to right<br>',1);
+	   //logger($logger, 'kill smoothieprocesses: sometimes smoothie hangs because of zombie process(es) this will kill it/them <br>',1);
+	   logger($logger, 'smoothie version: pings the smoothiesocket socket to make sure its alive <br>',1);
+	   logger($logger, 'homez: homes the z axis<br>',1);
+	   logger($logger, 'homey: homes the y axis<br>',1);
+	   logger($logger, 'homex: homes the x axis<br>',1);
+	   logger($logger, 'gearmangotowell [number]: goes to a defined well position, calls a gearman function<br>',1);
+	   logger($logger, 'gearmandefaultz: goes to the default z position, calls a gearman function<br>',1);
+	   logger($logger, 'gearmangotostrob: goes to strob position, calls a gearman function<br>',1);
+	   logger($logger, 'gearmandry: dries tip, calls a gearman function<br>',1);
+	   logger($logger, 'gearmanwashdry: washes and dries tip, calls a gearman function<br>',1);
+	   logger($logger, 'gearmanwash: washes tip, calls a gearman function<br>',1);
+	   logger($logger, 'gearmangotowash: goes to washing position, calls a gearman function<br>',1);
+	   logger($logger, 'gearmangotodry: goes to dry position, calls a gearman function<br>',1);
+	   logger($logger, 'gearmangotowaste: goes to waste position, calls a gearman function<br>',1);
+	   logger($logger, 'gearmangotostrob: positions to strob position by calling a gearman function<br>',1);
+	   logger($logger, 'G1[XYZF]: positions the system<br>',1);
+	   logger($logger, 'M92: sets the steps per mm<br>',1);
+	   logger($logger, 'M119: gets the endstop status<br>',1);
+	   logger($logger, '<ul>M114: reports position<br>',1);
+	   logger($logger, '<br>-----------CLI COMMANDS------------<br>',1);
+	   logger($logger, '<br></ul>',1);
+	   //logger($logger, 'SYsocket start: starts the syringe pump socket (Cavro pump)<br></ul>',1);
+	   //logger($logger, 'SYsocket stop: stops the syringe pump socket (Cavro pump)<br>',1);
+	   logger($logger, 'powerpumpssocket start: starts the power relay, wash/dry and pressure compensation vessel socket server ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'powerpumpssocket stop: stops the power relay, wash/dry and pressure compensation vessel socket server ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'kill powerpumpssocket zombies: kill multiple powerpumpssocket zombie instances ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	
+
+	   logger($logger, 'syringesocket start: starts the syringe pump socket server ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'syringesocket stop: stops the syringe pump socket server ('.$json['servers']['powerpumpsraspi'].')<br>',1);
+	   logger($logger, 'piezosocket start: starts the piezo controller socket server ('.$json['servers']['chubox'].')<br>',1);
+	   logger($logger, 'piezosocket stop: stops the piezo controller socket server ('.$json['servers']['chubox'].')<br>',1);
+	   logger($logger, 'headcamlinearactuatorsocket start: starts the headcam and linearactuator socket server ('.$json['servers']['gantryhead'].')<br>',1);
+	   logger($logger, 'headcamlinearactuatorsocket stop: stops the headcam and linearactuator socket server ('.$json['servers']['gantryhead'].')<br>',1);
+	   logger($logger, 'kill headcamlinearactuatorsocket zombies: kill multiple headcamlinearactuatorsocket zombie instances ('.$json['servers']['gantryhead'].')<br>',1);
+
+
+	   logger($logger, 'chatbotsocket start: wakes up Chatbot ('.$json['servers']['chubox'].')<br>',1);
+	   logger($logger, 'chatbotsocket stop: puts Chatbot to sleep ('.$json['servers']['chubox'].')<br>',1);
+	   logger($logger, 'gearman start: starts the job schedular socket  ('.$json['servers']['chubox'].')<br>',1);
+	   logger($logger, 'gearman stop: stops the job schedular socket ('.$json['servers']['chubox'].')<br>',1);
+	   //logger($logger, 'kill gearman zombies: multiple gearman zombie instances ('.$json['servers']['chubox'].')<br>',1);
+
+	   logger($logger, 'smoothiesocket start: starts the smoothie positioning socket and the gearman residing on this server  ('.$json['servers']['smoothiedriver'].')<br>',1);
+	   logger($logger, 'smoothiesocket stop: stops the smoothie positioning socket ('.$json['servers']['smoothiedriver'].')<br>',1);
+	   logger($logger, 'kill smoothiesocket zombies: kill multiple gearman zombie instances ('.$json['servers']['smoothiedriver'].')<br>',1);
+	   logger($logger, 'The sockets establish and maintain connections to serial ports that control devices<br><ul>',1);
+	   logger($logger, '-----------SOCKETS------------<br>',1);
+	   logger($logger, '<br></ul>',1);
+	   //logger($logger, 'shutdown strobcampi<br></ul>',1);
+	   //logger($logger, 'restart strobcampi<br>',1);
+	   logger($logger, 'shutdown gantryhead<br>',1);
+	   logger($logger, 'restart gantryhead<br>',1);
+	   logger($logger, 'shutdown smoothie<br>',1);
+	   logger($logger, 'restart smoothie: restarts smoothie computer which is a way to do a reset, but you need to turn off power as well<br>',1);
+	   logger($logger, 'shutdown: safely shutdown computers<br>',1);
+	   logger($logger, '<ul>servers: lists servers and indicates status and their sockets and cameras<br>',1);
+	   logger($logger, 'This instrument runs using a cluster of linux servers. To get a list of servers enter: servers. To manage<br>',1);
+	   logger($logger, '<ul>-----------SERVERS-------------<br>',1);
+	   logger($logger, 'clear: clear data</ul>',1);
+	   logger($logger, 'mkdir (folder name): create a directory to save files<br>',1);
+	   logger($logger, 'list folders: list folders<br>',1);
+	   logger($logger, 'saveimgpath (folder): select folder for saving files, if webroot then "/"<br>',1);
+	   logger($logger, 'savestrobimgpath (folder): select folder for saving files, if webroot then "/"<br>',1);
+	   logger($logger, 'remove (folder): remove folder<br>',1);
+	   logger($logger, 'internal network: operates in local area network (LAN)<br>',1);
+	   logger($logger, 'external network: operates in wide area network (WAN)<br>',1);
+	   logger($logger, 'external url: ip address for external network (WAN)<br>',1);
+	   logger($logger, 'cp jsondata (backupfile): This creates a backup of main JSON data file. Its saved in the json.backups folder <br>',1);
+	   logger($logger, 'cp (backupfile) imgdataset: This replaces your current JSON data with a previous backup<br>',1); 
+	   logger($logger, 'ls jsondata: This lists your JSON data backup files<br>',1); 
+	   logger($logger, 'trackoff: Turns off system monitoring <br>',1);
+	   logger($logger, '<ul>trackon (time): Turns on system monitoring and sets refresh time <br>',1);
+	   logger($logger, 'This is a brief reference listing the commands and how they are used<br>',1);
+	   logger($logger, '<li><a href=/documentation/functiongeneratorsocket/ style="color: #00FF00" target="_new">Function generator socket</a></li></ul>',1);
+	   logger($logger, '<li><a href=/documentation/syringepumpsocket/ style="color: #00FF00" target="_new">Syringe pump socket</a></li>',1);
+	   logger($logger, '<li><a href=/documentation/gearmansocket/ style="color: #00FF00" target="_new">Gearman socket</a></li>',1);
+	   logger($logger, '<li><a href=/documentation/powerrelaysocket/ style="color: #00FF00" target="_new">Power relay socket</a></li>',1);
+	   logger($logger, '<li><a href=/documentation/smoothiesocket/ style="color: #00FF00" target="_new">Smoothieware socket</a></li>',1);
+	   logger($logger, '<li><a href=/documentation/devicesocket/ style="color: #00FF00" target="_new">Devices socket (WASH, DRY, PRESSURE, FAN, HEADCAM LED, HEATER, LINEAR ACTUATOR)</a></li>',1);
+	   logger($logger, 'Links to socket source code and firmware:<ul>',1);
+	   logger($logger, '<br>------------SOCKET CODE--------------------<br>',1);
+	   logger($logger, '<li><a href=/documentation/socket_setup.jpg style="color: #00FF00" target="_new">Socket layout</a></li></ul>',1);
+	   logger($logger, '<li><a href=/documentation/imageprocessing.jpg style="color: #00FF00" target="_new">Image processing layout</a></li>',1);
+	   logger($logger, '<li><a href=/documentation/automation_modes.png style="color: #00FF00" target="_new">Automation modes layout</a></li>',1);
+	   logger($logger, 'Outline of how the code is set up:<ul>',1);
+	   logger($logger, 'To talk to the chatbot: chatbot (your question)<br><br>',1);
+	   logger($logger, '</ul></ul></font><br><font color=white face=arial size=1>-----------HTSR Command Reference-------------<br>',1);
+	 }
+
+
+
+ 	if (preg_match('/^gearmanwashdry$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=washdry';
+		  echo $url.'<br>';
+  		  closejson($json);
+		  header('Location: '.$url);
+		  echo $json['smoothiemessage'].'<br>';
+		  $msg = 'Tip wash<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+ 	if (preg_match('/^gearmanwash$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=wash';
+		  echo $url.'<br>';
+  		  closejson($json);
+		  header('Location: '.$url);
+		  echo $json['smoothiemessage'].'<br>';
+		  $msg = 'Tip wash<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+ 	if (preg_match('/^gearmangotowash$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=gotowash';
+  		  closejson($json);
+		  header('Location: '.$url);
+		  //echo $url.'<br>';
+		  $msg = 'Go to wash station<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+ 	if (preg_match('/^gearmangotowaste$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=gotowaste';
+  		  closejson($json);
+		  header('Location: '.$url);
+		  //echo $url.'<br>';
+		  $msg = 'Go to waste station<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+
+ 	if (preg_match('/^gearmandry$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=dry';
+		  //echo $url.'<br>';
+  		  closejson($json);
+		  header('Location: '.$url);
+		  $msg = 'Tip dry<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+ 	if (preg_match('/^gearmangotodry$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=gotodry';
+		  echo $url.'<br>';
+  		  closejson($json);
+		  header('Location: '.$url);
+		  $msg = 'Go to dry station<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+	/*
+ 	if (preg_match('/^gearman report s1 syringe settings$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=reports1settings';
+  		  closejson($json);
+		  header('Location: '.$url);
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+	*/
+
+
+
+
+ 	if (preg_match('/^gearmangotostrob$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=gotostrob';
+		  echo $url.'<br>';
+  		  closejson($json);
+		  header('Location: '.$url);
+		  $msg = 'Go to stroboscope station<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+
+ 	if (preg_match('/^gearmandefaultz$/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove=&tcli=backtoz';
+		  echo $url.'<br>';
+  		  closejson($json);
+		  header('Location: '.$url);
+		  $msg = 'Back to default z position '.$json['ztrav'].'<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+
+ 	if (preg_match('/^gearmangotowell (.*)$/', $htscmd, $sck)){
+	  if ($json["stop"] == "0"){
+	   $well = $sck[1];
+	   if (($well-1) <= count($json['sourcewell']['x'])){
+	     $url = 'runner.php?mmmove='.($well-1).'&tcli=gotowell';
+  	     closejson($json);
+	     header('Location: '.$url);
+	     $msg = 'Go to well position '.$well.'<br>';
+ 	     logger($logger, $msg.'<br>',1);
+	   }
+	   else {
+	     echo 'counting wells: '.count($json['sourcewell']['x']).'<br>';
+	     $msg = 'Well position '.$well.' does not exist<br>';
+ 	     logger($logger, $msg.'<br>',1);
+	   }
+	  }
+	  else {
+	   $msg = 'System halted, you need to press the "GO" button!<br>';
+  	   logger($logger, $msg.'<br>',1);
+	  }
+	}
+
+ 	if (preg_match('/^G1/', $htscmd)){
+		if ($json["stop"] == "0"){
+		  $url = 'runner.php?mmmove='.$htscmd.'&tcli=move';
+		  header('Location: '.$url);
+		  echo $json['smoothiemessage'].'<br>';
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		 }
+	}
+
+
+ 	if (preg_match('/^saveimgpath (.*)$/', $htscmd, $sck)){
+	  $path = $sck[1];
+	  if ($path == '/'){
+	  $msg = "Images saved in webroot path<br>";
+	  $json['gcodefile']['path'] = "";
+	  }
+	  else {
+	   $json['gcodefile']['path'] = $path;
+	   $msg = "Images saved in ".$path."<br>";
+	  }
+	  logger($logger, $msg,1);
+	}
+
+ 	if (preg_match('/^savestrobimgpath (.*)$/', $htscmd, $sck)){
+	  $path = $sck[1];
+	  if ($path == '/'){
+	  $msg = "Strob images saved in webroot path<br>";
+	  $json['strobimages']['path'] = "";
+	  }
+	  else {
+	   $json['strobimages']['path'] = $path;
+	   $msg = "Strob images saved in ".$path."<br>";
+	  }
+	  logger($logger, $msg,1);
+	}
+
+
+
+
+
+ 	if (preg_match('/^remove(.*)$/', $htscmd, $sck)){
+	  if (strlen($sck[1]) == 0){
+ 	   $msg = 'Cannot remove folder since it does not exist<br>';
+	  }
+	  else {
+	   $cmd = 'sudo rm -rf '.$sck[1];
+	   exec($cmd);
+ 	   $msg = 'Folder '.$sck[1].' removed<br>';
+	  }
+	   logger($logger, $msg,1);
+	}
+
+ 	if (preg_match('/^mkdir (.*)$/', $htscmd, $sck)){
+	  $cmd = 'sudo mkdir '.$sck[1];
+	  exec($cmd); 
+ 	  $msg = 'Folder '.$sck[1].' created<br>';
+	  logger($logger, $msg,1);
+	}
+
+ 	if (preg_match('/^list folders/', $htscmd)){
+	  $cmd = 'sudo ls -d */';
+	  exec($cmd,$result); 
+	  if (count($result) == 0){
+ 		$msg = 'No folders created<br>';
+		logger($logger, $msg,1);
+	  }
+	  else {
+	   for($i=0;$i<count($result);$i++){
+ 		$msg = '  '.$result[$i].'<br>';
+		logger($logger, $msg,1);
+	   }
+
+          }
+	}
+
+ 	if (preg_match('/^shutdown/', $htscmd)){
+		echo "shutdown sanity<br>";
+
+		$json = powerpumpssocket_stop($json);
+		$json = syringesocket_stop($json);
+		//$json = piezosocket_stop($json);
+		$json = smoothiesocket_stop($json);
+	  	$json =headcam_linearactuatorsocket_stop($json);
+		sleep(3);
+		shutdown($json['servers']['gantryhead'],$json);
+		shutdown($json['servers']['smoothiedriver'],$json);
+		//shutdown($json['servers']['strobcampi'],$json);
+		shutdown($json['servers']['powerpumpsraspi'],$json);
+	}
+ 	if (preg_match('/^internal network/', $htscmd)){
+		$json['local'] = "1";
+	   	logger($logger, 'Local Area Network (LAN) mode<br>',1);
+	}
+ 	if (preg_match('/^external network/', $htscmd)){
+		$json['local'] = "0";
+	   	logger($logger, 'Wide Area Network (WAN) mode<br>',1);
+	}
+ 	if (preg_match('/^external url (.*)$/', $htscmd, $sck)){
+		$json['url'] = $sck[1];
+	   	logger($logger, 'WAN url: '.$json['url'].'<br>',1);
+	}
+ 	if (preg_match('/^M92/', $htscmd)){
+		$json = smoothiesocketsetposition($htscmd,$json);
+	   	logger($logger, $json['M92'].'<br>',1);
+	}
+ 	if (preg_match('/^G92/', $htscmd)){
+		$json = smoothiesocketreset($htscmd,$json,$logger);
+		  echo $json['smoothiemessage'].'<br>';
+	}
+	
+
+ 	if (preg_match('/^empty buffer/', $htscmd)){
+		smoothiesocketclear($json);
+	   	logger($logger, 'buffer cleared<br>',1);
+	}
+
+
+	if (preg_match('/^M114/', $htscmd)){
+			$json = smoothiesocketreportposition('M114',$json);
+			$inputcmd = $json['ramplastcommand'];
+	   		logger($logger, 'Current position: '.$json['smoothiemessage'].'<br>',1);
+	}
+
+
+	if (preg_match('/^e1tempread/', $htscmd)){
+			$json = headcam_linearactuatorsocket('e1tempread',$json);
+	   		logger($logger, 'Current temperature: '.$json['e1tempread'].'<br>',1);
+	}
+
+	if (preg_match('/^e1tempset/', $htscmd)){
+			$json = headcam_linearactuatorsocket($htscmd,$json);
+	   		logger($logger, 'Set temperature: '.$htscmd.'<br>',1);
+	}
+
+	if (preg_match('/^get ztravel/', $htscmd)){
+	   		logger($logger, 'Z travel height: '.$json['ztrav'].'<br>',1);
+	}
+ 	if (preg_match('/^set ztravel (.*)$/', $htscmd, $sck)){
+		$json['ztrav'] = $sck[1];
+	   	logger($logger, 'Z travel height set: '.$json['ztrav'].'<br>',1);
+	}
+
+
+	if (preg_match('/^M119/', $htscmd)){
+		//This one has its own nuance so have to do this way to clear the buffer
+		$json = smoothiesocketendstopstatus($json);
+		$endstop = $json['smoothiemessage'];
+	   	logger($logger, $endstop.'<br>',1);
+	}
+	if ((preg_match('/^trigger on/', $htscmd)) or (preg_match('/^MH3/', $htscmd))){
+		$result = powerrelaysocketclient('trigger on',$json);
+	   	logger($logger, '5V trigger on<br>',1);
+	}
+	if ((preg_match('/^trigger off/', $htscmd)) or (preg_match('/^MH4/', $htscmd))){
+		$result = powerrelaysocketclient('trigger off',$json);
+	   	logger($logger, '5V trigger off<br>',1);
+	}
+ 	if (preg_match('/^smoothie version$/', $htscmd, $sck)){
+		 $json = smoothiesocketversion($json);
+	   	 logger($logger, 'pinging '.$json['smoothiemessage'].'<br>',1);
+	}
+	/*
+	if (preg_match('/^kill smoothieprocesses/', $htscmd)){
+			$json = killprocesses($json);
+	   		logger($logger, $json['smoothiemessage'].'<br>',1);
+	}
+	*/
+ 	if (preg_match('/^trackon (.*)$/', $htscmd, $sck)){
+		//"refresh":{"active":1,"time":5}
+		$jsonlog = json_decode(file_get_contents($logger), true);
+		$jsonlog['refresh']['active'] = "1";
+		$jsonlog['refresh']['time'] = $sck[1];
+		$msg = "System tracking refresh every ".$jsonlog['refresh']['time']." seconds";
+		file_put_contents($logger, json_encode($jsonlog));
+	   	logger($logger, $msg.'<br>',1);
+	}
+ 	else if (preg_match('/^trackoff/', $htscmd)){
+		$jsonlog = json_decode(file_get_contents($logger), true);
+		$jsonlog['refresh']['active'] = "0";
+		$msg = "System tracking off";
+		file_put_contents($logger, json_encode($jsonlog));
+	   	logger($logger, $msg.'<br>',1);
+	}
+
+
+ 	if (preg_match('/^cp jsondata (.*)/', $htscmd, $sck)){
+		 $sockcmd = 'sudo cp imgdataset json.backups/'.$sck[1];
+		 exec($sockcmd);
+		 $msg = "JSON data copied to file, ".$sck[1].", <a href=./".$sck[1]." style=color:red>download</a>";
+	   	 logger($logger, $msg.'<br>',1);
+	}
+ 	if (preg_match('/^ls jsondata/', $htscmd)){
+		 $files1 = scandir('json.backups');
+		 $msg = '<ul>';
+		 for($i=2;$i<count($files1);$i++){
+		  $msg = $msg.$files1[$i].'<br>';
+		 }
+		 $msg = $msg.'</ul>';
+	   	 logger($logger, 'json backups: '.$msg.'<br>',1);
+
+	}
+ 	if (preg_match('/^cp (.*) imgdataset/', $htscmd, $sck)){
+		 $sockcmd = 'sudo cp json.backups/'.$sck[1].' imgdataset';
+		 exec($sockcmd);
+		 sleep(1);
+		 $sockcmd = 'sudo cp '.$sck[1].' imgdataset';
+		 exec($sockcmd);
+		 sleep(1);
+		 $sockcmd = 'sudo chmod 777 imgdataset';
+		 exec($sockcmd);
+		 sleep(1);
+		 $msg = "JSON data copied is restored from ".$sck[1];
+	   	 logger($logger, $msg.'<br>',1);
+	}
+
+
+
+
+
+
+
+
+
+
+	//powerrelaysocketclient
+ 	if (preg_match('/^setliquidlevel/', $htscmd)){
+		preg_match('/^setliquidlevel (.*)$/', $htscmd, $lev);
+		$json['pressure']['set'] = $lev[1];
+		$json = powerrelaysocketclient('setliquidlevel '.$json['pressure']['set'],$json);
+	 	logger($logger, 'Bottle Liquid Set: '.$json['pressure']['set'].' Level: '.$json['pressure']['read'].'<br>',1);
+	}
+ 	if (preg_match('/^reportliquidlevel/', $htscmd)){
+		$json = powerrelaysocketclient('liquidlevel',$json);
+	 	logger($logger, 'Bottle Liquid Level: '.$json['pressure']['read'].'<br>',1);
+	}
+ 	if (preg_match('/^pressurepump on/', $htscmd)){
+		$json = powerrelaysocketclient('pcvon',$json);
+	 	logger($logger, 'Pressure compensation pump on<br>',1);
+	}
+ 	if (preg_match('/^pressurepump off/', $htscmd)){
+		$json = powerrelaysocketclient('pcvoff',$json);
+	 	logger($logger, 'Pressure compensation pump off<br>',1);
+	}
+ 	if (preg_match('/^wash on/', $htscmd)){
+		$json = powerrelaysocketclient('washon',$json);
+	 	logger($logger, 'Wash on<br>',1);
+	}
+ 	if (preg_match('/^wash off/', $htscmd)){
+		$json = powerrelaysocketclient('washoff',$json);
+	 	logger($logger, 'Wash off<br>',1);
+	}
+
+ 	if (preg_match('/^turnonpcv|pcv on/', $htscmd)){
+		$json = powerrelaysocketclient('turnonpcv',$json);
+	 	logger($logger, 'PCV on<br>',1);
+	}
+ 	if (preg_match('/^turnoffpcv|pcv off/', $htscmd)){
+		$json = powerrelaysocketclient('turnoffpcv',$json);
+	 	logger($logger, 'PCV off<br>',1);
+	}
+
+
+
+
+ 	if (preg_match('/^dry on/', $htscmd)){
+		$json = powerrelaysocketclient('dryon',$json);
+	 	logger($logger, 'Dry on<br>',1);
+	}
+ 	if (preg_match('/^dry off/', $htscmd)){
+		$json = powerrelaysocketclient('dryoff',$json);
+	 	logger($logger, 'Dry off<br>',1);
+	}
+ 	if (preg_match('/^syringemotor on/', $htscmd)){
+		$json = powerrelaysocketclient('syringemotoron',$json);
+	 	logger($logger, '12V power applied to syringe pump motor<br>',1);
+	}
+ 	if (preg_match('/^syringemotor off/', $htscmd)){
+		$json = powerrelaysocketclient('syringemotoroff',$json);
+	 	logger($logger, '12V power disconnected from syringe pump motor<br>',1);
+	}
+ 	if (preg_match('/^syringevalve on/', $htscmd)){
+		$json = powerrelaysocketclient('syringevalveon',$json);
+	 	logger($logger, '5V power applied to syringe pump valve<br>',1);
+	}
+ 	if (preg_match('/^syringevalve off/', $htscmd)){
+		$json = powerrelaysocketclient('syringevalveoff',$json);
+	 	logger($logger, '5V power disconnected from syringe pump valve<br>',1);
+	}
+
+
+	//htsr piezo amplifier commands
+ 	if (preg_match('/^p1 check/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+		$json = piezosocketclient('p1 check',$json);
+		logger($logger, $msg,1);
+	      }
+		else {
+	 	 logger($logger, 'headcam and  linearactuator socket is down to run: headcamlinearactuatorsocket start<br>',1);
+		}
+	}
+
+ 	if (preg_match('/^p1 settings/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+		$json = piezosocketclient('p1 settings',$json);
+	 	logger($logger, 'Piezo amplifier1 settings: '.$json['p1amplifier']['settings'].'<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+ 	if (preg_match('/^p1 drops/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+ 		preg_match('/^p1drops (.*)/', $htscmd, $args);
+		$json = piezosocketclient('p1 drops '.$args[1],$json);
+	 	logger($logger, 'Piezo amplifier1 set drops: '.$args[1].'<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+ 	if (preg_match('/^p1 volt/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+ 		preg_match('/^p1 volt (.*)/', $htscmd, $args);
+		$json = piezosocketclient('p1 volt '.$args[1],$json);
+	 	logger($logger, 'Piezo amplifier1 set volt: '.$args[1].'<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+ 	if (preg_match('/^p1 pulse/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+ 		preg_match('/^p1pulse (.*)/', $htscmd, $args);
+		$json = piezosocketclient('p1 pulse '.$args[1],$json);
+	 	logger($logger, 'Piezo amplifier1 set pulse: '.$args[1].'<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+ 	if (preg_match('/^p1 frequency/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+ 		preg_match('/^p1frequency (.*)/', $htscmd, $args);
+		$json = piezosocketclient('p1frequency '.$args[1],$json);
+	 	logger($logger, 'Piezo amplifier1 set frequency: '.$args[1].'<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+ 	if (preg_match('/^p1 dispense/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+		$json = piezosocketclient('p1dispense '.$args[1],$json);
+		//Volt: 50 Pulse: 50 Freq: 100 Drops: 100 Leddelay: 250 Ledtime: 5 inputpin: 0
+		$p1settings = $json['p1amplifier']['settings'];
+		$p1ar = preg_split('/:/', $p1settings);
+		$drops = preg_replace('/ \D.*/', '',$p1ar[4]);
+	 	logger($logger, 'Piezo amplifier1 dispensed: '.$drops.' drops<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+ 	if (preg_match('/^p1 setflag/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+ 		preg_match('/^p1 setflag (.*)/', $htscmd, $args);
+		$json = piezosocketclient('p1 setflag '.$args[1],$json);
+	 	logger($logger, 'Piezo amplifier1 set flag: '.$args[1].'<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+ 	if (preg_match('/^p1 stroboscope on/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+		$json = piezosocketclient('p1stroboscope on',$json);
+	 	logger($logger, 'Piezo amplifier1 stroboscope on<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+ 	if (preg_match('/^p1 stroboscope off/', $htscmd)){
+	      if ($json['piezosocket'] == 1){
+		$json = piezosocketclient('p1stroboscope off',$json);
+	 	logger($logger, 'Piezo amplifier1 stroboscope off<br>',1);
+	      }
+		else {
+	 	 logger($logger, 'Piezo socket is down to run: piezosocket start<br>',1);
+		}
+	}
+
+
+	//htsr syringepump commands
+	/*
+ 	if (preg_match('/^s1 check/', $htscmd)){
+		$json = syringesocketclient('s1 check',$json);
+	}
+ 	if (preg_match('/^s1 settings/', $htscmd)){
+		$json = syringesocketclient('s1 settings',$json);
+	 	logger($logger, 'htsr syringe 1 settings: '.$json['htsrsyringe']['settings'].'<br>',1);
+	}
+	*/
+ 	if (preg_match('/^s1 valveinput/', $htscmd)){
+		$json = syringesocketclient('s1 valveinput',$json);
+	 	logger($logger, 'htsr syringe 1: valveinput<br>',1);
+	}
+ 	if (preg_match('/^s1 valveoutput/', $htscmd)){
+		$json = syringesocketclient('s1 valveoutput',$json);
+	 	logger($logger, 'htsr syringe 1: valveoutput<br>',1);
+	}
+ 	if (preg_match('/^s1 valvebypass/', $htscmd)){
+		$json = syringesocketclient('s1 valvebypass',$json);
+	 	logger($logger, 'htsr syringe 1: valvebypass<br>',1);
+	}
+	/*
+ 	if (preg_match('/^s1 forward/', $htscmd)){
+		$json = syringesocketclient('s1 forward',$json);
+	 	logger($logger, 'htsr syringe 1: syringe forward<br>',1);
+	}
+ 	if (preg_match('/^s1 contforward/', $htscmd)){
+		$json = syringesocketclient('s1 contforgo',$json);
+		echo $htscmd.'<br>';
+	 	logger($logger, 'htsr syringe 1: syringe continuous forward<br>',1);
+	}
+ 	if (preg_match('/^s1 contbackward/', $htscmd)){
+		$json = syringesocketclient('s1 contbackgo',$json);
+	 	logger($logger, 'htsr syringe 1: syringe continuous backward<br>',1);
+	}
+ 	if (preg_match('/^s1 contstop/', $htscmd)){
+		$json = syringesocketclient('s1 contstop',$json);
+	 	logger($logger, 'htsr syringe 1: turns off syringe continuous motion<br>',1);
+	}
+
+ 	if (preg_match('/^s1 backward/', $htscmd)){
+		$json = syringesocketclient('s1 backward',$json);
+	 	logger($logger, 'htsr syringe 1: syringe backward<br>',1);
+	}
+ 	if (preg_match('/^s1 homing/', $htscmd)){
+  	        closejson($json);
+	        $url = 'runner.php?mmmove=&tcli=s1homing';
+	        header('Location: '.$url);
+	}
+ 	if (preg_match('/^s1 steprate (.*)/', $htscmd, $args)){
+	        $steprate = $args[1];
+	 	$json['htsrsyringe']['steprate'] = $steprate;
+		$json = syringesocketclient('s1 steprate '.$steprate,$json);
+	 	logger($logger, 'htsr syringe 1: set syringe steprate '.$steprate.'<br>',1);
+	}
+ 	if (preg_match('/^s1 steps (.*)/', $htscmd, $args)){
+	        $steps = $args[1];
+	 	$json['htsrsyringe']['steps'] = $steps;
+		$json = syringesocketclient('s1 steps '.$steps,$json);
+	 	logger($logger, 'htsr syringe 1: set syringe steps '.$steps.'<br>',1);
+	}
+ 	if (preg_match('/^s1 retractsteprate (.*)/', $htscmd, $args)){
+	        $steprate = $args[1];
+	 	$json['htsrsyringe']['steprate'] = $steprate;
+		$json = syringesocketclient('s1 retractsteprate '.$steprate,$json);
+	 	logger($logger, 'htsr syringe 1: set syringe retractsteprate '.$steprate.'<br>',1);
+	}
+ 	if (preg_match('/^s1 retractsteps (.*)/', $htscmd, $args)){
+	        $steps = $args[1];
+	 	$json['htsrsyringe']['steps'] = $steps;
+		$json = syringesocketclient('s1 retractsteps '.$steps,$json);
+	 	logger($logger, 'htsr syringe 1: set syringe retractsteps '.$steps.'<br>',1);
+	}
+
+	*/
+
+
+	//Syringe pump aspirate 
+	if (preg_match('/s1 aspirate/', $htscmd)){
+  	 closejson($json);
+	 $url = 'runner.php?mmmove=&tcli=s1aspirate';
+	 header('Location: '.$url);
+	}
+	//Syringe pump dispense 
+	if (preg_match('/s1 dispense/', $htscmd)){
+  	 closejson($json);
+	 $url = 'runner.php?mmmove=&tcli=s1dispense';
+	 header('Location: '.$url);
+	}
+
+ 	if (preg_match('/^moveright/', $htscmd)){
+		if ($json["stop"] == "0"){
+		 preg_match('/^moveright (.*)$/', $htscmd, $extent);
+		 $json = reportpos($json);
+	   	 logger($logger, $json['smoothiemessage'].'<br>',1);
+		 $mcmd =  'G1X'.($out["X"]+$extent[1]).'Y'.$out["Y"].'Z'.$out["Z"].'F'.$json['trackxyz']['f'];
+		 $json = move($mcmd,$json,$logger);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		}
+	}
+
+ 	if (preg_match('/^moveleft/', $htscmd)){
+		if ($json["stop"] == "0"){
+		 preg_match('/^moveleft (.*)$/', $htscmd, $extent);
+		 $json = reportpos($json);
+	   	 logger($logger, $json['smoothiemessage'].'<br>',1);
+		 $mcmd =  'G1X'.($out["X"]-$extent[1]).'Y'.$out["Y"].'Z'.$out["Z"].'F'.$json['trackxyz']['f'];
+		 if (($out["X"]-$extent[1]) < 0 ){
+		  $mcmd =  'G1X0Y'.$out["Y"].'Z'.$out["Z"].'F'.$json['trackxyz']['f'];
+		 }
+		 $json = move($mcmd,$json,$logger);
+		 logger($logger, 'Moving to: '.$mcmd.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		}
+	}
+
+ 	if (preg_match('/^moveforward/', $htscmd)){
+		if ($json["stop"] == "0"){
+		 preg_match('/^moveforward (.*)$/', $htscmd, $extent);
+		 $json = reportpos($json);
+	   	 logger($logger, $json['smoothiemessage'].'<br>',1);
+		 $out = parsercounteroutput($result);
+		 $mcmd =  'G1X'.($out["X"]).'Y'.($out["Y"]+$extent[1]).'Z'.$out["Z"].'F'.$json['trackxyz']['f'];
+		 $json = move($mcmd,$json,$logger);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		}
+	}
+
+
+ 	if (preg_match('/^movebackward/', $htscmd)){
+		if ($json["stop"] == "0"){
+		 preg_match('/^movebackward (.*)$/', $htscmd, $extent);
+		 $json = reportpos($json);
+	   	 logger($logger, $json['smoothiemessage'].'<br>',1);
+		 $out = parsercounteroutput($result);
+		 $mcmd =  'G1X'.($out["X"]).'Y'.($out["Y"]-$extent[1]).'Z'.$out["Z"].'F'.$json['trackxyz']['f'];
+		 if (($out["X"]-$extent[1]) < 0 ){
+		  $mcmd =  'G1X'.($out["X"]).'Y0Z'.$out["Z"].'F'.$json['trackxyz']['f'];
+		 }
+		 $json = move($mcmd,$json,$logger);
+		 logger($logger, 'Moving to: '.$mcmd.'<br>',1);
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		}
+	}
+
+ 	if (preg_match('/^setspeed/', $htscmd)){
+		preg_match('/^setspeed (.*)$/', $htscmd, $extent);
+		$json['trackxyz']['f'] = $extent[1];
+		logger($logger, 'Feedrate set to: '.$extent[1].'<br>',1);
+	}
+	if (preg_match('/^servers/', $htscmd)){
+ 	 	logger($logger, '</ul>',1);
+		//exec("sudo python /home/richard/tricontsyringepump/tricontent.telnet.socket.py > /dev/null &");
+                /*
+		if ($json['strobcamon'] == 1){
+ 	 		 logger($logger, 'strobcampi '.$json['servers']['strobcampi'].' STROB CAMERA -- ON (To turn off: strobcam stop)<br>',1);
+		}
+		else if ($json['strobcamon'] == 0){
+ 	 		 logger($logger, 'strobcampi '.$json['servers']['strobcampi'].' STROB CAMERA -- OFF (To turn on: strobcam start)<br>',1);
+		}
+		*/
+
+
+		if ($json['smoothiesocket'] == 0){
+ 	 	 logger($logger, 'smoothiedriver '.$json['servers']['smoothiedriver'].' POSITIONING DRIVER -- OFF (To turn on: smoothiesocket start)<br>',1);
+		}
+		else if ($json['strobconnect'] == 1){
+ 	 	 logger($logger, 'smoothiedriver '.$json['servers']['smoothiedriver'].' POSITIONING DRIVER -- ON (To turn off: smoothiesocket stop)<br>',1);
+		}
+
+		if ($json['gearmansocket'] == 0){
+ 	 	 logger($logger, 'chubox '.$json['servers']['chubox'].' GEARMAN DRIVER -- OFF (To turn on: gearman start)<br>',1);
+		}
+		else if ($json['gearmansocket'] == 1){
+ 	 	 logger($logger, 'chubox '.$json['servers']['chubox'].' GEARMAN DRIVER -- ON (To turn off: gearman stop)<br>',1);
+		}
+
+
+		if ($json['syringesocket'] == 0){
+ 	 		 logger($logger, 'powerpumpsraspi '.$json['servers']['powerpumpraspi'].' SYRINGE PUMP SOCKET SERVER -- OFF (To turn on: syringesocket start)<br>',1);
+		}
+		if ($json['syringesocket']== 1){
+ 	 		 logger($logger, 'powerpumpsraspi '.$json['servers']['powerpumpsraspi'].' SYRINGE PUMP SOCKET SERVER -- ON (To turn off: syringesocket stop)<br>',1);
+		}
+
+
+		/*
+		if ($json['piezosocket'] == 0){
+ 	 		 logger($logger, 'chubox '.$json['servers']['chubox'].' PIEZO SOCKET SERVER -- OFF (To turn on: piezosocket start)<br>',1);
+		}
+		if ($json['piezosocket']== 1){
+ 	 		 logger($logger, 'chubox '.$json['servers']['chubox'].' PIEZO SOCKET SERVER -- ON (To turn off: piezosocket stop)<br>',1);
+		}
+		*/
+
+
+		if ($json['chatbotsocket'] == 0){
+ 	 		 logger($logger, 'chubox '.$json['servers']['chubox'].' CHATBOT SOCKET -- OFF (To turn on: chatbotsocket start)<br>',1);
+		}
+		if ($json['chatbotsocket'] == 1){
+ 	 		 logger($logger, 'chubox '.$json['servers']['chubox'].' CHATBOT SOCKET -- ON (To turn off: chatbotsocket stop)<br>',1);
+		}
+
+
+		if ($json['powerrelaysocket']['on'] == 0){
+ 	 		 logger($logger, 'powerpumpsraspi '.$json['servers']['powerpumpsraspi'].' POWER RELAYS, WASH, DRY, PRESSURE -- OFF (To turn on: powerpumpssocket start)<br>',1);
+		}
+		if ($json['powerrelaysocket']['on'] == 1){
+ 	 		 logger($logger, 'powerpumpsraspi '.$json['servers']['powerpumpsraspi'].' POWER RELAYS, WASH, DRY, PRESSURE -- ON (To turn off: powerpumpssocket stop)<br>',1);
+		}
+
+
+
+	        if ($json['headcamlinearactuatorsocket'] == 1){
+ 	 		 logger($logger, 'gantryhead '.$json['servers']['gantryhead'].' HEAD CAMERA LINEAR ACTUATOR -- ON (To turn off: headcamlinearactuatorsocket stop) <br>',1);
+		}
+		else {
+ 	 		 logger($logger, 'gantryhead '.$json['servers']['gantryhead'].' HEAD CAMERA LINEAR ACTUATOR -- OFF (To turn on: headcamlinearactuatorsocket start) <br>',1);
+		}
+
+
+		if ($json['smoothiesocket'] == "1"){
+ 	 		 logger($logger, 'smoothiedriver '.$json['servers']['smoothiedriver'].' SMOOTHIESERVER -- ON<br>',1);
+		}
+		if ($json['smoothiesocket'] == "0"){
+ 	 		 logger($logger, 'smoothiedriver '.$json['servers']['smoothiedriver'].' SMOOTHIESERVER -- OFF<br>',1);
+		}
+		/*
+	        if ($json['headcamon'] == 1){
+ 	 	  logger($logger, 'gantryhead '.$json['servers']['gantryhead'].' HEAD CAMERA -- ON (To turn off: headcamstream stop)<br>',1);
+		}	
+	        else if ($json['headcamon'] == 0){
+ 	 	  logger($logger, 'gantryhead '.$json['servers']['gantryhead'].' HEAD CAMERA -- OFF (To turn on: headcamstream start)<br>',1);
+		}
+		*/	
+ 	 	logger($logger, 'This webserver is '.$json['servers']['chubox'].' ....<br><ul>',1);
+	 }
+	
+
+	if (preg_match('/gantryheadsocket start/', $htscmd)){
+	 $json=headcam_linearactuatorsocket_start($json);	
+	}
+	if (preg_match('/gantryheadsocket stop/', $htscmd)){
+	 $json=headcam_linearactuatorsocket_stop($json);	
+	}
+
+	if (preg_match('/P1reportposition/', $htscmd)){
+          $json = reportp1lacposition($json,$logger);
+	}
+	if (preg_match('/P1move (.*)/', $htscmd, $mv)){
+             $json = movep1lac($json,$logger,$mv[1]);
+	}
+	if (preg_match('/P1motor stop/', $htscmd)){
+	 $json =killp1lac($json,$logger);
+	}
+
+
+	if (preg_match('/headcam_linearactuatorsocketclient kill/', $htscmd)){
+	   $json = headcam_linearactuatorsocketclient('headcam_linearactuatorsocketclient kill',$json);
+	   $msg =  'Killing linear actuator socket zombies '.$json['P1position'].'<br>';
+	   logger($logger, $msg,1);
+	}
+
+	//led on 
+	if (preg_match('/ledon/', $htscmd)){
+ 		$json = headcam_linearactuatorsocketclient("ledon",$json);
+	}
+	if (preg_match('/ledoff/', $htscmd)){
+ 		$json = headcam_linearactuatorsocketclient("ledoff",$json);
+	}
+
+	//need to add to help list
+	if ((preg_match('/^fan on/', $htscmd)) or (preg_match('/^MH1/', $htscmd))){
+	   if ($json['pressureconnect'] == 1){
+	     smoothiesocketfan('M106', $json);
+  	     $msg =  'Turning fan on<br>';
+	     logger($logger, $msg,1);
+	   }
+	   else {
+	 	 logger($logger, 'Pressure, Wash, Dry, Linear actuator, Fan, Headcam led socket not connected<br>',1);
+	  }
+	}
+	//need to add to help list
+	if ((preg_match('/^fan off/', $htscmd)) or (preg_match('/^MH2/', $htscmd))){
+	   if ($json['pressureconnect'] == 0){
+	     smoothiesocketfan('M107', $json);
+  	     $msg =  'Turning fan off<br>';
+	     logger($logger, $msg,1);
+	   }
+	   else {
+	 	 logger($logger, 'Pressure, Wash, Dry, Linear actuator, Fan, Headcam led socket not connected<br>',1);
+	  }
+	}
+
+	if (preg_match('/poweron|power on/', $htscmd)){
+			$json["stop"] ="0";
+		  	$json = powerrelaysocketclient('poweron',$json);
+			$msg =  'Turning system power on<br>';
+			logger($logger, $msg,1);
+	}
+	if (preg_match('/poweroff|power off/', $htscmd)){
+			$json["stop"] ="1";
+		  	$json = powerrelaysocketclient('poweroff',$json);
+			$msg =  'Turning system power off<br>';
+			logger($logger, $msg,1);
+        }
+	if (preg_match('/chatbotsocket start/', $htscmd)){
+	      $json = chatbotsocket_start($json);
+	}
+	if (preg_match('/chatbotsocket stop/', $htscmd)){
+	      $json = chatbotsocket_stop($json);
+
+	}
+	if (preg_match('/powerpumpssocket stop/', $htscmd)){
+	  $json = powerpumpssocket_stop($json);
+	}
+
+	if (preg_match('/powerpumpssocket start/', $htscmd)){
+	  $json = powerpumpssocket_start($json);
+	}
+
+	if (preg_match('/kill powerpumpssocket zombies/', $htscmd)){
+	  $json = powerpumpssocket_killzombies($json);
+	}
+
+	if (preg_match('/kill headcamlinearactuatorsocket zombies/', $htscmd)){
+	  $json = headcam_linearactuatorsocket_killzombies($json);
+	}
+
+
+	if (preg_match('/syringesocket start/', $htscmd)){
+	  $json =syringesocket_start($json);
+	}
+	if (preg_match('/syringesocket stop/', $htscmd)){
+	  $json =syringesocket_stop($json);
+	  $msg =  'Syringe socket is off<br>';
+          logger($logger, $msg,1);
+	}
+	if (preg_match('/kill syringesocket zombies/', $htscmd)){
+	  $json =syringesocket_killzombies($json);
+	}
+
+	if (preg_match('/piezosocket start/', $htscmd)){
+	  $json =piezosocket_start($json);
+	}
+	if (preg_match('/piezosocket stop/', $htscmd)){
+	  $json =piezosocket_stop($json);
+	  $msg =  'Piezo socket is off<br>';
+          logger($logger, $msg,1);
+	}
+
+
+
+
+        /*
+	if (preg_match('/syringeandpiezosocket start/', $htscmd)){
+	  $json =syringeandpiezosocket_start($json);
+	}
+	if (preg_match('/syringeandpiezosocket stop/', $htscmd)){
+	  $json =syringeandpiezosocket_stop($json);
+	  $msg =  'Syringe and piezo socket is off<br>';
+          logger($logger, $msg,1);
+	}
+        */
+
+
+	if (preg_match('/headcamlinearactuatorsocket start/', $htscmd)){
+	  $json =headcam_linearactuatorsocket_start($json);
+	}
+
+	if (preg_match('/headcamlinearactuatorsocket stop/', $htscmd)){
+	  $json =headcam_linearactuatorsocket_stop($json);
+	}
+	if (preg_match('/kill headcamlinearactuator zombies/', $htscmd)){
+	 $json=headcam_linearactuatorsocket_killzombies($json);	
+	}
+
+
+
+
+	if (preg_match('/pressuresocket stop/', $htscmd)){
+			$msg =  'Pressure, wash, dry, headcam led and linear actuator socket ('.$json['servers']['wavepi'].') disconnected<br>';
+			$cmd= 'sudo kill '.$json['pressurepid'];
+			$json['pressureconnect'] = 0;
+			sshcontrolcaller($cmd,$json['servers']['wavepi'],$json['pressurepid'],$json);
+			sleep(1);
+			logger($logger, $msg.' pid - '.$json['pressurepid'].' is killed<br>',1);
+			$json['pressurepid'] = 0;
+	}
+	if (preg_match('/pressuresocket start/', $htscmd)){
+		if ($json['pressurepid'] > 0) {
+		  $msg = 'Problem the pressure, wash, dry, headcam led and linear actuator socket is connected ';
+		  logger($logger, $msg.': pid - '.$json['pressurepid'].' Type "pressuresocket stop"<br>',1);
+		}
+		else {
+ 		 $cmd = 'sudo php control_pressuresocket.php start';
+		 $json['pressurepid'] = sshcontrolcaller($cmd,$json['servers']['wavepi'],'start',$json);
+		 sleep(1);
+		 if ($json['pressurepid'] > 0){
+		    $json['pressureconnect'] = 1;
+		    $msg =  'Pressure, wash, dry, headcam led and linear actuator socket ('.$json['servers']['wavepi'].') connected<br>';
+	 	    logger($logger, $msg.': pid - '.$json['pressurepid'].'<br>',1);
+		 } 
+		 else {
+	 	  logger($logger, 'Problem socket pressure, wash, dry, headcam led and linear actuator socket not connected<br>',1);
+		 }
+		}
+	}
+
+	if (preg_match('/smoothiesocket start/', $htscmd)){
+		$json = smoothiesocket_start($json);
+	}
+	if (preg_match('/smoothiesocket stop/', $htscmd)){
+		$json = smoothiesocket_stop($json);
+	}
+	if (preg_match('/kill smoothiesocket zombies/', $htscmd)){
+		$json = smoothiesocket_killzombies($json);
+	}
+
+
+
+
+	if (preg_match('/gearman start/', $htscmd)){
+			if ($json['gearmanpid'] > 0) {
+			  $msg = 'Problem the gearman socket is already on ';
+			  logger($logger, $msg.': pid - '.$json['gearmanpid'].' Type "gearman stop"<br>',1);
+			}
+			else {
+			 $msg =  'Gearman socket ('.$json['servers']['chubox'].') connected ';
+			 $cmd= 'sudo php smoothie.gearman.worker.php';
+			 $gpid = exec(sprintf("%s > /dev/null 2>&1 & echo $!", $cmd));
+			 $json['gearmanpid'] = $gpid;
+			 sleep(1);
+			 if ($json['gearmanpid'] > 0){
+			   $json['gearmansocket'] = 1;
+		 	   logger($logger, $msg.': pid - '.$json['gearmanpid'].'<br>',1);
+			 }
+			 else {
+		 	   logger($logger, 'Problem: could not start gearmansocket<br>',1);
+			 }
+			}
+
+
+
+
+
+	}
+	if (preg_match('/gearman stop/', $htscmd)){
+		echo 'gearman stopped<br>';
+		$msg =  'Gearman socket ('.$json['servers']['chubox'].') disconnected<br>';
+		$json['gearmansocket'] = 0;
+		$cmd= 'sudo kill '.$json['gearmanpid'];
+		exec($cmd);
+		//sshcontrolcaller($cmd,$json['servers']['chubox'],$json['gearmanpid']);
+		sleep(1);
+		logger($logger, $msg.' pid - '.$json['gearmanpid'].' is killed<br>',1);
+		$json['gearmanpid'] = 0;
+	}
+
+
+	if (preg_match('/gearman stop/', $htscmd)){
+		exec('sudo python kill.gearman.py > /dev/null &');
+		$json['gearmanpid'] = 0;
+		$json['gearmansocket'] = 0;
+		logger($logger, 'gearman zombies are killed<br>',1);
+	}
+	/*
+	if (preg_match('/kill gearman zombies/', $htscmd)){
+		exec('sudo python kill.gearman.py > /dev/null &');
+		$json['gearmanpid'] = 0;
+		$json['gearmansocket'] = 0;
+		logger($logger, 'gearman zombies are killed<br>',1);
+	}
+	*/
+
+	if (preg_match('/headcamstream stop/', $htscmd)){
+	  //$cmd = "cameraoff";
+	  //$json = headcam_linearactuatorsocketclient($cmd,$json);
+	  $url = 'runner.php?mmmove=&tcli=headcamstreamoff';
+	  header('Location: '.$url);
+	 }
+	if (preg_match('/headcamstream start/', $htscmd)){
+	  //$cmd = "cameraon";
+	  //$json = headcam_linearactuatorsocketclient($cmd,$json);
+	  $url = 'runner.php?mmmove=&tcli=headcamstreamon';
+	  header('Location: '.$url);
+	 }
+
+	if (preg_match('/headcamsnap stop/', $htscmd)){
+	  $cmd = "camerasnapoff";
+	  $json = headcam_linearactuatorsocketclient($cmd,$json);
+	 }
+	if (preg_match('/headcamsnap start/', $htscmd)){
+	  $cmd = "camerasnapon";
+	  $json = headcam_linearactuatorsocketclient($cmd,$json);
+	 }
+
+	if (preg_match('/headcam snap/', $htscmd)){
+  	  closejson($json);
+	  gearmanheadcamsnap();
+  	  $json = openjson();
+	}
+
+	if (preg_match('/strobcam stop/', $htscmd)){
+		$cmd = 'sudo php control_strobcam.php '.$json['strobcampid'];
+		sshcontrolcaller($cmd,$json['servers']['strobcampi'],$json['strobcampid'],$json);
+		$json['strobcampid'] = "";
+		$json['strobcamon'] = 0;
+		$msg =  'STROB CAMERA ('.$json['servers']['strobcampi'].') off<br>';
+		logger($logger, $msg,1);
+	 }
+	if (preg_match('/strobcam start/', $htscmd)){
+		//$cmd = 'sudo /home/richard/mjpg-streamer/mjpg-streamer/mjpg_streamer -i "/home/richard/mjpg-streamer/mjpg-streamer/input_uvc.so -n -r 640x480 -f 10" -o "/home/richard/mjpg-streamer/mjpg-streamer/output_http.so -p 8080 -w /home/richard/mjpg-streamer/mjpg-streamer/www" > /dev/null &';
+		$cmd = 'sudo php control_strobcam.php start';
+	 	$json['strobcampid'] = sshcontrolcaller($cmd,$json['servers']['strobcampi'],'start',$json);
+		if ($json['strobcampid'] > 0){
+	        $json['strobcamon'] = 1;
+		}
+		$msg =  'STROB CAMERA ('.$json['servers']['strobcampi'].') on pid == '.$json['strobcampid'].'<br>';
+		logger($logger, $msg,1);
+	 }
+
+
+	//syringe initialize
+	 if (preg_match('/syringe initialize/', $htscmd)){
+		if ($json['syringepump']['connect'] == 1){
+	         $json['syringepump']['trackaspvol'] = "0"; 
+		 $cmd = 'I';
+		 $msg = 'Syringe pump initialized<br>';
+		 syringesocketclient($cmd,$json);
+		 logger($logger, $msg,1);
+		}
+		else {
+		 logger($logger, 'Syringe socket is not connected (To start: SYsocket start)<br>',1);
+		}
+	}
+	//set valve input position
+	 if (preg_match('/syringe valve input/', $htscmd)){
+		if ($json['syringepump']['connect'] == 1){
+		 $cmd = 'VI';
+		 $msg = 'Set syringe pump input valve<br>';
+		 syringesocketclient($cmd,$json);
+		 logger($logger, $msg,1);
+		}
+		else {
+		 logger($logger, 'Syringe socket is not connected (To start: SYsocket start)<br>',1);
+		}
+	}
+	//set valve output position
+	 if (preg_match('/syringe valve output/', $htscmd)){
+		if ($json['syringepump']['connect'] == 1){
+		 $cmd = 'VO';
+		 $msg = 'Set syringe pump output valve<br>';
+		 syringesocketclient($cmd,$json);
+		 logger($logger, $msg,1);
+		}
+		else {
+		 logger($logger, 'Syringe socket is not connected (To start: SYsocket start)<br>',1);
+		}
+	}
+	//set valve bypass position
+	 if (preg_match('/syringe valve bypass/', $htscmd)){
+		if ($json['syringepump']['connect'] == 1){
+		 $cmd = 'VB';
+		 $msg = 'Set syringe pump bypass valve<br>';
+		 syringesocketclient($cmd,$json);
+		 logger($logger, $msg,1);
+		}
+		else {
+		 logger($logger, 'Syringe socket is not connected (To start: SYsocket start)<br>',1);
+		}
+	}
+	//Terminate syringe pump process
+	 if (preg_match('/syringepump stop/', $htscmd)){
+		if ($json['syringepump']['connect'] == 1){
+		 $cmd = 'T';
+		 $msg = 'Terminate syringe pump process<br>';
+		 syringesocketclient($cmd,$json);
+		 logger($logger, $msg,1);
+		}
+		else {
+		 logger($logger, 'Syringe socket is not connected (To start: SYsocket start)<br>',1);
+		}
+	}
+	//  $json['syringepump']['filltubingcycles'] = $_GET['filltubingcycles'];
+	//  $cmd = "sudo python /home/richard/tricontsyringepump/socket.client.py F".$json['syringepump']['filltubingcycles']." > /dev/null &";
+	if (preg_match('/flushsyringe (.*)/', $htscmd, $asp)){
+		if ($json['syringepump']['connect'] == 1){
+	  	 $json['syringepump']['filltubingcycles'] = $asp[1];
+		 $cmd = 'F'.$json['syringepump']['filltubingcycles'];
+		 $msg = 'Syringe filling cycles '.$asp[1].'<br>';
+		 syringesocketclient($cmd,$json);
+		 logger($logger, $msg,1);
+		}
+		else {
+		 logger($logger, 'Syringe socket is not connected (To start: SYsocket start)<br>',1);
+		}
+	}
+
+
+	if (preg_match('/strobcam snap (.*) (.*)/', $htscmd, $args)){
+  	 closejson($json);
+	 $picts = $args[1];
+	 $delay = $args[2];
+	 $pictsdelay = $picts.'_'.$delay;
+	 $url = 'runner.php?mmmove='.$pictsdelay.'&tcli=strobsnap';
+	 header('Location: '.$url);
+	}
+
+	if (preg_match('/analyze strobimages (.*)/', $htscmd, $args)){
+  	 closejson($json);
+	 $sample = $args[1];
+	 $url = 'runner.php?mmmove='.$sample.'&tcli=analyzestrobimg';
+	 header('Location: '.$url);
+	}
+
+
+
+	//Syringe pump aspirate (aspiration volume)
+	if (preg_match('/aspirate (.*) (.*)/', $htscmd, $asp)){
+  	 closejson($json);
+	 $vol = $asp[1];
+	 $rt = $asp[2];
+	 $volrt = $vol.'_'.$rt;
+	 $url = 'runner.php?mmmove='.$volrt.'&tcli=aspirate';
+	 header('Location: '.$url);
+	}
+
+
+
+
+
+	//Syringe pump fill (fill syringe volume)
+	if (preg_match('/fillsyringe (.*) (.*)/', $htscmd, $asp)){
+  	 closejson($json);
+	 $vol = $asp[1];
+	 $rt = $asp[2];
+	 $volrt = $vol.'_'.$rt;
+	 $url = 'runner.php?mmmove='.$volrt.'&tcli=fillsyringe';
+	 header('Location: '.$url);
+	}
+
+
+	//Syringe pump dispense (dispense volume)
+	if (preg_match('/dispense (.*) (.*)/', $htscmd, $asp)){
+  	 closejson($json);
+	 $vol = $asp[1];
+	 $rt = $asp[2];
+	 $volrt = $vol.'_'.$rt;
+	 $url = 'runner.php?mmmove='.$volrt.'&tcli=dispense';
+	 header('Location: '.$url);
+	}
+
+	//Syringe wash (wash time)
+	if (preg_match('/syringewash (.*)/', $htscmd, $asp)){
+		if ($json['syringepump']['connect'] == 1){
+		 $cmd = 'W'.$asp[1].'_'.$json['washing']['syringepumpflorate'];
+		 $msg = 'Wash time '.$asp[1].' flow rate '.$json['washing']['syringepumpflorate'].'<br>';
+		 syringesocketclient($cmd,$json);
+		 logger($logger, $msg,1);
+		}
+		else {
+		 logger($logger, 'Syringe socket is not connected (To start: SYsocket start)<br>',1);
+		}
+	}
+
+	if (preg_match('/wavesocket report/', $htscmd)){
+	        if ($json['strobconnect'] == 1){
+   	   	 $json = waveformsocketclient('REPORT',$json);
+	 	 logger($logger, 'Wave Generator: SetVolts '.$json['wavecontroller']['volts'].' '.$json['wavecontroller']['report'].'<br>',1);
+	 	 logger($logger, 'Actual frequency: '.$json['wavecontroller']['freq'].'<br>',1);
+		}
+		else {
+	 	 logger($logger, 'Wave Generator socket not connected<br>',1);
+		}
+	}
+
+
+	if (preg_match('/setvolt (.*)/', $htscmd, $mv)){
+	        if ($json['strobconnect'] == 1){
+		 $json['wavecontroller']['volts'] = $mv[1];
+		 //python socket.client.py V120
+		 ssh02caller('sudo python socket.client.py V'.$mv[1],$json);
+   	   	 //$json = waveformsocketclient('V'.$json['wavecontroller']['volts'],$json);
+		 sleep(1);
+   	   	 $json = waveformsocketclient('REPORT',$json);
+	 	 logger($logger, 'Wave Generator: SetVolts '.$json['wavecontroller']['volts'].' '.$json['wavecontroller']['report'].'<br>',1);
+		}
+		else {
+	 	 logger($logger, 'Wave Generator socket not connected<br>',1);
+		}
+	}
+
+	if (preg_match('/setleddelay (.*)/', $htscmd, $mv)){
+	        if ($json['strobconnect'] == 1){
+		 $json['wavecontroller']['leddelay'] = $mv[1];
+		 //python socket.client.py V120
+		 ssh02caller('sudo python socket.client.py LEDDELAY'.$mv[1],$json);
+		 sleep(1);
+   	   	 $json = waveformsocketclient('REPORT',$json);
+	 	 logger($logger, 'Wave Generator: SetLEDDELAY '.$json['wavecontroller']['leddelay'].' '.$json['wavecontroller']['report'].'<br>',1);
+		}
+		else {
+	 	 logger($logger, 'Wave Generator socket not connected<br>',1);
+		}
+	}
+
+
+	if (preg_match('/setledtime (.*)/', $htscmd, $mv)){
+	        if ($json['strobconnect'] == 1){
+		 $json['wavecontroller']['ledtime'] = $mv[1];
+		 //python socket.client.py V120
+		 ssh02caller('sudo python socket.client.py LEDTIME'.$mv[1],$json);
+		 sleep(1);
+   	   	 $json = waveformsocketclient('REPORT',$json);
+	 	 logger($logger, 'Wave Generator: SetLEDTIME '.$json['wavecontroller']['ledtime'].' '.$json['wavecontroller']['report'].'<br>',1);
+		}
+		else {
+	 	 logger($logger, 'Wave Generator socket not connected<br>',1);
+		}
+	}
+
+
+	if (preg_match('/setfrequency (.*)/', $htscmd, $mv)){
+	        if ($json['strobconnect'] == 1){
+		 $json['wavecontroller']['freq'] = $mv[1];
+   	   	 $json = waveformsocketclient('F'.($json['wavecontroller']['freq']/10),$json);
+		 sleep(1);
+   	   	 $json = waveformsocketclient('REPORT',$json);
+	 	 logger($logger, 'Wave Generator: SetVolts '.$json['wavecontroller']['volts'].' '.$json['wavecontroller']['report'].'<br>',1);
+		}
+		else {
+	 	 logger($logger, 'Wave Generator socket not connected<br>',1);
+		}
+	}
+
+	if (preg_match('/setpulse (.*)/', $htscmd, $mv)){
+	        if ($json['strobconnect'] == 1){
+		 $json['wavecontroller']['pulse'] = $mv[1];
+   	   	 $json = waveformsocketclient('P'.$json['wavecontroller']['pulse'],$json);
+		 sleep(1);
+   	   	 $json = waveformsocketclient('REPORT',$json);
+	 	 logger($logger, 'Wave Generator: SetVolts '.$json['wavecontroller']['volts'].' '.$json['wavecontroller']['report'].'<br>',1);
+		}
+		else {
+	 	 logger($logger, 'Wave Generator socket not connected<br>',1);
+		}
+	}
+
+
+	if (preg_match('/setdrops (.*)/', $htscmd, $mv)){
+         closejson($json);
+	 gearmansetdrops($mv[1]);
+  	 $json = openjson();
+	}
+
+
+	if (preg_match('/FIRE/', $htscmd)){
+         closejson($json);
+	 gearmanfire();
+  	 $json = openjson();
+	}
+
+	if (preg_match('/stroboscope on/', $htscmd)){
+         closejson($json);
+	 gearmanstrobon();
+  	 $json = openjson();
+	}
+
+	if (preg_match('/stroboscope off/', $htscmd)){
+         closejson($json);
+	 gearmanstroboff();
+  	 $json = openjson();
+	}
+
+	if (preg_match('/settrigger on/', $htscmd)){
+	        if ($json['strobconnect'] == 1){
+	 	 $json['wavecontroller']['trigger'] = '1';
+   	   	 $json = waveformsocketclient('TRIGON',$json);
+		 sleep(1);
+   	   	 $json = waveformsocketclient('REPORT',$json);
+	 	 logger($logger, 'Wave Generator: SetVolts '.$json['wavecontroller']['volts'].' '.$json['wavecontroller']['report'].'<br>',1);
+		}
+		else {
+	 	 logger($logger, 'Wave Generator socket not connected<br>',1);
+		}
+	}
+
+	if (preg_match('/settrigger off/', $htscmd)){
+	        if ($json['strobconnect'] == 1){
+	 	 $json['wavecontroller']['trigger'] = '0';
+   	   	 $json = waveformsocketclient('TRIGOFF',$json);
+		 sleep(1);
+   	   	 $json = waveformsocketclient('REPORT',$json);
+	 	 logger($logger, 'Wave Generator: SetVolts '.$json['wavecontroller']['volts'].' '.$json['wavecontroller']['report'].'<br>',1);
+		}
+		else {
+	 	 logger($logger, 'Wave Generator socket not connected<br>',1);
+		}
+	}
+
+
+
+	if (preg_match('/wavesocket stop/', $htscmd)){
+			$msg =  'Waveform generator socket ('.$json['servers']['strobcampi'].') disconnected<br>';
+			$cmd= 'sudo kill '.$json['wavesocketpid'];
+			$json['strobconnect'] = 0;
+			sshcontrolcaller($cmd,$json['servers']['strobcampi'],$json['wavesocketpid'],$json);
+			sleep(1);
+			logger($logger, $msg.' pid - '.$json['wavesocketpid'].' is killed<br>',1);
+			$json['wavesocketpid'] = 0;
+	}
+	if (preg_match('/wavesocket start/', $htscmd)){
+		if ($json['wavesocketpid'] > 0) {
+		  $msg = 'Problem waveform generator  socket already connected ';
+		  logger($logger, $msg.': pid - '.$json['wavesocketpid'].' Type "wavesocket stop"<br>',1);
+		}
+		else {
+ 		 $cmd = 'sudo php control_wavesocket.php start';
+		 $json['wavesocketpid'] = sshcontrolcaller($cmd,$json['servers']['strobcampi'],'start',$json);
+		 sleep(1);
+		 if ($json['wavesocketpid'] > 0){
+		    $json['strobconnect'] = 1;
+		    $msg =  'Waveform generator socket ('.$json['servers']['strobcampi'].') connected ';
+	 	    logger($logger, $msg.': pid - '.$json['wavesocketpid'].'<br>',1);
+		 } 
+		 else {
+	 	  logger($logger, 'Problem waveform generator socket not connected<br>',1);
+		 }
+		}
+	}
+
+	if (preg_match('/set syringe pump type (.*)/', $htscmd, $ty)){
+		if ($ty[1] == 'cavro'){
+		 $json['syringetype'] = "cavro";
+		}
+		else if($ty[1] == 'htsr'){
+		 $json['syringetype'] = "htsr";
+		}
+	}
+
+	//need to add to help list
+	if (preg_match('/disable steppers/', $htscmd)){
+		$msg = 'Steppers disabled<br>';
+		$json = disablesteppers('M18',$json);
+		logger($logger, $msg,1);
+	}
+	if (preg_match('/homex/', $htscmd)){
+	   if ($json["stop"] == "0"){
+		$json = smoothiesocketreportposition('M114',$json);
+		sleep(1);
+		$json = smoothiesockethoming('G28 X0',$json);
+ 	 	logger($logger, 'Homing X axis '.$json['smoothiemessage'].'<br>',1);
+		echo 'X homed<br>';
+		}
+		else {
+		 $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	 logger($logger, $msg.'<br>',1);
+		}
+	}
+	if (preg_match('/homey/', $htscmd)){
+	    if ($json["stop"] == "0"){
+		$json = smoothiesockethoming('G28 Y0',$json);
+		sleep(1);
+		$json = smoothiesocketreportposition('M114',$json);
+		$inputcmd = $json['ramplastcommand'];
+ 	 	logger($logger, 'Homing Y axis '.$json['smoothiemessage'].'<br>',1);
+		echo 'Y homed<br>';
+		}
+		else {
+		 $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	 logger($logger, $msg.'<br>',1);
+		}
+	}
+	if (preg_match('/homez/', $htscmd)){
+	  if ($json["stop"] == "0"){
+		$json = smoothiesockethoming('G28 Z0 F250',$json);
+		sleep(1);
+		$json = smoothiesocketreportposition('M114',$json);
+		$inputcmd = $json['ramplastcommand'];
+ 	 	logger($logger, 'Homing Z axis '.$json['smoothiemessage'].'<br>',1);
+		echo 'Z homed<br>';
+		}
+		else {
+		 $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	 logger($logger, $msg.'<br>',1);
+		}
+	}
+
+}
+
+
+
+
+$imgdataset = './imgdataset';
+file_put_contents($imgdataset, json_encode($json));
+
+
+
+?>
+
+
+<style type=text/css>
+input.red {background-color: #F8D6D6;}
+input.green {background-color: #BCF5A9;}
+//input.blue {background-color: #EADFF7;}
+input.blue {background-color: #FFFF00;}
+input.violet {background-color: #CED8F6;}
+input.txt {text-align:center;}
+}
+</style>
+
+
+<form action=gui.mod.php method=GET>
+<input type=hidden name="formtyp" value="clicmd">
+<table cellpadding=10 border=0><tr><td valign=top>
+
+<fieldset><legend><b>Repstrap CLI</b></legend>
+<table><tr>
+<td><input type=text name=cli value="<?php echo $inputcmd; ?>" size=25>
+</td>
+<td valign=top><div onKeyPress="return checkSubmit(event)"/><input type=submit class="green" name=clisub></div></td>
+<td valign=top><input type=submit class="blue" name=cli value="Position"></td>
+</tr>
+</table>
+</fieldset>
+<br>
+<br>
+<br>
+
+<div align=right>
+<?php if ($json['sockets'] == 1){ ?>
+ <input type=submit name=cli style="font-face: 'Comic Sans MS'; font-size: larger; color: white; background-color: red; border: 3pt ridge lightgrey" value="STOP SOCKETS">
+<?php } ?>
+<?php if ($json['sockets'] == 0){ ?>
+ <input type=submit name=cli style="font-face: 'Comic Sans MS'; font-size: larger; color: white; background-color: green; border: 3pt ridge lightgrey" value="START SOCKETS">
+<?php } ?>
+
+<br><br>
+
+<div align=right>
+<?php
+if ($json['stop'] == "0"){
+?>
+<input type=submit name=cli style="font-face: 'Comic Sans MS'; font-size: larger; color: white; background-color: red; border: 3pt ridge lightgrey" value="STOP">
+<?php } ?>
+<?php
+if ($json['stop'] == "1"){
+?>
+<input type=submit name=cli style="font-face: 'Comic Sans MS'; font-size: larger; color: white; background-color: green; border: 3pt ridge lightgrey" value="GO">
+
+<?php } ?>
+
+
+</div>
+
+
+
+<td valign=top>
+
+</form>
+
+<?php include('manualmove.inc.php'); ?>
+
+
+</td>
+
+
+<td valign=top align=center>
+</td>
+<td valign=top>
+</td>
+<td>
+</td>
+</tr></table>
+
+
+
+
+

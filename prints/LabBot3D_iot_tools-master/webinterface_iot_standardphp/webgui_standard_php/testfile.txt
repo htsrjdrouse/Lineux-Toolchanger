@@ -1,0 +1,77 @@
+
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:297
+<br>
+
+COMPLETE: H:chubox:452
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:453
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:454
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:455
+JOB: finish<br>
+
+COMPLETE: H:chubox:456
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:344
+<br>
+
+COMPLETE: H:chubox:457
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:458
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:459
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:460
+JOB: finish<br>
+
+COMPLETE: H:chubox:461
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:462
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:463
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:338
+<br>
+
+COMPLETE: H:chubox:464
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:465
+JOB: finish<br>
+
+COMPLETE: H:chubox:466
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:467
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:340
+<br>
+
+COMPLETE: H:chubox:468
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:469
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:470
+JOB: finish<br>
+
+COMPLETE: H:chubox:471

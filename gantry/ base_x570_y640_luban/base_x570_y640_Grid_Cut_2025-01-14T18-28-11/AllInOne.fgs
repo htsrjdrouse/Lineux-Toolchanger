@@ -1,0 +1,181 @@
+CLJ++ FIG token file
+DATAFILE AllInOne.fgd
+
+Maximized 1
+WinSize 1472 948
+Viewport 0 0 1 1
+OrthoProj 0
+FixedAspect 1
+ViewingAngle 30 -15 0
+BKRGB 0 0 0
+Axis 1 255 255 255
+Colorbar 0 0.5 0.5 10 200
+Legend 0 0.5 0.5 10 70 90 400 0 Arial
+Lighting 1 90 0 0.1 0.1 0.1 1
+XTitle X
+YTitle Z
+ZTitle Y
+XTicks ;-20;0;20;40;60;80;100;120;140;
+YTicks ;0;
+ZTicks ;0;50;100;150;
+XTitleFont 18 70 90 400 0 Arial
+YTitleFont 18 70 90 400 0 Arial
+ZTitleFont 18 70 90 400 0 Arial
+TickFont 14 70 90 400 0 Arial
+Grid 1 1 1
+AutoTick 1 1 1
+AutoLim 0 0 0
+XLim -20 140
+YLim -0.2 2
+ZLim -20 180
+
+BEGIN_BASICSHAPE
+Name Z1_Y1_X1
+Sample 1
+PointStyle 1
+PointSize 4
+LineStyle 0
+LineWidth 1
+BarWidth 1
+3DTxtSize 0.05
+ShowPoint 0
+ShowEdge 0
+ShowSurf 1
+ShowTex 0
+PointColorTable 11
+EdgeColorTable 11
+SurfColorTable -1
+PointRGB 255 255 255
+EdgeRGB 255 255 255
+SurfRGB 167 241 217
+Alpha 1
+ClipBox 0 1 0 1 0 1
+VRMode 1
+RGBPos 0 127 191 255
+RGBColor 0 0 0 0 0 0 1 1 1 1 1 1
+AlphaPos 0 0 0 0 127 0 255 255
+END_BASICSHAPE
+
+BEGIN_BASICSHAPE
+Name Z1_Y1_X2
+Sample 1
+PointStyle 1
+PointSize 4
+LineStyle 0
+LineWidth 1
+BarWidth 1
+3DTxtSize 0.05
+ShowPoint 0
+ShowEdge 0
+ShowSurf 1
+ShowTex 0
+PointColorTable 11
+EdgeColorTable 11
+SurfColorTable -1
+PointRGB 255 255 255
+EdgeRGB 255 255 255
+SurfRGB 42 130 200
+Alpha 1
+ClipBox 0 1 0 1 0 1
+VRMode 1
+RGBPos 0 127 191 255
+RGBColor 0 0 0 0 0 0 1 1 1 1 1 1
+AlphaPos 0 0 0 0 127 0 255 255
+END_BASICSHAPE
+
+BEGIN_BASICSHAPE
+Name Z1_Y2_X1
+Sample 1
+PointStyle 1
+PointSize 4
+LineStyle 0
+LineWidth 1
+BarWidth 1
+3DTxtSize 0.05
+ShowPoint 0
+ShowEdge 0
+ShowSurf 1
+ShowTex 0
+PointColorTable 11
+EdgeColorTable 11
+SurfColorTable -1
+PointRGB 255 255 255
+EdgeRGB 255 255 255
+SurfRGB 216 254 67
+Alpha 1
+ClipBox 0 1 0 1 0 1
+VRMode 1
+RGBPos 0 127 191 255
+RGBColor 0 0 0 0 0 0 1 1 1 1 1 1
+AlphaPos 0 0 0 0 127 0 255 255
+END_BASICSHAPE
+
+BEGIN_BASICSHAPE
+Name Z1_Y2_X2
+Sample 1
+PointStyle 1
+PointSize 4
+LineStyle 0
+LineWidth 1
+BarWidth 1
+3DTxtSize 0.05
+ShowPoint 0
+ShowEdge 0
+ShowSurf 1
+ShowTex 0
+PointColorTable 11
+EdgeColorTable 11
+SurfColorTable -1
+PointRGB 255 255 255
+EdgeRGB 255 255 255
+SurfRGB 77 152 85
+Alpha 1
+ClipBox 0 1 0 1 0 1
+VRMode 1
+RGBPos 0 127 191 255
+RGBColor 0 0 0 0 0 0 1 1 1 1 1 1
+AlphaPos 0 0 0 0 127 0 255 255
+END_BASICSHAPE
+
+BEGIN_BASICSHAPE
+Name Z1_Y2_X3
+Sample 1
+PointStyle 1
+PointSize 4
+LineStyle 0
+LineWidth 1
+BarWidth 1
+3DTxtSize 0.05
+ShowPoint 0
+ShowEdge 0
+ShowSurf 1
+ShowTex 0
+PointColorTable 11
+EdgeColorTable 11
+SurfColorTable -1
+PointRGB 255 255 255
+EdgeRGB 255 255 255
+SurfRGB 140 226 179
+Alpha 1
+ClipBox 0 1 0 1 0 1
+VRMode 1
+RGBPos 0 127 191 255
+RGBColor 0 0 0 0 0 0 1 1 1 1 1 1
+AlphaPos 0 0 0 0 127 0 255 255
+END_BASICSHAPE
+
+CANVASRGB 255 255 255
+RGB 50 250 50
+BK_RGB 50 250 50
+BK_SOLID 0
+LINE_WIDTH 1
+LINE_STYLE 0
+DRAG 1
+RESIZE 1
+LAYER 0
+TXT { Parts: 5, 0.00492 kg
+Printer: 33 min
+Assembly: 3 min
+Total time: 36 min }
+5 5 0 0 0
+31 70 90 400 0 Times New Roman

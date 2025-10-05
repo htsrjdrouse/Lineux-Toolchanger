@@ -1,0 +1,1 @@
+sudo /usr/src/ffmpeg-4.0.2-armhf-32bit-static/ffmpeg -f MJPEG -y -i http://192.168.1.69:8000/stream.mjpg -r 1 -vframes 1 -q:v 1 /var/www/html/labbot3damp_gui/imaging/strobtest/0_1_0_r11_c7_2019-07-09-23-39-43.jpg

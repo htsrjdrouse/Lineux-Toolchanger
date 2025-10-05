@@ -1,0 +1,13 @@
+JSON FILE LIST
+
+JavaScript Object Notation (JSON) files
+
+imgdataset - is the main data collector of the instrument 
+taskjob - is the file that gearman runs
+taskjob3 - this contains the gcode files
+loggerdataset - this tracks the commands and displays data 
+tasklogger - this tracks the steps in a gearman run and is read by javascript (my_script.js)
+loggerdataset.results - this is the data displayed in the terminal
+pythoncode - this contains the collection of python scripts
+strobdataset - this contains teh stroboscope image processing data
+

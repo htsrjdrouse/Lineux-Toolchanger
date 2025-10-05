@@ -1,0 +1,9580 @@
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:472
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:473
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:474
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:295
+<br>
+
+COMPLETE: H:chubox:475
+JOB: finish<br>
+
+COMPLETE: H:chubox:476
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:295
+<br>
+
+COMPLETE: H:chubox:477
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:478
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:479
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:481
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:295
+<br>
+
+COMPLETE: H:chubox:480
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:482
+JOB: finish<br>
+
+COMPLETE: H:chubox:483
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcou~t:0,Endstopstatus:0,Valveencoder:293
+<br>
+
+COMPLETE: H:chubox:484
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:485
+JOB: finish<br>
+
+COMPLETE: H:chubox:486
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:293
+<br>
+
+COMPLETE: H:chubox:487
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:341
+<br>
+
+COMPLETE: H:chubox:488
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endsuopstatus:0,Valveencoder:293*
+<br>
+
+COMPLETE: H:chubox:489
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:293
+<br>
+
+COMPLETE: H:chubox:490
+JOB: finish<br>
+
+COMPLETE: H:chubox:491
+JOB: Smoothie power: Power applied to smoothie board<br><br>
+
+COMPLETE: H:chubox:492
+JOB: Syringemotor pump: Syringe motors powered up<br><br>
+
+COMPLETE: H:chubox:493
+JOB: Syringevalve: Syringe valve and logic powered up<br><br>
+
+COMPLETE: H:chubox:494
+JOB: finish<br>
+
+COMPLETE: H:chubox:495
+JOB: Syringe pump: Steps:1000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder;294
+<br>
+
+COMPLETE: H:chubox:496
+JOB: Syringe pump: Steps:1000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:497
+JOB: Syringe pump: Steps:1000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:293
+<br>
+
+COMPLETE: H:chubox:498
+JOB: finish<br>
+
+COMPLETE: H:chubox:499
+JOB: Syringe pump: Steps:1000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:297
+<br>
+
+COMPLETE: H:chubox:500
+JOB: Syringe pump: Steps:1000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:293
+<br>
+
+COMPLETE: H:chubox:501
+JOB: Syringe pump: Steps:1000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:502
+JOB: finish<br>
+
+COMPLETE: H:chubox:503
+JOB: Syringe pump: Steps:1000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:295
+<br>
+
+COMPLETE: H:chubox:504
+JOB: Syringe pump: Steps:2000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:297
+<br>
+
+COMPLETE: H:chubox:506
+JOB: Syringe pump: Steps:2000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:343
+<br>
+
+COMPLETE: H:chubox:508
+JOB: Syringe pump: Steps:2000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:297
+<br>
+
+COMPLETE: H:chubox:510
+JOB: Syringe pump: Steps:2000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:512
+JOB: Syringe pump: Steps:2000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:514
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:515
+JOB: Syringe pump: Steps:2000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:516
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 3000<br><br>
+
+COMPLETE: H:chubox:517
+JOB: Syringe pump: Steps:3000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:518
+JOB: finish<br>
+
+COMPLETE: H:chubox:519
+JOB: Syringe pump: Steps:3000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:293
+<br>
+
+COMPLETE: H:chubox:520
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:521
+JOB: Syringe pump: Steps:2000,Steprate:750,Stepcount:0,Ends|opstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:522
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 3000<br><br>
+
+COMPLETE: H:chubox:523
+JOB: Syringe pump: Steps:3000,Steprate:750,Stepcount:0,Endstopstatus:0,Valveencoder:339
+<br>
+
+COMPLETE: H:chubox:524
+JOB: finish<br>
+
+COMPLETE: H:chubox:525
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:526
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate <br><br>
+
+COMPLETE: H:chubox:527
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:529
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate <br><br>
+
+COMPLETE: H:chubox:530
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:535
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:536
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:538
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:539
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:542
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:543
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:545
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:546
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:548
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:549
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:551
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:552
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:554
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:555
+JOB: finish<br>
+
+COMPLETE: H:chubox:556
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:557
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:558
+JOB: finish<br>
+
+COMPLETE: H:chubox:559
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:560
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:561
+JOB: finish<br>
+
+COMPLETE: H:chubox:562
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:563
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:564
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:566
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:567
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:569
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:570
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:572
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:573
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:575
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:576
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:578
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:579
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:581
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:582
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:585
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:586
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:588
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:589
+JOB: Syringe pump: Steps:2000,Steprate:50,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:590
+JOB: finish<br>
+
+COMPLETE: H:chubox:591
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:592
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:593
+JOB: Syringe pump: Steps:2000,Steprate:50,Stepcount:0,Endstopstatus:0,Valveencoder:295
+<br>
+
+COMPLETE: H:chubox:594
+JOB: finish<br>
+
+COMPLETE: H:chubox:595
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 2000<br><br>
+
+COMPLETE: H:chubox:596
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 50<br><br>
+
+COMPLETE: H:chubox:597
+JOB: Syringe pump: Steps:2000,Steprate:50,Stepcount:0,Endstopstatus:0,Valveencoder:295
+<br>
+
+COMPLETE: H:chubox:598
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 3000<br><br>
+
+COMPLETE: H:chubox:599
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 500<br><br>
+
+COMPLETE: H:chubox:600
+JOB: Syringe pump: Steps:3000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:293
+<br>
+
+COMPLETE: H:chubox:601
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 3000<br><br>
+
+COMPLETE: H:chubox:602
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 2500<br><br>
+
+COMPLETE: H:chubox:603
+JOB: Syringe pump: Steps:3000,Steprate:2500,Stepcount:0,Endstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:604
+JOB: finish<br>
+
+COMPLETE: H:chubox:605
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 1000<br><br>
+
+COMPLETE: H:chubox:606
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 500<br><br>
+
+COMPLETE: H:chubox:607
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Enlstopstatus:0,Valveencoder:294
+<br>
+
+COMPLETE: H:chubox:608
+JOB: Smoothie power: Power disconnected to smoothie board<br><br>
+
+COMPLETE: H:chubox:616
+JOB: Syringemotor pump: Syringe motors powered down<br><br>
+
+COMPLETE: H:chubox:617
+JOB: Syringevalve: Syringe valve and logic powered down<br><br>
+
+COMPLETE: H:chubox:618
+JOB: finish<br>
+
+COMPLETE: H:chubox:619
+JOB: Smoothie power: Power applied to smoothie board<br><br>
+
+COMPLETE: H:chubox:620
+JOB: Syringemotor pump: Syringe motors powered up<br><br>
+
+COMPLETE: H:chubox:621
+JOB: Syringevalve: Syringe valve and logic powered up<br><br>
+
+COMPLETE: H:chubox:622
+JOB: finish<br>
+
+COMPLETE: H:chubox:623
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 1000<br><br>
+
+COMPLETE: H:chubox:624
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 500<br><br>
+
+COMPLETE: H:chubox:625
+JOB: Syringe pump: Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:296
+<br>
+
+COMPLETE: H:chubox:626
+JOB: Smoothie power: Power applied to smoothie board<br><br>
+
+COMPLETE: H:chubox:630
+JOB: Syringemotor pump: Syringe motors powered up<br><br>
+
+COMPLETE: H:chubox:631
+JOB: Syringevalve: Syringe valve and logic powered up<br><br>
+
+COMPLETE: H:chubox:632
+JOB: finish<br>
+
+COMPLETE: H:chubox:633
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:635
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:636
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:637
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:638
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:639
+JOB: Error dispense volume exceeds volume in syringe<br>
+
+COMPLETE: H:chubox:640
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:641
+JOB: Error dispense volume exceeds volume in syringe<br>
+
+COMPLETE: H:chubox:642
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:643
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:644
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:645
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:646
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:647
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:648
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:649
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:650
+JOB: finish<br>
+
+COMPLETE: H:chubox:651
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:652
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:653
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:654
+JOB: finish<br>
+
+COMPLETE: H:chubox:655
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:656
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:657
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:658
+JOB: finish<br>
+
+COMPLETE: H:chubox:659
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:660
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:661
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:662
+JOB: finish<br>
+
+COMPLETE: H:chubox:663
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:664
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:665
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:666
+JOB: finish<br>
+
+COMPLETE: H:chubox:667
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:668
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:669
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:670
+JOB: finish<br>
+
+COMPLETE: H:chubox:671
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:672
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:673
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:674
+JOB: finish<br>
+
+COMPLETE: H:chubox:675
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:676
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:677
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:678
+JOB: finish<br>
+
+COMPLETE: H:chubox:679
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:680
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:681
+JOB: finish<br>
+
+COMPLETE: H:chubox:682
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:683
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:684
+JOB: finish<br>
+
+COMPLETE: H:chubox:685
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:686
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:687
+JOB: finish<br>
+
+COMPLETE: H:chubox:688
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:689
+JOB: finish<br>
+
+COMPLETE: H:chubox:690
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:691
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:692
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:694
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:695
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:697
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:698
+JOB: Smoothie power: Power disconnected to smoothie board<br><br>
+
+COMPLETE: H:chubox:700
+JOB: Syringemotor pump: Syringe motors powered down<br><br>
+
+COMPLETE: H:chubox:701
+JOB: Syringevalve: Syringe valve and logic powered down<br><br>
+
+COMPLETE: H:chubox:702
+JOB: finish<br>
+
+COMPLETE: H:chubox:703
+JOB: Smoothie power: Power applied to smoothie board<br><br>
+
+COMPLETE: H:chubox:704
+JOB: Syringemotor pump: Syringe motors powered up<br><br>
+
+COMPLETE: H:chubox:705
+JOB: Syringevalve: Syringe valve and logic powered up<br><br>
+
+COMPLETE: H:chubox:706
+JOB: finish<br>
+
+COMPLETE: H:chubox:707
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:708
+JOB: finish<br>
+
+COMPLETE: H:chubox:709
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:710
+JOB: finish<br>
+
+COMPLETE: H:chubox:711
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:712
+JOB: finish<br>
+
+COMPLETE: H:chubox:713
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:714
+JOB: finish<br>
+
+COMPLETE: H:chubox:715
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:716
+JOB: finish<br>
+
+COMPLETE: H:chubox:717
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:718
+JOB: finish<br>
+
+COMPLETE: H:chubox:719
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:720
+JOB: finish<br>
+
+COMPLETE: H:chubox:721
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:722
+JOB: finish<br>
+
+COMPLETE: H:chubox:723
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:724
+JOB: finish<br>
+
+COMPLETE: H:chubox:725
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:726
+JOB: finish<br>
+
+COMPLETE: H:chubox:727
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:728
+JOB: finish<br>
+
+COMPLETE: H:chubox:729
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:730
+JOB: finish<br>
+
+COMPLETE: H:chubox:731
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:732
+JOB: finish<br>
+
+COMPLETE: H:chubox:733
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:734
+JOB: finish<br>
+
+COMPLETE: H:chubox:735
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:736
+JOB: finish<br>
+
+COMPLETE: H:chubox:737
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:738
+JOB: finish<br>
+
+COMPLETE: H:chubox:739
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:740
+JOB: finish<br>
+
+COMPLETE: H:chubox:741
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:742
+JOB: finish<br>
+
+COMPLETE: H:chubox:743
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:744
+JOB: finish<br>
+
+COMPLETE: H:chubox:745
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:746
+JOB: finish<br>
+
+COMPLETE: H:chubox:747
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:748
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:749
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:751
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:752
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:754
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:755
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:756
+JOB: finish<br>
+
+COMPLETE: H:chubox:757
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:758
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:759
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:760
+JOB: finish<br>
+
+COMPLETE: H:chubox:761
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:762
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:763
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:764
+JOB: finish<br>
+
+COMPLETE: H:chubox:765
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:766
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:767
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:768
+JOB: finish<br>
+
+COMPLETE: H:chubox:769
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:770
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:771
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:772
+JOB: finish<br>
+
+COMPLETE: H:chubox:773
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:774
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:775
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:776
+JOB: finish<br>
+
+COMPLETE: H:chubox:777
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:778
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:779
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:780
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:781
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:782
+JOB: finish<br>
+
+COMPLETE: H:chubox:783
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:784
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:785
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:786
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:787
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:788
+JOB: finish<br>
+
+COMPLETE: H:chubox:789
+JOB: Smoothie power: Power disconnected to smoothie board<br><br>
+
+COMPLETE: H:chubox:790
+JOB: Syringemotor pump: Syringe motors powered down<br><br>
+
+COMPLETE: H:chubox:791
+JOB: Syringevalve: Syringe valve and logic powered down<br><br>
+
+COMPLETE: H:chubox:792
+JOB: finish<br>
+
+COMPLETE: H:chubox:793
+JOB: Smoothie power: Power applied to smoothie board<br><br>
+
+COMPLETE: H:chubox:794
+JOB: Syringemotor pump: Syringe motors powered up<br><br>
+
+COMPLETE: H:chubox:795
+JOB: Syringevalve: Syringe valve and logic powered up<br><br>
+
+COMPLETE: H:chubox:796
+JOB: finish<br>
+
+COMPLETE: H:chubox:797
+JOB: Smoothie power: Power disconnected to smoothie board<br><br>
+
+COMPLETE: H:chubox:798
+JOB: Syringemotor pump: Syringe motors powered down<br><br>
+
+COMPLETE: H:chubox:799
+JOB: Syringevalve: Syringe valve and logic powered down<br><br>
+
+COMPLETE: H:chubox:800
+JOB: finish<br>
+
+COMPLETE: H:chubox:801
+JOB: Smoothie power: Power applied to smoothie board<br><br>
+
+COMPLETE: H:chubox:802
+JOB: Syringemotor pump: Syringe motors powered up<br><br>
+
+COMPLETE: H:chubox:803
+JOB: Syringevalve: Syringe valve and logic powered up<br><br>
+
+COMPLETE: H:chubox:804
+JOB: finish<br>
+
+COMPLETE: H:chubox:805
+JOB: Smoothie power: Power disconnected to smoothie board<br><br>
+
+COMPLETE: H:chubox:806
+JOB: Syringemotor pump: Syringe motors powered down<br><br>
+
+COMPLETE: H:chubox:807
+JOB: Syringevalve: Syringe valve and logic powered down<br><br>
+
+COMPLETE: H:chubox:808
+JOB: finish<br>
+
+COMPLETE: H:chubox:809
+JOB: Smoothie power: Power applied to smoothie board<br><br>
+
+COMPLETE: H:chubox:810
+JOB: Syringemotor pump: Syringe motors powered up<br><br>
+
+COMPLETE: H:chubox:811
+JOB: Syringevalve: Syringe valve and logic powered up<br><br>
+
+COMPLETE: H:chubox:812
+JOB: finish<br>
+
+COMPLETE: H:chubox:813
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:814
+JOB: finish<br>
+
+COMPLETE: H:chubox:815
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:816
+JOB: finish<br>
+
+COMPLETE: H:chubox:817
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:818
+JOB: finish<br>
+
+COMPLETE: H:chubox:819
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:820
+JOB: finish<br>
+
+COMPLETE: H:chubox:821
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:822
+JOB: finish<br>
+
+COMPLETE: H:chubox:823
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:824
+JOB: finish<br>
+
+COMPLETE: H:chubox:825
+JOB: Syringe pump: Syringe socket is not connected (To start: SYsocket start)<br><br>
+
+COMPLETE: H:chubox:826
+JOB: finish<br>
+
+COMPLETE: H:chubox:827
+JOB: Syringe pump: Syringe socket is not connected (To start: SYsocket start)<br><br>
+
+COMPLETE: H:chubox:828
+JOB: finish<br>
+
+COMPLETE: H:chubox:829
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:830
+JOB: finish<br>
+
+COMPLETE: H:chubox:831
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:832
+JOB: finish<br>
+
+COMPLETE: H:chubox:833
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:834
+JOB: finish<br>
+
+COMPLETE: H:chubox:835
+JOB: Smoothie power: Power disconnected to smoothie board<br><br>
+
+COMPLETE: H:chubox:836
+JOB: Syringemotor pump: Syringe motors powered down<br><br>
+
+COMPLETE: H:chubox:837
+JOB: Syringevalve: Syringe valve and logic powered down<br><br>
+
+COMPLETE: H:chubox:838
+JOB: finish<br>
+
+COMPLETE: H:chubox:839
+JOB: 
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: 
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: 
+
+COMPLETE: H:chubox:7
+JOB: finish<br>
+
+COMPLETE: H:chubox:8
+JOB: 
+
+COMPLETE: H:chubox:9
+JOB: finish<br>
+
+COMPLETE: H:chubox:10
+JOB: 
+
+COMPLETE: H:chubox:13
+JOB: finish<br>
+
+COMPLETE: H:chubox:14
+JOB: 
+
+COMPLETE: H:chubox:15
+JOB: finish<br>
+
+COMPLETE: H:chubox:16
+JOB: 
+
+COMPLETE: H:chubox:17
+JOB: finish<br>
+
+COMPLETE: H:chubox:18
+JOB: 
+
+COMPLETE: H:chubox:19
+JOB: finish<br>
+
+COMPLETE: H:chubox:20
+JOB: 
+
+COMPLETE: H:chubox:21
+JOB: finish<br>
+
+COMPLETE: H:chubox:22
+JOB: 
+
+COMPLETE: H:chubox:23
+JOB: finish<br>
+
+COMPLETE: H:chubox:24
+JOB: 
+
+COMPLETE: H:chubox:25
+JOB: finish<br>
+
+COMPLETE: H:chubox:26
+JOB: 
+
+COMPLETE: H:chubox:27
+JOB: finish<br>
+
+COMPLETE: H:chubox:28
+JOB: 
+
+COMPLETE: H:chubox:29
+JOB: finish<br>
+
+COMPLETE: H:chubox:30
+JOB: 
+
+COMPLETE: H:chubox:31
+JOB: finish<br>
+
+COMPLETE: H:chubox:32
+JOB: 
+
+COMPLETE: H:chubox:33
+JOB: finish<br>
+
+COMPLETE: H:chubox:34
+JOB: 
+
+COMPLETE: H:chubox:35
+JOB: finish<br>
+
+COMPLETE: H:chubox:36
+JOB: 
+
+COMPLETE: H:chubox:37
+JOB: finish<br>
+
+COMPLETE: H:chubox:38
+JOB: 
+
+COMPLETE: H:chubox:39
+JOB: finish<br>
+
+COMPLETE: H:chubox:40
+JOB: 
+
+COMPLETE: H:chubox:41
+JOB: finish<br>
+
+COMPLETE: H:chubox:42
+JOB: 
+
+COMPLETE: H:chubox:43
+JOB: finish<br>
+
+COMPLETE: H:chubox:44
+JOB: 
+
+COMPLETE: H:chubox:45
+JOB: finish<br>
+
+COMPLETE: H:chubox:46
+JOB: 
+
+COMPLETE: H:chubox:47
+JOB: finish<br>
+
+COMPLETE: H:chubox:48
+JOB: 
+
+COMPLETE: H:chubox:49
+JOB: finish<br>
+
+COMPLETE: H:chubox:50
+JOB: Headcam stream stops<br>
+
+COMPLETE: H:chubox:51
+JOB: finish<br>
+
+COMPLETE: H:chubox:52
+JOB: Headcam stream stops<br>
+
+COMPLETE: H:chubox:53
+JOB: finish<br>
+
+COMPLETE: H:chubox:54
+JOB: Headcam streams starts<br>
+
+COMPLETE: H:chubox:55
+JOB: finish<br>
+
+COMPLETE: H:chubox:56
+JOB: Headcam stream stops<br>
+
+COMPLETE: H:chubox:57
+JOB: finish<br>
+
+COMPLETE: H:chubox:58
+JOB: 
+
+COMPLETE: H:chubox:59
+JOB: finish<br>
+
+COMPLETE: H:chubox:60
+JOB: Headcam stream stops<br>
+
+COMPLETE: H:chubox:61
+JOB: finish<br>
+
+COMPLETE: H:chubox:62
+JOB: Headcam streams starts<br>
+
+COMPLETE: H:chubox:63
+JOB: finish<br>
+
+COMPLETE: H:chubox:64
+JOB: Headcam stream stops<br>
+
+COMPLETE: H:chubox:65
+JOB: finish<br>
+
+COMPLETE: H:chubox:66
+JOB: Smoothie power: Power disconnected to smoothie board<br><br>
+
+COMPLETE: H:chubox:1
+JOB: Syringemotor pump: Syringe motors powered down<br><br>
+
+COMPLETE: H:chubox:2
+JOB: Syringevalve: Syringe valve and logic powered down<br><br>
+
+COMPLETE: H:chubox:3
+JOB: X:2.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:13
+JOB: finish<br>
+
+COMPLETE: H:chubox:14
+JOB: X:25.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:15
+JOB: finish<br>
+
+COMPLETE: H:chubox:16
+JOB: X:48.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:17
+JOB: finish<br>
+
+COMPLETE: H:chubox:18
+JOB: X:25.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:19
+JOB: finish<br>
+
+COMPLETE: H:chubox:20
+JOB: X:25.000 Y:23.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:21
+JOB: finish<br>
+
+COMPLETE: H:chubox:22
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:23
+JOB: finish<br>
+
+COMPLETE: H:chubox:24
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:25
+JOB: finish<br>
+
+COMPLETE: H:chubox:26
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:27
+JOB: finish<br>
+
+COMPLETE: H:chubox:28
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:29
+JOB: finish<br>
+
+COMPLETE: H:chubox:30
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:31
+JOB: finish<br>
+
+COMPLETE: H:chubox:32
+JOB: X:25.000 Y:23.000 Z:2.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:33
+JOB: finish<br>
+
+COMPLETE: H:chubox:34
+JOB: X:25.000 Y:23.000 Z:22.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:35
+JOB: finish<br>
+
+COMPLETE: H:chubox:36
+JOB: X:25.000 Y:23.000 Z:32.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:37
+JOB: finish<br>
+
+COMPLETE: H:chubox:38
+JOB: X:25.000 Y:23.000 Z:42.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:39
+JOB: finish<br>
+
+COMPLETE: H:chubox:40
+JOB: X:25.000 Y:23.000 Z:52.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:41
+JOB: finish<br>
+
+COMPLETE: H:chubox:42
+JOB: X:25.000 Y:23.000 Z:62.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:43
+JOB: finish<br>
+
+COMPLETE: H:chubox:44
+JOB: X:25.000 Y:23.000 Z:72.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:45
+JOB: finish<br>
+
+COMPLETE: H:chubox:46
+JOB: X:25.000 Y:23.000 Z:82.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:47
+JOB: finish<br>
+
+COMPLETE: H:chubox:48
+JOB: Smoothie power: Power applied to smoothie board<br><br>
+
+COMPLETE: H:chubox:50
+JOB: Syringemotor pump: Syringe motors powered up<br><br>
+
+COMPLETE: H:chubox:51
+JOB: Syringevalve: Syringe valve and logic powered up<br><br>
+
+COMPLETE: H:chubox:52
+JOB: X:27.000 Y:23.000 Z:85.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:54
+JOB: finish<br>
+
+COMPLETE: H:chubox:55
+JOB: X:29.000 Y:23.000 Z:85.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:56
+JOB: finish<br>
+
+COMPLETE: H:chubox:57
+JOB: X:31.000 Y:23.000 Z:85.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:58
+JOB: finish<br>
+
+COMPLETE: H:chubox:59
+JOB: X:31.000 Y:23.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:60
+JOB: finish<br>
+
+COMPLETE: H:chubox:61
+JOB: X:31.000 Y:23.000 Z:85.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:62
+JOB: finish<br>
+
+COMPLETE: H:chubox:63
+JOB: X:31.000 Y:23.000 Z:80.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:64
+JOB: finish<br>
+
+COMPLETE: H:chubox:65
+JOB: X:31.000 Y:23.000 Z:75.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:66
+JOB: finish<br>
+
+COMPLETE: H:chubox:67
+JOB: X:31.000 Y:23.000 Z:70.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:68
+JOB: finish<br>
+
+COMPLETE: H:chubox:69
+JOB: X:31.000 Y:23.000 Z:65.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:70
+JOB: finish<br>
+
+COMPLETE: H:chubox:71
+JOB: X:31.000 Y:23.000 Z:60.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:72
+JOB: finish<br>
+
+COMPLETE: H:chubox:73
+JOB: X:31.000 Y:23.000 Z:55.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:74
+JOB: finish<br>
+
+COMPLETE: H:chubox:75
+JOB: X:31.000 Y:23.000 Z:50.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:76
+JOB: finish<br>
+
+COMPLETE: H:chubox:77
+JOB: X:31.000 Y:23.000 Z:45.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:78
+JOB: finish<br>
+
+COMPLETE: H:chubox:79
+JOB: X:31.000 Y:23.000 Z:40.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:80
+JOB: finish<br>
+
+COMPLETE: H:chubox:81
+JOB: X:31.000 Y:23.000 Z:35.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:82
+JOB: finish<br>
+
+COMPLETE: H:chubox:83
+JOB: X:31.000 Y:23.000 Z:30.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:84
+JOB: finish<br>
+
+COMPLETE: H:chubox:85
+JOB: X:31.000 Y:23.000 Z:25.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:86
+JOB: finish<br>
+
+COMPLETE: H:chubox:87
+JOB: X:31.000 Y:23.000 Z:20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:88
+JOB: finish<br>
+
+COMPLETE: H:chubox:89
+JOB: X:31.000 Y:23.000 Z:15.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:90
+JOB: finish<br>
+
+COMPLETE: H:chubox:91
+JOB: X:31.000 Y:23.000 Z:10.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:92
+JOB: finish<br>
+
+COMPLETE: H:chubox:93
+JOB: X:31.000 Y:23.000 Z:5.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:94
+JOB: finish<br>
+
+COMPLETE: H:chubox:95
+JOB: X:31.000 Y:23.000 Z:10.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:96
+JOB: finish<br>
+
+COMPLETE: H:chubox:97
+JOB: X:31.000 Y:46.000 Z:10.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:98
+JOB: finish<br>
+
+COMPLETE: H:chubox:99
+JOB: X:31.000 Y:46.000 Z:15.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:100
+JOB: finish<br>
+
+COMPLETE: H:chubox:101
+JOB: X:31.000 Y:46.000 Z:20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:102
+JOB: finish<br>
+
+COMPLETE: H:chubox:103
+JOB: X:54.000 Y:46.000 Z:20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:104
+JOB: finish<br>
+
+COMPLETE: H:chubox:105
+JOB: X:54.000 Y:46.000 Z:25.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:106
+JOB: finish<br>
+
+COMPLETE: H:chubox:107
+JOB: X:54.000 Y:46.000 Z:30.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:108
+JOB: finish<br>
+
+COMPLETE: H:chubox:109
+JOB: X:54.000 Y:46.000 Z:35.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:110
+JOB: finish<br>
+
+COMPLETE: H:chubox:111
+JOB: X:54.000 Y:46.000 Z:55.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:112
+JOB: finish<br>
+
+COMPLETE: H:chubox:113
+JOB: X:54.000 Y:46.000 Z:55.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:114
+JOB: finish<br>
+
+COMPLETE: H:chubox:115
+JOB: X:54.000 Y:46.000 Z:75.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:116
+JOB: finish<br>
+
+COMPLETE: H:chubox:117
+JOB: X:54.000 Y:46.000 Z:95.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:118
+JOB: finish<br>
+
+COMPLETE: H:chubox:119
+JOB: X:54.000 Y:46.000 Z:95.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:120
+JOB: finish<br>
+
+COMPLETE: H:chubox:121
+JOB: X:54.000 Y:46.000 Z:115.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:122
+JOB: finish<br>
+
+COMPLETE: H:chubox:123
+JOB: X:54.000 Y:46.000 Z:110.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:124
+JOB: finish<br>
+
+COMPLETE: H:chubox:125
+JOB: X:54.000 Y:46.000 Z:130.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:126
+JOB: finish<br>
+
+COMPLETE: H:chubox:127
+JOB: X:54.000 Y:46.000 Z:150.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:128
+JOB: finish<br>
+
+COMPLETE: H:chubox:129
+JOB: X:54.000 Y:46.000 Z:160.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:130
+JOB: finish<br>
+
+COMPLETE: H:chubox:131
+JOB: X:54.000 Y:46.000 Z:170.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:132
+JOB: finish<br>
+
+COMPLETE: H:chubox:133
+JOB: X:64.000 Y:46.000 Z:170.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:134
+JOB: finish<br>
+
+COMPLETE: H:chubox:135
+JOB: X:74.000 Y:46.000 Z:170.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:136
+JOB: finish<br>
+
+COMPLETE: H:chubox:137
+JOB: X:124.000 Y:46.000 Z:170.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:138
+JOB: finish<br>
+
+COMPLETE: H:chubox:139
+JOB: X:124.000 Y:36.000 Z:170.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:140
+JOB: finish<br>
+
+COMPLETE: H:chubox:141
+JOB: X:124.000 Y:-4.000 Z:170.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:142
+JOB: finish<br>
+
+COMPLETE: H:chubox:143
+JOB: Smoothie power: Power disconnected to smoothie board<br><br>
+
+COMPLETE: H:chubox:145
+JOB: Syringemotor pump: Syringe motors powered down<br><br>
+
+COMPLETE: H:chubox:146
+JOB: Syringevalve: Syringe valve and logic powered down<br><br>
+
+COMPLETE: H:chubox:147
+JOB: <br>
+
+COMPLETE: H:chubox:149
+JOB: finish<br>
+
+COMPLETE: H:chubox:150
+JOB: <br>
+
+COMPLETE: H:chubox:151
+JOB: finish<br>
+
+COMPLETE: H:chubox:152
+JOB: <br>
+
+COMPLETE: H:chubox:153
+JOB: finish<br>
+
+COMPLETE: H:chubox:154
+JOB: <br>
+
+COMPLETE: H:chubox:155
+JOB: finish<br>
+
+COMPLETE: H:chubox:156
+JOB: X:20.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:157
+JOB: finish<br>
+
+COMPLETE: H:chubox:158
+JOB: X:40.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:159
+JOB: finish<br>
+
+COMPLETE: H:chubox:160
+JOB: X:40.000 Y:50.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:161
+JOB: finish<br>
+
+COMPLETE: H:chubox:162
+JOB: X:140.000 Y:80.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:163
+JOB: finish<br>
+
+COMPLETE: H:chubox:164
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:165
+JOB: finish<br>
+
+COMPLETE: H:chubox:166
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:167
+JOB: finish<br>
+
+COMPLETE: H:chubox:168
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:169
+JOB: finish<br>
+
+COMPLETE: H:chubox:170
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:171
+JOB: finish<br>
+
+COMPLETE: H:chubox:172
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:173
+JOB: finish<br>
+
+COMPLETE: H:chubox:174
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:175
+JOB: finish<br>
+
+COMPLETE: H:chubox:176
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:177
+JOB: finish<br>
+
+COMPLETE: H:chubox:178
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:179
+JOB: finish<br>
+
+COMPLETE: H:chubox:180
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:181
+JOB: finish<br>
+
+COMPLETE: H:chubox:182
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:183
+JOB: finish<br>
+
+COMPLETE: H:chubox:184
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:185
+JOB: finish<br>
+
+COMPLETE: H:chubox:186
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:187
+JOB: finish<br>
+
+COMPLETE: H:chubox:188
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:189
+JOB: finish<br>
+
+COMPLETE: H:chubox:190
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:191
+JOB: finish<br>
+
+COMPLETE: H:chubox:192
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:193
+JOB: finish<br>
+
+COMPLETE: H:chubox:194
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:197
+JOB: finish<br>
+
+COMPLETE: H:chubox:198
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:199
+JOB: finish<br>
+
+COMPLETE: H:chubox:200
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:201
+JOB: finish<br>
+
+COMPLETE: H:chubox:202
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:203
+JOB: finish<br>
+
+COMPLETE: H:chubox:204
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:205
+JOB: finish<br>
+
+COMPLETE: H:chubox:206
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:207
+JOB: finish<br>
+
+COMPLETE: H:chubox:208
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:209
+JOB: finish<br>
+
+COMPLETE: H:chubox:210
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:211
+JOB: finish<br>
+
+COMPLETE: H:chubox:212
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:213
+JOB: finish<br>
+
+COMPLETE: H:chubox:214
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:215
+JOB: finish<br>
+
+COMPLETE: H:chubox:216
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:217
+JOB: finish<br>
+
+COMPLETE: H:chubox:218
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:219
+JOB: finish<br>
+
+COMPLETE: H:chubox:220
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:221
+JOB: finish<br>
+
+COMPLETE: H:chubox:222
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:223
+JOB: finish<br>
+
+COMPLETE: H:chubox:224
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:225
+JOB: finish<br>
+
+COMPLETE: H:chubox:226
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:227
+JOB: finish<br>
+
+COMPLETE: H:chubox:228
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:229
+JOB: finish<br>
+
+COMPLETE: H:chubox:230
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:231
+JOB: finish<br>
+
+COMPLETE: H:chubox:232
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:233
+JOB: finish<br>
+
+COMPLETE: H:chubox:234
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:235
+JOB: finish<br>
+
+COMPLETE: H:chubox:236
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:237
+JOB: finish<br>
+
+COMPLETE: H:chubox:238
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:239
+JOB: finish<br>
+
+COMPLETE: H:chubox:240
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:241
+JOB: finish<br>
+
+COMPLETE: H:chubox:242
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:243
+JOB: finish<br>
+
+COMPLETE: H:chubox:244
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:245
+JOB: finish<br>
+
+COMPLETE: H:chubox:246
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:247
+JOB: finish<br>
+
+COMPLETE: H:chubox:248
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:249
+JOB: finish<br>
+
+COMPLETE: H:chubox:250
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:251
+JOB: finish<br>
+
+COMPLETE: H:chubox:252
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:253
+JOB: finish<br>
+
+COMPLETE: H:chubox:254
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:255
+JOB: finish<br>
+
+COMPLETE: H:chubox:256
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:257
+JOB: finish<br>
+
+COMPLETE: H:chubox:258
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:259
+JOB: finish<br>
+
+COMPLETE: H:chubox:260
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:261
+JOB: finish<br>
+
+COMPLETE: H:chubox:262
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:263
+JOB: finish<br>
+
+COMPLETE: H:chubox:264
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:265
+JOB: finish<br>
+
+COMPLETE: H:chubox:266
+JOB: Error total aspiration volume greater then syringe volume<br>
+
+COMPLETE: H:chubox:267
+JOB: finish<br>
+
+COMPLETE: H:chubox:268
+JOB: X:110.000 Y:80.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:269
+JOB: finish<br>
+
+COMPLETE: H:chubox:270
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:271
+JOB: finish<br>
+
+COMPLETE: H:chubox:272
+JOB: X:5.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:273
+JOB: finish<br>
+
+COMPLETE: H:chubox:274
+JOB: X:10.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:275
+JOB: finish<br>
+
+COMPLETE: H:chubox:276
+JOB: X:-40.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:277
+JOB: finish<br>
+
+COMPLETE: H:chubox:278
+JOB: Error dispense volume exceeds volume in syringe<br>
+
+COMPLETE: H:chubox:279
+JOB: finish<br>
+
+COMPLETE: H:chubox:280
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:281
+JOB: finish<br>
+
+COMPLETE: H:chubox:282
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:283
+JOB: finish<br>
+
+COMPLETE: H:chubox:284
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:285
+JOB: finish<br>
+
+COMPLETE: H:chubox:286
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:287
+JOB: finish<br>
+
+COMPLETE: H:chubox:288
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:289
+JOB: finish<br>
+
+COMPLETE: H:chubox:290
+JOB: Dispense<br>
+
+COMPLETE: H:chubox:291
+JOB: finish<br>
+
+COMPLETE: H:chubox:292
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:293
+JOB: finish<br>
+
+COMPLETE: H:chubox:294
+JOB: Aspirate<br>
+
+COMPLETE: H:chubox:296
+JOB: finish<br>
+
+COMPLETE: H:chubox:297
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:298
+JOB: finish<br>
+
+COMPLETE: H:chubox:299
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:300
+JOB: finish<br>
+
+COMPLETE: H:chubox:301
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:302
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:303
+JOB: finish<br>
+
+COMPLETE: H:chubox:304
+JOB: finish<br>
+
+COMPLETE: H:chubox:305
+JOB: finish<br>
+
+COMPLETE: H:chubox:306
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:307
+JOB: finish<br>
+
+COMPLETE: H:chubox:308
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:2
+JOB: finish<br>
+
+COMPLETE: H:chubox:3
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:4
+JOB: finish<br>
+
+COMPLETE: H:chubox:5
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 100<br><br>
+
+COMPLETE: H:chubox:6
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:7
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 1000<br><br>
+
+COMPLETE: H:chubox:8
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:9
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:10
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:11
+JOB: finish<br>
+
+COMPLETE: H:chubox:12
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 100<br><br>
+
+COMPLETE: H:chubox:13
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:14
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 1000<br><br>
+
+COMPLETE: H:chubox:15
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:16
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:17
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:18
+JOB: finish<br>
+
+COMPLETE: H:chubox:19
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:20
+JOB: finish<br>
+
+COMPLETE: H:chubox:21
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 1000<br><br>
+
+COMPLETE: H:chubox:22
+JOB: finish<br>
+
+COMPLETE: H:chubox:23
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 1000<br><br>
+
+COMPLETE: H:chubox:24
+JOB: finish<br>
+
+COMPLETE: H:chubox:25
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 1000<br><br>
+
+COMPLETE: H:chubox:26
+JOB: VendLab sleeping 4<br>
+
+COMPLETE: H:chubox:27
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:28
+JOB: finish<br>
+
+COMPLETE: H:chubox:29
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:30
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:31
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:32
+JOB: finish<br>
+
+COMPLETE: H:chubox:33
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:34
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:35
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:36
+JOB: X:10.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:37
+JOB: finish<br>
+
+COMPLETE: H:chubox:38
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:39
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:40
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:41
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:42
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:43
+JOB: finish<br>
+
+COMPLETE: H:chubox:44
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:45
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:46
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:47
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:48
+JOB: X:10.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:49
+JOB: finish<br>
+
+COMPLETE: H:chubox:50
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:51
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:52
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:53
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:54
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:55
+JOB: finish<br>
+
+COMPLETE: H:chubox:56
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 500<br><br>
+
+COMPLETE: H:chubox:57
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:58
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:59
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:60
+JOB: X:10.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:61
+JOB: finish<br>
+
+COMPLETE: H:chubox:62
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:63
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:64
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:65
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:66
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:67
+JOB: finish<br>
+
+COMPLETE: H:chubox:68
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 500<br><br>
+
+COMPLETE: H:chubox:69
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:70
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:71
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:72
+JOB: X:10.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:73
+JOB: finish<br>
+
+COMPLETE: H:chubox:74
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:75
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:76
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:77
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:78
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:79
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 500<br><br>
+
+COMPLETE: H:chubox:80
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:81
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:82
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:83
+JOB: X:10.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:84
+JOB: finish<br>
+
+COMPLETE: H:chubox:85
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:86
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:87
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:88
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:89
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:90
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:91
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 500<br><br>
+
+COMPLETE: H:chubox:92
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:93
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:94
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:95
+JOB: X:10.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:96
+JOB: finish<br>
+
+COMPLETE: H:chubox:97
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:98
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:99
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:100
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:101
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:102
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:103
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 500<br><br>
+
+COMPLETE: H:chubox:104
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:105
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:106
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:107
+JOB: X:10.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:108
+JOB: finish<br>
+
+COMPLETE: H:chubox:109
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:110
+JOB: finish<br>
+
+COMPLETE: H:chubox:111
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:112
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:113
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:114
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:115
+JOB: finish<br>
+
+COMPLETE: H:chubox:116
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:117
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:118
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:119
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:120
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:121
+JOB: VendLab sleeping 5<br>
+
+COMPLETE: H:chubox:122
+JOB: finish<br>
+
+COMPLETE: H:chubox:123
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:124
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:125
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:126
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:127
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:128
+JOB: VendLab sleeping 5<br>
+
+COMPLETE: H:chubox:129
+JOB: finish<br>
+
+COMPLETE: H:chubox:130
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:131
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:132
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 5000<br><br>
+
+COMPLETE: H:chubox:133
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:134
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:135
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:136
+JOB: finish<br>
+
+COMPLETE: H:chubox:137
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:138
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:139
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 10000<br><br>
+
+COMPLETE: H:chubox:140
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:141
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:142
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:143
+JOB: finish<br>
+
+COMPLETE: H:chubox:144
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:145
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:146
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 10000<br><br>
+
+COMPLETE: H:chubox:147
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:148
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:149
+JOB: VendLab sleeping 15<br>
+
+COMPLETE: H:chubox:150
+JOB: finish<br>
+
+COMPLETE: H:chubox:151
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:152
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:153
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 10000<br><br>
+
+COMPLETE: H:chubox:154
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:155
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:156
+JOB: VendLab sleeping 15<br>
+
+COMPLETE: H:chubox:157
+JOB: finish<br>
+
+COMPLETE: H:chubox:158
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:159
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:160
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 10000<br><br>
+
+COMPLETE: H:chubox:161
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:162
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:163
+JOB: VendLab sleeping 15<br>
+
+COMPLETE: H:chubox:164
+JOB: finish<br>
+
+COMPLETE: H:chubox:165
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:166
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:167
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:168
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:169
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:170
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:171
+JOB: finish<br>
+
+COMPLETE: H:chubox:172
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:173
+JOB: finish<br>
+
+COMPLETE: H:chubox:174
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:175
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:176
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:177
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:178
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:179
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:180
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:181
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:182
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:183
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:184
+JOB: finish<br>
+
+COMPLETE: H:chubox:185
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:186
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:187
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:188
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:189
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:190
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:191
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:192
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:193
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:194
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:195
+JOB: finish<br>
+
+COMPLETE: H:chubox:196
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:197
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:198
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:199
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:200
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:201
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:202
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:203
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:204
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:205
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:206
+JOB: finish<br>
+
+COMPLETE: H:chubox:207
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:208
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:209
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:210
+JOB: VendLab sleeping 0.1<br>
+
+COMPLETE: H:chubox:211
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:212
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:213
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:214
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:215
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:216
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:217
+JOB: finish<br>
+
+COMPLETE: H:chubox:218
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:219
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:220
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:221
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:222
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:223
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:224
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:225
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:226
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:227
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:228
+JOB: finish<br>
+
+COMPLETE: H:chubox:229
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:230
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:231
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:232
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:233
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:234
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:235
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:236
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:237
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:238
+JOB: VendLab sleeping 20<br>
+
+COMPLETE: H:chubox:239
+JOB: finish<br>
+
+COMPLETE: H:chubox:240
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:241
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:242
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:243
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:244
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:245
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:246
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:247
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:248
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:249
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:250
+JOB: finish<br>
+
+COMPLETE: H:chubox:251
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:252
+JOB: finish<br>
+
+COMPLETE: H:chubox:253
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:254
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:255
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:256
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:257
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:258
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:259
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:260
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:261
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:262
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:263
+JOB: finish<br>
+
+COMPLETE: H:chubox:264
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:265
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:266
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:267
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:268
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:269
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:270
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:271
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:272
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:273
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:274
+JOB: finish<br>
+
+COMPLETE: H:chubox:275
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:276
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:277
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:278
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:279
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:280
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:281
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:282
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:283
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:284
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:285
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:286
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:287
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:288
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:289
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:290
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:291
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:292
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:293
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:294
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:295
+JOB: finish<br>
+
+COMPLETE: H:chubox:296
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:297
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:298
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:299
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:300
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:301
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:302
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:303
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:304
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:305
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:306
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:307
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:308
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:309
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:310
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:311
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:312
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:313
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:314
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:315
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:316
+JOB: finish<br>
+
+COMPLETE: H:chubox:317
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:318
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:319
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:320
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:321
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:322
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:323
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:324
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:325
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:326
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:327
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:328
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:329
+JOB: finish<br>
+
+COMPLETE: H:chubox:330
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:331
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:332
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:333
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:334
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:335
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:336
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:337
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:338
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:339
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:340
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:341
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:342
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:343
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:344
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:345
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:346
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:347
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:348
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:349
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:350
+JOB: finish<br>
+
+COMPLETE: H:chubox:351
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:352
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:353
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:354
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:355
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:356
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:357
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:358
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:359
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:360
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:361
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:362
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:363
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:364
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:365
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:366
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:367
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:368
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:369
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:370
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:371
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:372
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:373
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:374
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:375
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:376
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:377
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:378
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:379
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:380
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:381
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:382
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:383
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:384
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:385
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:386
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:387
+JOB: finish<br>
+
+COMPLETE: H:chubox:388
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:389
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:390
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:391
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:392
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:393
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:394
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:395
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:396
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:397
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:398
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:399
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:400
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:401
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:402
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:403
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:404
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:405
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:406
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:407
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:408
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:409
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:410
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:411
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:412
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:413
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:414
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:415
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:416
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:417
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:418
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:419
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:420
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:421
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:422
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:423
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:424
+JOB: finish<br>
+
+COMPLETE: H:chubox:425
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:426
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:427
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:428
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:429
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:430
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:431
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:432
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:433
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:434
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:435
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:436
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:437
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:438
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:439
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:440
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:441
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:442
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:443
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:444
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:445
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:446
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:447
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:448
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:449
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:450
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:451
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:452
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:453
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:454
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:455
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:456
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:457
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:458
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:459
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:460
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:461
+JOB: finish<br>
+
+COMPLETE: H:chubox:462
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:463
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:464
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:465
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:466
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:467
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:468
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:469
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:470
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:471
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:472
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:473
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:474
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:475
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:476
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:477
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:478
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:479
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:480
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:481
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:482
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:483
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:484
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:485
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:486
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:487
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:488
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:489
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:490
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:491
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:492
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:493
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:494
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:495
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:496
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:497
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:498
+JOB: finish<br>
+
+COMPLETE: H:chubox:499
+JOB: X:150.000 Y:60.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:500
+JOB: finish<br>
+
+COMPLETE: H:chubox:501
+JOB: X:150.000 Y:80.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:502
+JOB: finish<br>
+
+COMPLETE: H:chubox:503
+JOB: X:150.000 Y:120.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:504
+JOB: finish<br>
+
+COMPLETE: H:chubox:505
+JOB: X:150.000 Y:150.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:506
+JOB: finish<br>
+
+COMPLETE: H:chubox:507
+JOB: X:150.000 Y:180.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:508
+JOB: finish<br>
+
+COMPLETE: H:chubox:509
+JOB: X:180.000 Y:180.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:510
+JOB: finish<br>
+
+COMPLETE: H:chubox:511
+JOB: X:220.000 Y:180.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:512
+JOB: finish<br>
+
+COMPLETE: H:chubox:513
+JOB: X:220.000 Y:180.000 Z:10.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:514
+JOB: finish<br>
+
+COMPLETE: H:chubox:515
+JOB: X:220.000 Y:180.000 Z:20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:516
+JOB: finish<br>
+
+COMPLETE: H:chubox:517
+JOB: X:220.000 Y:180.000 Z:30.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:518
+JOB: finish<br>
+
+COMPLETE: H:chubox:519
+JOB: X:220.000 Y:180.000 Z:50.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:520
+JOB: finish<br>
+
+COMPLETE: H:chubox:521
+JOB: X:220.000 Y:180.000 Z:70.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:522
+JOB: finish<br>
+
+COMPLETE: H:chubox:523
+JOB: X:220.000 Y:200.000 Z:70.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:524
+JOB: finish<br>
+
+COMPLETE: H:chubox:525
+JOB: X:220.000 Y:230.000 Z:70.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:526
+JOB: finish<br>
+
+COMPLETE: H:chubox:527
+JOB: X:20.000 Y:230.000 Z:70.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:528
+JOB: finish<br>
+
+COMPLETE: H:chubox:529
+JOB: X:20.000 Y:230.000 Z:80.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:530
+JOB: finish<br>
+
+COMPLETE: H:chubox:531
+JOB: X:20.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:532
+JOB: finish<br>
+
+COMPLETE: H:chubox:533
+JOB: X:20.000 Y:230.000 Z:95.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:534
+JOB: finish<br>
+
+COMPLETE: H:chubox:535
+JOB: X:20.000 Y:230.000 Z:100.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:536
+JOB: finish<br>
+
+COMPLETE: H:chubox:537
+JOB: X:20.000 Y:220.000 Z:100.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:538
+JOB: finish<br>
+
+COMPLETE: H:chubox:539
+JOB: X:20.000 Y:210.000 Z:100.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:540
+JOB: finish<br>
+
+COMPLETE: H:chubox:541
+JOB: X:20.000 Y:200.000 Z:100.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:542
+JOB: finish<br>
+
+COMPLETE: H:chubox:543
+JOB: X:20.000 Y:190.000 Z:100.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:544
+JOB: finish<br>
+
+COMPLETE: H:chubox:545
+JOB: X:20.000 Y:195.000 Z:100.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:546
+JOB: finish<br>
+
+COMPLETE: H:chubox:547
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:548
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:549
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:550
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:551
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:552
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:553
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:554
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:555
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:556
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:557
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:558
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:559
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:560
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:561
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:562
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:563
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:564
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:565
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:566
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:567
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:568
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:569
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:570
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:571
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:572
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:573
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:574
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:575
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:576
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:577
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:578
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:579
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:580
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:581
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:582
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:583
+JOB: finish<br>
+
+COMPLETE: H:chubox:584
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:585
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:586
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:587
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:588
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:589
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:590
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:591
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:592
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:593
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:594
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:595
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:596
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:597
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:598
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:599
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:600
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:601
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:602
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:603
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:604
+JOB: finish<br>
+
+COMPLETE: H:chubox:605
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:606
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:607
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:608
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:609
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:610
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:611
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:612
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:613
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:614
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:615
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:616
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:617
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:618
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:619
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:620
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:621
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:622
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:623
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:624
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:625
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:626
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:627
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:628
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:629
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:630
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:631
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:632
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:633
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:634
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:635
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:636
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:637
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:638
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:639
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:640
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:641
+JOB: finish<br>
+
+COMPLETE: H:chubox:642
+JOB: X:20.000 Y:195.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:643
+JOB: finish<br>
+
+COMPLETE: H:chubox:644
+JOB: X:10.000 Y:50.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:645
+JOB: finish<br>
+
+COMPLETE: H:chubox:646
+JOB: X:20.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:647
+JOB: finish<br>
+
+COMPLETE: H:chubox:648
+JOB: X:20.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:649
+JOB: finish<br>
+
+COMPLETE: H:chubox:650
+JOB: X:20.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:651
+JOB: finish<br>
+
+COMPLETE: H:chubox:652
+JOB: <br>
+
+COMPLETE: H:chubox:653
+JOB: finish<br>
+
+COMPLETE: H:chubox:654
+JOB: X:20.000 Y:0.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:655
+JOB: finish<br>
+
+COMPLETE: H:chubox:656
+JOB: X:20.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:657
+JOB: finish<br>
+
+COMPLETE: H:chubox:658
+JOB: X:20.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:659
+JOB: finish<br>
+
+COMPLETE: H:chubox:660
+JOB: X:60.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:661
+JOB: finish<br>
+
+COMPLETE: H:chubox:662
+JOB: X:260.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:663
+JOB: finish<br>
+
+COMPLETE: H:chubox:664
+JOB: X:240.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:665
+JOB: finish<br>
+
+COMPLETE: H:chubox:666
+JOB: X:230.000 Y:230.000 Z:90.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:667
+JOB: finish<br>
+
+COMPLETE: H:chubox:668
+JOB: X:230.000 Y:230.000 Z:80.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:669
+JOB: finish<br>
+
+COMPLETE: H:chubox:670
+JOB: X:230.000 Y:230.000 Z:75.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:671
+JOB: finish<br>
+
+COMPLETE: H:chubox:672
+JOB: X:230.000 Y:230.000 Z:50.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:673
+JOB: finish<br>
+
+COMPLETE: H:chubox:674
+JOB: <br>
+
+COMPLETE: H:chubox:679
+JOB: finish<br>
+
+COMPLETE: H:chubox:681
+JOB: <br>
+
+COMPLETE: H:chubox:682
+JOB: finish<br>
+
+COMPLETE: H:chubox:684
+JOB: <br>
+
+COMPLETE: H:chubox:683
+JOB: finish<br>
+
+COMPLETE: H:chubox:685
+JOB: X:0.000 Y:0.000 Z:20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:686
+JOB: finish<br>
+
+COMPLETE: H:chubox:687
+JOB: X:0.000 Y:0.000 Z:20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:688
+JOB: finish<br>
+
+COMPLETE: H:chubox:689
+JOB: X:0.000 Y:0.000 Z:40.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:690
+JOB: finish<br>
+
+COMPLETE: H:chubox:691
+JOB: X:0.000 Y:0.000 Z:60.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:692
+JOB: finish<br>
+
+COMPLETE: H:chubox:693
+JOB: X:250.000 Y:0.000 Z:60.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:694
+JOB: finish<br>
+
+COMPLETE: H:chubox:695
+JOB: X:230.000 Y:0.000 Z:60.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:696
+JOB: finish<br>
+
+COMPLETE: H:chubox:697
+JOB: X:230.000 Y:230.000 Z:60.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:698
+JOB: finish<br>
+
+COMPLETE: H:chubox:699
+JOB: X:230.000 Y:30.000 Z:60.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:4
+JOB: finish<br>
+
+COMPLETE: H:chubox:5
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:6
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:7
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:8
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:9
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:10
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:11
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:12
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:13
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:14
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:15
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:16
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:17
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:18
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:19
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:20
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:21
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:22
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:23
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:24
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:25
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:26
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:27
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:28
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:29
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:30
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:31
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:32
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:33
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:34
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:35
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:36
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:37
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:38
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:39
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:40
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:41
+JOB: finish<br>
+
+COMPLETE: H:chubox:42
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:43
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:44
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:45
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:46
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:47
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:48
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:49
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:50
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:51
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:52
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:53
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:54
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:55
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:56
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:57
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:58
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:59
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:60
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:61
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:62
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:63
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:64
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:65
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:66
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:67
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:68
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:69
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:70
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:71
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:72
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:73
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:74
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:75
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:76
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:77
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:78
+JOB: finish<br>
+
+COMPLETE: H:chubox:79
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:80
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:81
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:82
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:83
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:84
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:85
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:86
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:87
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:88
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:89
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:90
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:91
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:92
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:93
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:94
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:95
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:96
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:97
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:98
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:99
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:100
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:101
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:102
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:103
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:104
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:105
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:106
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:107
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:108
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:109
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:110
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:111
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:112
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:113
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:114
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:115
+JOB: finish<br>
+
+COMPLETE: H:chubox:116
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:117
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:118
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:119
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:120
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:121
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:122
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:123
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:124
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:125
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:126
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:127
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:128
+JOB: finish<br>
+
+COMPLETE: H:chubox:129
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:130
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:131
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:132
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:133
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:134
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:135
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:136
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:137
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:138
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:139
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:140
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:141
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:142
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:143
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:144
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:145
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:146
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:147
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:148
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:149
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:150
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:151
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:152
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:153
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:154
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:155
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:156
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:157
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:158
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:159
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:160
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:161
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:162
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:163
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:164
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:165
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:166
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:167
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:168
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:169
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:170
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:171
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:172
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:173
+JOB: finish<br>
+
+COMPLETE: H:chubox:174
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:175
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:176
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:177
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:178
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:179
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:180
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:181
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:182
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:183
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:184
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:185
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:186
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:187
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:188
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:189
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:190
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:191
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:192
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:193
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:194
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:195
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:196
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:197
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:198
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:199
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:200
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:201
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:202
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:203
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:204
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:205
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:206
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:207
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:208
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:209
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:210
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:211
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:212
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:213
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:214
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:215
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:216
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:217
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:218
+JOB: finish<br>
+
+COMPLETE: H:chubox:219
+JOB: X:230.000 Y:70.000 Z:60.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:220
+JOB: finish<br>
+
+COMPLETE: H:chubox:221
+JOB: X:230.000 Y:110.000 Z:60.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:222
+JOB: finish<br>
+
+COMPLETE: H:chubox:223
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:224
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:225
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:226
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:227
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:228
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:229
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:230
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:231
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:232
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:233
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:234
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:235
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:236
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:237
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:238
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:239
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:240
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:241
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:242
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:243
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:244
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:245
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:246
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:247
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:248
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:249
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:250
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:251
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:252
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:253
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:254
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:255
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:256
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:257
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:258
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:259
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:260
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:261
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:262
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:263
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:264
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:265
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:266
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:267
+JOB: finish<br>
+
+COMPLETE: H:chubox:268
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:269
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:270
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:271
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:272
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:273
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:274
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:275
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:276
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:277
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:278
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:279
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:280
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:281
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:282
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:283
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:284
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:285
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:286
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:287
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:288
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:289
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:290
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:291
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:292
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:293
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:294
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:295
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:296
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:297
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:298
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:299
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:300
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:301
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:302
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:303
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:304
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:305
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:306
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:307
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:308
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:309
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:310
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:311
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:312
+JOB: finish<br>
+
+COMPLETE: H:chubox:313
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:314
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:315
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:316
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:317
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:318
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:319
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:320
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:321
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:322
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:323
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:324
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:325
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:326
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:327
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:328
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:329
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:330
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:331
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:332
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:333
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:334
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:335
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:336
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:337
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:338
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:339
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:340
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:341
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:342
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:343
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:344
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:345
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:346
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:347
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:348
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:349
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:350
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:351
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:352
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:353
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:354
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:355
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:356
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:357
+JOB: finish<br>
+
+COMPLETE: H:chubox:358
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:359
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:360
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:361
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:362
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:363
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:364
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:365
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:366
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:367
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:368
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:369
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:370
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:371
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:372
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:373
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:374
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:375
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:376
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:377
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:378
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:379
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:380
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:381
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:382
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:383
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:384
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:385
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:386
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:387
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:388
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:389
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:390
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:391
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:392
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:393
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:394
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:395
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:396
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:397
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:398
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:399
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:400
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:401
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:402
+JOB: finish<br>
+
+COMPLETE: H:chubox:403
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:404
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:405
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:406
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:407
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:408
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:409
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:410
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:411
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:412
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:413
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:414
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:415
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:416
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:417
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:418
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:419
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:420
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:421
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:422
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:423
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:424
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:425
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:426
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:427
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:428
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:429
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:430
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:431
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:432
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:433
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:434
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:435
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:436
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:437
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:438
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:439
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:440
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:441
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:442
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:443
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:444
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:445
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:446
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:447
+JOB: finish<br>
+
+COMPLETE: H:chubox:448
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:449
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:450
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:451
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:452
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:453
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:454
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:455
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:456
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:457
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:458
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:459
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:460
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:461
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:462
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:463
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:464
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:465
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:466
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:467
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:468
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:469
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:470
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:471
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:472
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:473
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:474
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:475
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:476
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:477
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:478
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:479
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:480
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:481
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:482
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:483
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:484
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:485
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:486
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:487
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:488
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:489
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:490
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:491
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:492
+JOB: finish<br>
+
+COMPLETE: H:chubox:493
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:494
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:495
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:496
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:497
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:498
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:499
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:500
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:501
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:502
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:503
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:504
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:505
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:506
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:507
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:508
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:509
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:510
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:511
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:512
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:513
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:514
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:515
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:516
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:517
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:518
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:519
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:520
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:521
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:522
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:523
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:524
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:525
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:526
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:527
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:528
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:529
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:530
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:531
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:532
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:533
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:534
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:535
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:536
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:537
+JOB: finish<br>
+
+COMPLETE: H:chubox:538
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:539
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:540
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:541
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:542
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:543
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:544
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:545
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:546
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:547
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:548
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:549
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:550
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:551
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:552
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:553
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:554
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:555
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:556
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:557
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:558
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:559
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:560
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:561
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:562
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:563
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:564
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:565
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:566
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:567
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:568
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:569
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:570
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:571
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:572
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:573
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:574
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:575
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:576
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:577
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:578
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:579
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:580
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:581
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:582
+JOB: finish<br>
+
+COMPLETE: H:chubox:583
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:584
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:585
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:586
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:587
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:588
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:589
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:590
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:591
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:592
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:593
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:594
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:595
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:596
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:597
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:598
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:599
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:600
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:601
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:602
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:603
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:604
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:605
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:606
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:607
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:608
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:609
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:610
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:611
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:612
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:613
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:614
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:615
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:616
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:617
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:618
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:619
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:620
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:621
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:622
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:623
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:624
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:625
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:626
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:627
+JOB: finish<br>
+
+COMPLETE: H:chubox:628
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:629
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:630
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:631
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:632
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:633
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:634
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:635
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:637
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:638
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:639
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:640
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:641
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:642
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:643
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:1
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:2
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:3
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:4
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:5
+JOB: X:230.000 Y:100.000 Z:20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:7
+JOB: finish<br>
+
+COMPLETE: H:chubox:8
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:9
+JOB: finish<br>
+
+COMPLETE: H:chubox:10
+JOB: X:100.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:11
+JOB: finish<br>
+
+COMPLETE: H:chubox:12
+JOB: X:150.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:13
+JOB: finish<br>
+
+COMPLETE: H:chubox:14
+JOB: X:150.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:15
+JOB: finish<br>
+
+COMPLETE: H:chubox:16
+JOB: X:150.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:17
+JOB: finish<br>
+
+COMPLETE: H:chubox:18
+JOB: X:110.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:19
+JOB: finish<br>
+
+COMPLETE: H:chubox:20
+JOB: X:110.000 Y:0.000 Z:-20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: X:120.000 Y:0.000 Z:-20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: X:120.000 Y:0.000 Z:20.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: X:120.000 Y:0.000 Z:40.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:7
+JOB: finish<br>
+
+COMPLETE: H:chubox:8
+JOB: X:120.000 Y:50.000 Z:40.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: X:160.000 Y:50.000 Z:40.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: X:40.000 Y:50.000 Z:40.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: X:40.000 Y:100.000 Z:40.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:7
+JOB: finish<br>
+
+COMPLETE: H:chubox:8
+JOB: X:140.000 Y:100.000 Z:40.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:9
+JOB: finish<br>
+
+COMPLETE: H:chubox:10
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 14000<br><br>
+
+COMPLETE: H:chubox:11
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:12
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:13
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:14
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:15
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:16
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:17
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:18
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:19
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:20
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:21
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:22
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:23
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:24
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:25
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:26
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:27
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:28
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:29
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:30
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:31
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:32
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:33
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:34
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:35
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:36
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:37
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:38
+JOB: finish<br>
+
+COMPLETE: H:chubox:39
+JOB: S1 syringe steps: htsr syringe 1: set syringe steps 14000<br><br>
+
+COMPLETE: H:chubox:40
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:41
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:42
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:43
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:44
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:45
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:46
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:47
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:48
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:49
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:50
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:51
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:52
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:53
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:54
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:55
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:56
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:57
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:58
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:59
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:60
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:61
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:62
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:63
+JOB: finish<br>
+
+COMPLETE: H:chubox:64
+JOB: X:0.000 Y:40.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:65
+JOB: finish<br>
+
+COMPLETE: H:chubox:66
+JOB: X:40.000 Y:40.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:67
+JOB: finish<br>
+
+COMPLETE: H:chubox:68
+JOB: htsr syringe 1: set syringe retract steps 1000<br><br>
+
+COMPLETE: H:chubox:69
+JOB: finish<br>
+
+COMPLETE: H:chubox:70
+JOB: htsr syringe 1: set syringe retract steprate 150<br><br>
+
+COMPLETE: H:chubox:71
+JOB: finish<br>
+
+COMPLETE: H:chubox:72
+JOB: htsr syringe 1: set syringe steps 14000<br><br>
+
+COMPLETE: H:chubox:73
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:74
+JOB: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:75
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:76
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:77
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:78
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:79
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:80
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:81
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:82
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:83
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:84
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:85
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:86
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:87
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:88
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:89
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:90
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:91
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:92
+JOB: S1 syringe steps: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:93
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:94
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:95
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:7
+JOB: finish<br>
+
+COMPLETE: H:chubox:8
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:9
+JOB: finish<br>
+
+COMPLETE: H:chubox:10
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:11
+JOB: finish<br>
+
+COMPLETE: H:chubox:12
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:13
+JOB: finish<br>
+
+COMPLETE: H:chubox:14
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:15
+JOB: finish<br>
+
+COMPLETE: H:chubox:16
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:17
+JOB: finish<br>
+
+COMPLETE: H:chubox:18
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:7
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:8
+JOB: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:9
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:10
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:11
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:12
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:13
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:14
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:15
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:16
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:17
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:18
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:19
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:20
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:21
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:22
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:23
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:24
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:25
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:26
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:27
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:28
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:29
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:30
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:31
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:32
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:33
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:34
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:35
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:36
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:37
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:38
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:39
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:40
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:41
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:42
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:43
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:44
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:45
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:46
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:47
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:48
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:49
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:50
+JOB: finish<br>
+
+COMPLETE: H:chubox:51
+JOB: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:52
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:53
+JOB: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:54
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:55
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:56
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:57
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:58
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:59
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:60
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:61
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:62
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:63
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:64
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:65
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:66
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:67
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:68
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:69
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:70
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:71
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:72
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:73
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:74
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:75
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:76
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:77
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:78
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:79
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:80
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:81
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:82
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:83
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:84
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:85
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:86
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:87
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:88
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:89
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:90
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:91
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:92
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:93
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:94
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:95
+JOB: finish<br>
+
+COMPLETE: H:chubox:96
+JOB: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:97
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:98
+JOB: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:99
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:100
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:101
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:102
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:103
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:104
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:105
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:106
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:107
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:108
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:109
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:110
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:111
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:112
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:113
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:114
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:115
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:116
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:117
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:118
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:119
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:120
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:121
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:122
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:123
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:124
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:125
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:126
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:127
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:128
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:129
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:130
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:131
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:132
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:133
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:134
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:135
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:136
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:137
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:138
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:139
+JOB: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:1
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:2
+JOB: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:3
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:4
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:5
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:6
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:7
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:8
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:9
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:10
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:11
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:12
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:13
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:14
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:15
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:16
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:17
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:18
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:19
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:20
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:21
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:22
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:23
+JOB: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:1
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:2
+JOB: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:3
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:4
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:5
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:6
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:7
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:8
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:9
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:10
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:11
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:12
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:13
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:14
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:15
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:16
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:17
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:18
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:19
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:20
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:21
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:22
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:23
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: htsr syringe 1: set syringe steps 20000<br><br>
+
+COMPLETE: H:chubox:3
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:4
+JOB: htsr syringe 1: set syringe steprate 100<br><br>
+
+COMPLETE: H:chubox:5
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:6
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:7
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:8
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:9
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:10
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:11
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:12
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:13
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:14
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:15
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:16
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:17
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:18
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:19
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:20
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:21
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:22
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:23
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:24
+JOB: Pump aspirating<br>
+
+COMPLETE: H:chubox:25
+JOB: VendLab sleeping 10<br>
+
+COMPLETE: H:chubox:26
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:27
+JOB: VendLab sleeping 1<br>
+
+COMPLETE: H:chubox:28
+JOB: Pump dispensing<br>
+
+COMPLETE: H:chubox:29
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:1
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:2
+JOB: finish<br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: S1 syringe pump homed<br>
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:7
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:8
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:9
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:10
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:11
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:12
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:13
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:14
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:15
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:16
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:17
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:18
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:19
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:1
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:2
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:3
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:4
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:5
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:6
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:1
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:2
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:3
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:4
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:5
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:6
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:1
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:2
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:3
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:4
+JOB: X:0.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:5
+JOB: X:50.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: X:60.000 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: X:60.600 Y:0.000 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: X:50.260 Y:131.250 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:7
+JOB: X:49.740 Y:131.230 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:8
+JOB: finish<br>
+
+COMPLETE: H:chubox:9
+JOB: X:50.260 Y:131.250 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:10
+JOB: X:49.740 Y:131.230 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:11
+JOB: X:49.210 Y:131.170 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:12
+JOB: X:48.700 Y:131.060 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:13
+JOB: X:47.950 Y:130.830 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:14
+JOB: X:47.700 Y:130.730 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:15
+JOB: X:47.000 Y:130.380 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:16
+JOB: X:46.340 Y:129.940 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:17
+JOB: X:45.740 Y:129.430 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:18
+JOB: X:45.380 Y:129.050 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:19
+JOB: X:45.050 Y:128.650 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:20
+JOB: X:44.610 Y:127.990 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:21
+JOB: X:44.260 Y:127.290 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:22
+JOB: X:44.160 Y:127.040 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:23
+JOB: X:44.000 Y:126.540 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:24
+JOB: X:43.820 Y:125.780 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:25
+JOB: X:43.760 Y:125.250 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:26
+JOB: X:43.740 Y:124.730 Z:0.000 E:0.000  <htsrepstrap><br>
+
+COMPLETE: H:chubox:27
+JOB: <br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: <br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:5
+JOB: <br>
+
+COMPLETE: H:chubox:4
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:8
+JOB: finish<br>
+
+COMPLETE: H:chubox:9
+JOB: G1X30Y0Z0F1000<br>
+
+COMPLETE: H:chubox:10
+JOB: finish<br>
+
+COMPLETE: H:chubox:11
+JOB: G1X30Y0Z0F1000<br>
+
+COMPLETE: H:chubox:14
+JOB: finish<br>
+
+COMPLETE: H:chubox:15
+JOB: G1X30Y0Z0F1000<br>
+
+COMPLETE: H:chubox:19
+JOB: finish<br>
+
+COMPLETE: H:chubox:20
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:22
+JOB: finish<br>
+
+COMPLETE: H:chubox:23
+JOB: G1X30Y0Z0F1000<br>
+
+COMPLETE: H:chubox:24
+JOB: finish<br>
+
+COMPLETE: H:chubox:25
+JOB: <br>
+
+COMPLETE: H:chubox:26
+JOB: finish<br>
+
+COMPLETE: H:chubox:27
+JOB: G1X30Y0Z0F1000<br>
+
+COMPLETE: H:chubox:28
+JOB: finish<br>
+
+COMPLETE: H:chubox:29
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:30
+JOB: finish<br>
+
+COMPLETE: H:chubox:31
+JOB: G1X60Y0Z0F1000<br>
+
+COMPLETE: H:chubox:32
+JOB: finish<br>
+
+COMPLETE: H:chubox:33
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:34
+JOB: finish<br>
+
+COMPLETE: H:chubox:35
+JOB: G1X30Y0Z0F1000<br>
+
+COMPLETE: H:chubox:36
+JOB: finish<br>
+
+COMPLETE: H:chubox:37
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:38
+JOB: finish<br>
+
+COMPLETE: H:chubox:39
+JOB: G1X30Y0Z0F1000<br>
+
+COMPLETE: H:chubox:40
+JOB: finish<br>
+
+COMPLETE: H:chubox:41
+JOB: <br>
+
+COMPLETE: H:chubox:42
+JOB: <br>
+
+COMPLETE: H:chubox:43
+JOB: finish<br>
+
+COMPLETE: H:chubox:44
+JOB: finish<br>
+
+COMPLETE: H:chubox:47
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:45
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:46
+JOB: finish<br>
+
+COMPLETE: H:chubox:48
+JOB: finish<br>
+
+COMPLETE: H:chubox:49
+JOB: G1X20Y0Z0F1000<br>
+
+COMPLETE: H:chubox:50
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:51
+JOB: finish<br>
+
+COMPLETE: H:chubox:52
+JOB: G1X20Y0Z0F1000<br>
+
+COMPLETE: H:chubox:53
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:54
+JOB: finish<br>
+
+COMPLETE: H:chubox:55
+JOB: G1X20Y0Z0F1000<br>
+
+COMPLETE: H:chubox:56
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:57
+JOB: finish<br>
+
+COMPLETE: H:chubox:58
+JOB: G1X20Y0Z0F1000<br>
+
+COMPLETE: H:chubox:59
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:60
+JOB: finish<br>
+
+COMPLETE: H:chubox:61
+JOB: G1X20Y0Z0F1000<br>
+
+COMPLETE: H:chubox:62
+JOB: finish<br>
+
+COMPLETE: H:chubox:63
+JOB: G1X40Y0Z0F1000<br>
+
+COMPLETE: H:chubox:64
+JOB: finish<br>
+
+COMPLETE: H:chubox:65
+JOB: G1X60Y0Z0F1000<br>
+
+COMPLETE: H:chubox:66
+JOB: finish<br>
+
+COMPLETE: H:chubox:67
+JOB: G1X0Y0Z0F1000<br>
+
+COMPLETE: H:chubox:68
+JOB: finish<br>
+
+COMPLETE: H:chubox:69
+JOB: G1X100Y0Z0F1000<br>
+
+COMPLETE: H:chubox:70
+JOB: finish<br>
+
+COMPLETE: H:chubox:71
+JOB: G1X10Y0Z0F1000<br>
+
+COMPLETE: H:chubox:72
+JOB: finish<br>
+
+COMPLETE: H:chubox:73
+JOB: G1X60Y0Z0F1000<br>
+
+COMPLETE: H:chubox:74
+JOB: finish<br>
+
+COMPLETE: H:chubox:75
+JOB: {'Y': 0.0, 'X': 60.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:76
+JOB: finish<br>
+
+COMPLETE: H:chubox:77
+JOB: {'Y': 0.0, 'X': 20.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:78
+JOB: finish<br>
+
+COMPLETE: H:chubox:79
+JOB: {'Y': 0.0, 'X': 60.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:80
+JOB: finish<br>
+
+COMPLETE: H:chubox:81
+JOB: {'Y': 40.0, 'X': 60.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:82
+JOB: finish<br>
+
+COMPLETE: H:chubox:83
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:84
+JOB: finish<br>
+
+COMPLETE: H:chubox:85
+JOB: {'Y': 0.0, 'X': 40.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:86
+JOB: finish<br>
+
+COMPLETE: H:chubox:87
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:88
+JOB: finish<br>
+
+COMPLETE: H:chubox:89
+JOB: G1X0Y50Z0F1000<br>
+
+COMPLETE: H:chubox:90
+JOB: finish<br>
+
+COMPLETE: H:chubox:91
+JOB: <br>
+
+COMPLETE: H:chubox:92
+JOB: finish<br>
+
+COMPLETE: H:chubox:93
+JOB: G1X0Y100Z0F1000<br>
+
+COMPLETE: H:chubox:94
+JOB: finish<br>
+
+COMPLETE: H:chubox:95
+JOB: G1X50Y100Z0F1000<br>
+
+COMPLETE: H:chubox:96
+JOB: finish<br>
+
+COMPLETE: H:chubox:97
+JOB: G1X100Y100Z0F1000<br>
+
+COMPLETE: H:chubox:98
+JOB: finish<br>
+
+COMPLETE: H:chubox:99
+JOB: G1X10Y100Z0F1000<br>
+
+COMPLETE: H:chubox:100
+JOB: finish<br>
+
+COMPLETE: H:chubox:101
+JOB: G1X10Y10Z0F1000<br>
+
+COMPLETE: H:chubox:102
+JOB: finish<br>
+
+COMPLETE: H:chubox:103
+JOB: {'Y': 10.0, 'X': 10.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:104
+JOB: finish<br>
+
+COMPLETE: H:chubox:105
+JOB: G1X50.26Y131.25Z0F540<br>
+
+COMPLETE: H:chubox:106
+JOB: <br>
+
+COMPLETE: H:chubox:107
+JOB: G1X50.260Y131.250Z0F540<br>
+
+COMPLETE: H:chubox:1
+JOB: G1X50.260Y131.250Z0F540<br>
+
+COMPLETE: H:chubox:1
+JOB: G1X49.740Y131.230Z0F540<br>
+
+COMPLETE: H:chubox:2
+JOB: G1X49.210Y131.170Z0F540<br>
+
+COMPLETE: H:chubox:3
+JOB: G1X48.700Y131.060Z0F540<br>
+
+COMPLETE: H:chubox:4
+JOB: G1X47.950Y130.830Z0F540<br>
+
+COMPLETE: H:chubox:5
+JOB: G1X47.700Y130.730Z0F540<br>
+
+COMPLETE: H:chubox:6
+JOB: G1X47.000Y130.380Z0F540<br>
+
+COMPLETE: H:chubox:7
+JOB: G1X46.340Y129.940Z0F540<br>
+
+COMPLETE: H:chubox:8
+JOB: G1X45.740Y129.430Z0F540<br>
+
+COMPLETE: H:chubox:9
+JOB: G1X45.380Y129.050Z0F540<br>
+
+COMPLETE: H:chubox:10
+JOB: G1X45.050Y128.650Z0F540<br>
+
+COMPLETE: H:chubox:11
+JOB: G1X44.610Y127.990Z0F540<br>
+
+COMPLETE: H:chubox:12
+JOB: G1X44.260Y127.290Z0F540<br>
+
+COMPLETE: H:chubox:13
+JOB: G1X44.160Y127.040Z0F540<br>
+
+COMPLETE: H:chubox:14
+JOB: G1X44.000Y126.540Z0F540<br>
+
+COMPLETE: H:chubox:15
+JOB: G1X43.820Y125.780Z0F540<br>
+
+COMPLETE: H:chubox:16
+JOB: G1X43.760Y125.250Z0F540<br>
+
+COMPLETE: H:chubox:17
+JOB: G1X43.740Y124.730Z0F540<br>
+
+COMPLETE: H:chubox:18
+JOB: G1X43.740Y75.260Z0F540<br>
+
+COMPLETE: H:chubox:19
+JOB: G1X43.760Y74.740Z0F540<br>
+
+COMPLETE: H:chubox:20
+JOB: G1X43.820Y74.210Z0F540<br>
+
+COMPLETE: H:chubox:21
+JOB: G1X43.930Y73.700Z0F540<br>
+
+COMPLETE: H:chubox:22
+JOB: G1X44.160Y72.950Z0F540<br>
+
+COMPLETE: H:chubox:23
+JOB: G1X44.260Y72.700Z0F540<br>
+
+COMPLETE: H:chubox:24
+JOB: G1X44.610Y72.000Z0F540<br>
+
+COMPLETE: H:chubox:25
+JOB: finish<br>
+
+COMPLETE: H:chubox:26
+JOB: G1X0Y72.000Z0F1000<br>
+
+COMPLETE: H:chubox:27
+JOB: finish<br>
+
+COMPLETE: H:chubox:28
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:1
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:2
+JOB: finish<br>
+
+COMPLETE: H:chubox:3
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:4
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:5
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:6
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:7
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:8
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:9
+JOB: finish<br>
+
+COMPLETE: H:chubox:10
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:11
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:12
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:13
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:14
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:15
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:16
+JOB: finish<br>
+
+COMPLETE: H:chubox:17
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:22
+JOB: finish<br>
+
+COMPLETE: H:chubox:23
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:24
+JOB: finish<br>
+
+COMPLETE: H:chubox:25
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:26
+JOB: finish<br>
+
+COMPLETE: H:chubox:27
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:28
+JOB: finish<br>
+
+COMPLETE: H:chubox:29
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:30
+JOB: finish<br>
+
+COMPLETE: H:chubox:31
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:32
+JOB: finish<br>
+
+COMPLETE: H:chubox:33
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:34
+JOB: finish<br>
+
+COMPLETE: H:chubox:35
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:36
+JOB: finish<br>
+
+COMPLETE: H:chubox:37
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:38
+JOB: finish<br>
+
+COMPLETE: H:chubox:39
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:40
+JOB: finish<br>
+
+COMPLETE: H:chubox:41
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:42
+JOB: finish<br>
+
+COMPLETE: H:chubox:43
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:44
+JOB: finish<br>
+
+COMPLETE: H:chubox:45
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:46
+JOB: finish<br>
+
+COMPLETE: H:chubox:47
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:48
+JOB: finish<br>
+
+COMPLETE: H:chubox:49
+JOB: <br>
+
+COMPLETE: H:chubox:52
+JOB: finish<br>
+
+COMPLETE: H:chubox:53
+JOB: <br>
+
+COMPLETE: H:chubox:54
+JOB: finish<br>
+
+COMPLETE: H:chubox:55
+JOB: <br>
+
+COMPLETE: H:chubox:56
+JOB: finish<br>
+
+COMPLETE: H:chubox:57
+JOB: <br>
+
+COMPLETE: H:chubox:58
+JOB: finish<br>
+
+COMPLETE: H:chubox:59
+JOB: <br>
+
+COMPLETE: H:chubox:60
+JOB: finish<br>
+
+COMPLETE: H:chubox:61
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:1
+JOB: finish<br>
+
+COMPLETE: H:chubox:2
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:3
+JOB: finish<br>
+
+COMPLETE: H:chubox:4
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:5
+JOB: finish<br>
+
+COMPLETE: H:chubox:6
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:7
+JOB: finish<br>
+
+COMPLETE: H:chubox:8
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:9
+JOB: finish<br>
+
+COMPLETE: H:chubox:10
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:11
+JOB: finish<br>
+
+COMPLETE: H:chubox:12
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:13
+JOB: finish<br>
+
+COMPLETE: H:chubox:14
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:15
+JOB: finish<br>
+
+COMPLETE: H:chubox:16
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:17
+JOB: finish<br>
+
+COMPLETE: H:chubox:18
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:19
+JOB: finish<br>
+
+COMPLETE: H:chubox:20
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:21
+JOB: finish<br>
+
+COMPLETE: H:chubox:22
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:23
+JOB: finish<br>
+
+COMPLETE: H:chubox:24
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:25
+JOB: finish<br>
+
+COMPLETE: H:chubox:26
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:27
+JOB: finish<br>
+
+COMPLETE: H:chubox:28
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:29
+JOB: finish<br>
+
+COMPLETE: H:chubox:30
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:31
+JOB: finish<br>
+
+COMPLETE: H:chubox:32
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:33
+JOB: finish<br>
+
+COMPLETE: H:chubox:34
+JOB: Headcam linearactuator and temperature controller start pid <br>
+
+COMPLETE: H:chubox:35
+JOB: finish<br>
+
+COMPLETE: H:chubox:36
+JOB: Headcam linearactuator and temperature controller start pid <br>
+
+COMPLETE: H:chubox:37
+JOB: finish<br>
+
+COMPLETE: H:chubox:38
+JOB: Headcam linearactuator and temperature controller start pid <br>
+
+COMPLETE: H:chubox:39
+JOB: finish<br>
+
+COMPLETE: H:chubox:40
+JOB: Headcam linearactuator and temperature controller start pid 1285
+<br>
+
+COMPLETE: H:chubox:41
+JOB: finish<br>
+
+COMPLETE: H:chubox:42
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:43
+JOB: finish<br>
+
+COMPLETE: H:chubox:44
+JOB: Headcam linearactuator and temperature controller start pid 1354
+<br>
+
+COMPLETE: H:chubox:45
+JOB: finish<br>
+
+COMPLETE: H:chubox:46
+JOB: Headcam linearactuator and temperature controller start pid 1424
+<br>
+
+COMPLETE: H:chubox:47
+JOB: finish<br>
+
+COMPLETE: H:chubox:48
+JOB: Headcam linearactuator and temperature controller start pid 1424
+<br>
+
+COMPLETE: H:chubox:49
+JOB: finish<br>
+
+COMPLETE: H:chubox:50
+JOB: Headcam linearactuator and temperature controller start pid 1496
+<br>
+
+COMPLETE: H:chubox:51
+JOB: finish<br>
+
+COMPLETE: H:chubox:52
+JOB: Headcam linearactuator and temperature controller start pid 1600
+<br>
+
+COMPLETE: H:chubox:53
+JOB: finish<br>
+
+COMPLETE: H:chubox:54
+JOB: Headcam linearactuator and temperature controller start pid 1838
+<br>
+
+COMPLETE: H:chubox:55
+JOB: finish<br>
+
+COMPLETE: H:chubox:56
+JOB: Headcam linearactuator and temperature controller start pid 1838
+<br>
+
+COMPLETE: H:chubox:57
+JOB: finish<br>
+
+COMPLETE: H:chubox:58
+JOB: Headcam linearactuator and temperature controller start pid 1911
+<br>
+
+COMPLETE: H:chubox:59
+JOB: finish<br>
+
+COMPLETE: H:chubox:60
+JOB: Headcam linearactuator and temperature controller start pid 1981
+<br>
+
+COMPLETE: H:chubox:61
+JOB: finish<br>
+
+COMPLETE: H:chubox:62
+JOB: Headcam linearactuator and temperature controller start pid 2053
+<br>
+
+COMPLETE: H:chubox:63
+JOB: finish<br>
+
+COMPLETE: H:chubox:64
+JOB: Headcam linearactuator and temperature controller start pid 2053
+<br>
+
+COMPLETE: H:chubox:65
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:66
+JOB: finish<br>
+
+COMPLETE: H:chubox:67
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:68
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:69
+JOB: finish<br>
+
+COMPLETE: H:chubox:70
+JOB: Headcam linearactuator and temperature controller start pid 2177
+<br>
+
+COMPLETE: H:chubox:71
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:72
+JOB: finish<br>
+
+COMPLETE: H:chubox:73
+JOB: {'Y': 5.0, 'X': 10.0, 'Z': 0.0, 'E': -100.0}<br>
+
+COMPLETE: H:chubox:76
+JOB: finish<br>
+
+COMPLETE: H:chubox:77
+JOB: {'Y': 5.0, 'X': 10.0, 'Z': 0.0, 'E': -100.0}<br>
+
+COMPLETE: H:chubox:78
+JOB: finish<br>
+
+COMPLETE: H:chubox:79
+JOB: Headcam linearactuator and temperature controller start pid 2341
+<br>
+
+COMPLETE: H:chubox:80
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:81
+JOB: finish<br>
+
+COMPLETE: H:chubox:82
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:83
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:84
+JOB: finish<br>
+
+COMPLETE: H:chubox:85
+JOB: Headcam linearactuator and temperature controller start pid 2416
+<br>
+
+COMPLETE: H:chubox:86
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:87
+JOB: finish<br>
+
+COMPLETE: H:chubox:88
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:89
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:90
+JOB: finish<br>
+
+COMPLETE: H:chubox:91
+JOB: Syringesocket start pid2634
+<br>
+
+COMPLETE: H:chubox:92
+JOB: Headcam linearactuator and temperature controller start pid 2485
+<br>
+
+COMPLETE: H:chubox:93
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:94
+JOB: finish<br>
+
+COMPLETE: H:chubox:95
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:96
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:97
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:98
+JOB: finish<br>
+
+COMPLETE: H:chubox:99
+JOB: Syringesocket start pid2654
+<br>
+
+COMPLETE: H:chubox:100
+JOB: Headcam linearactuator and temperature controller start pid 2556
+<br>
+
+COMPLETE: H:chubox:101
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:102
+JOB: finish<br>
+
+COMPLETE: H:chubox:103
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:104
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:105
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:106
+JOB: finish<br>
+
+COMPLETE: H:chubox:107
+JOB: Powerpumpssocket start 2730
+<br>
+
+COMPLETE: H:chubox:109
+JOB: Syringesocket start pid2740
+<br>
+
+COMPLETE: H:chubox:110
+JOB: Headcam linearactuator and temperature controller start pid 2674
+<br>
+
+COMPLETE: H:chubox:111
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:112
+JOB: finish<br>
+
+COMPLETE: H:chubox:113
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:114
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:115
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:116
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:117
+JOB: finish<br>
+
+COMPLETE: H:chubox:118
+JOB: Smoothiesocket started pid 2670
+ Smoothie gearman socket started pid 2718
+<br>
+
+COMPLETE: H:chubox:119
+JOB: Powerpumpssocket start 2792
+<br>
+
+COMPLETE: H:chubox:120
+JOB: Syringesocket start pid2802
+<br>
+
+COMPLETE: H:chubox:121
+JOB: Headcam linearactuator and temperature controller start pid 2812
+<br>
+
+COMPLETE: H:chubox:122
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:123
+JOB: finish<br>
+
+COMPLETE: H:chubox:124
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 2718
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:125
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:126
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:127
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:128
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:129
+JOB: finish<br>
+
+COMPLETE: H:chubox:130
+JOB: Smoothiesocket started pid 2885
+ Smoothie gearman socket started pid 2933
+<br>
+
+COMPLETE: H:chubox:131
+JOB: Powerpumpssocket start 2826
+<br>
+
+COMPLETE: H:chubox:132
+JOB: Syringesocket start pid2836
+<br>
+
+COMPLETE: H:chubox:133
+JOB: Headcam linearactuator and temperature controller start pid 2883
+<br>
+
+COMPLETE: H:chubox:134
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:135
+JOB: finish<br>
+
+COMPLETE: H:chubox:136
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 2933
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:137
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:138
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:139
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:140
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:141
+JOB: finish<br>
+
+COMPLETE: H:chubox:142
+JOB: Smoothiesocket started pid 5836
+ Smoothie gearman socket started pid 5884
+<br>
+
+COMPLETE: H:chubox:143
+JOB: Powerpumpssocket start 3715
+<br>
+
+COMPLETE: H:chubox:144
+JOB: Syringesocket start pid3726
+<br>
+
+COMPLETE: H:chubox:145
+JOB: Headcam linearactuator and temperature controller start pid 1965
+<br>
+
+COMPLETE: H:chubox:146
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:147
+JOB: finish<br>
+
+COMPLETE: H:chubox:148
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:149
+JOB: finish<br>
+
+COMPLETE: H:chubox:150
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:151
+JOB: finish<br>
+
+COMPLETE: H:chubox:152
+JOB: {'Y': 0.0, 'X': 15.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:153
+JOB: finish<br>
+
+COMPLETE: H:chubox:154
+JOB: {'Y': 0.0, 'X': 15.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:155
+JOB: finish<br>
+
+COMPLETE: H:chubox:156
+JOB: {'Y': 30.0, 'X': 15.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:157
+JOB: finish<br>
+
+COMPLETE: H:chubox:158
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:159
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:160
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:161
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:162
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:163
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:164
+JOB: finish<br>
+
+COMPLETE: H:chubox:165
+JOB: {'Y': 30.0, 'X': 15.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:166
+JOB: finish<br>
+
+COMPLETE: H:chubox:167
+JOB: {'Y': 30.0, 'X': 35.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:168
+JOB: finish<br>
+
+COMPLETE: H:chubox:169
+JOB: {'Y': 30.0, 'X': 35.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:170
+JOB: finish<br>
+
+COMPLETE: H:chubox:171
+JOB: {'Y': 10.0, 'X': 35.0, 'Z': 0.0, 'E': 10.0}<br>
+
+COMPLETE: H:chubox:172
+JOB: finish<br>
+
+COMPLETE: H:chubox:173
+JOB: {'Y': 10.0, 'X': 35.0, 'Z': 0.0, 'E': 10.0}<br>
+
+COMPLETE: H:chubox:174
+JOB: finish<br>
+
+COMPLETE: H:chubox:175
+JOB: {'Y': 10.0, 'X': 35.0, 'Z': 0.0, 'E': 10.0}<br>
+
+COMPLETE: H:chubox:176
+JOB: finish<br>
+
+COMPLETE: H:chubox:177
+JOB: {'Y': 10.0, 'X': 35.0, 'Z': 0.0, 'E': 10.0}<br>
+
+COMPLETE: H:chubox:178
+JOB: finish<br>
+
+COMPLETE: H:chubox:179
+JOB: {'Y': 10.0, 'X': 35.0, 'Z': 0.0, 'E': 10.0}<br>
+
+COMPLETE: H:chubox:180
+JOB: finish<br>
+
+COMPLETE: H:chubox:181
+JOB: {'Y': 10.0, 'X': 35.0, 'Z': 0.0, 'E': 10.0}<br>
+
+COMPLETE: H:chubox:182
+JOB: finish<br>
+
+COMPLETE: H:chubox:183
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:186
+JOB: finish<br>
+
+COMPLETE: H:chubox:187
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:188
+JOB: finish<br>
+
+COMPLETE: H:chubox:189
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:190
+JOB: finish<br>
+
+COMPLETE: H:chubox:191
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:192
+JOB: finish<br>
+
+COMPLETE: H:chubox:193
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:194
+JOB: finish<br>
+
+COMPLETE: H:chubox:195
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:196
+JOB: finish<br>
+
+COMPLETE: H:chubox:197
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:198
+JOB: finish<br>
+
+COMPLETE: H:chubox:199
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:200
+JOB: finish<br>
+
+COMPLETE: H:chubox:201
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:202
+JOB: finish<br>
+
+COMPLETE: H:chubox:203
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:204
+JOB: finish<br>
+
+COMPLETE: H:chubox:205
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:206
+JOB: finish<br>
+
+COMPLETE: H:chubox:207
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:208
+JOB: finish<br>
+
+COMPLETE: H:chubox:209
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:210
+JOB: finish<br>
+
+COMPLETE: H:chubox:211
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:212
+JOB: finish<br>
+
+COMPLETE: H:chubox:213
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:214
+JOB: finish<br>
+
+COMPLETE: H:chubox:215
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:216
+JOB: finish<br>
+
+COMPLETE: H:chubox:217
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:218
+JOB: finish<br>
+
+COMPLETE: H:chubox:219
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:220
+JOB: finish<br>
+
+COMPLETE: H:chubox:221
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:222
+JOB: finish<br>
+
+COMPLETE: H:chubox:223
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:224
+JOB: finish<br>
+
+COMPLETE: H:chubox:225
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:226
+JOB: finish<br>
+
+COMPLETE: H:chubox:227
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:228
+JOB: finish<br>
+
+COMPLETE: H:chubox:229
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:230
+JOB: finish<br>
+
+COMPLETE: H:chubox:231
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:232
+JOB: finish<br>
+
+COMPLETE: H:chubox:233
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:234
+JOB: finish<br>
+
+COMPLETE: H:chubox:235
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:236
+JOB: finish<br>
+
+COMPLETE: H:chubox:237
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:238
+JOB: finish<br>
+
+COMPLETE: H:chubox:239
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:240
+JOB: finish<br>
+
+COMPLETE: H:chubox:241
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:242
+JOB: finish<br>
+
+COMPLETE: H:chubox:243
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:244
+JOB: finish<br>
+
+COMPLETE: H:chubox:245
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:246
+JOB: finish<br>
+
+COMPLETE: H:chubox:247
+JOB: {'Y': 5.0, 'X': 35.0, 'Z': 0.0, 'E': -30.0}<br>
+
+COMPLETE: H:chubox:248
+JOB: finish<br>
+
+COMPLETE: H:chubox:249
+JOB: Smoothiesocket started pid 7328
+ Smoothie gearman socket started pid 7865
+<br>
+
+COMPLETE: H:chubox:250
+JOB: Powerpumpssocket start 3715
+<br>
+
+COMPLETE: H:chubox:251
+JOB: Syringesocket start pid3726
+<br>
+
+COMPLETE: H:chubox:252
+JOB: Headcam linearactuator and temperature controller start pid 1456
+<br>
+
+COMPLETE: H:chubox:253
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:254
+JOB: finish<br>
+
+COMPLETE: H:chubox:255
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 7865
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:256
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:257
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:258
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:259
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:260
+JOB: finish<br>
+
+COMPLETE: H:chubox:261
+JOB: Smoothiesocket started pid 8027
+ Smoothie gearman socket started pid 8075
+<br>
+
+COMPLETE: H:chubox:262
+JOB: Powerpumpssocket start <br>
+
+COMPLETE: H:chubox:263
+JOB: Syringesocket start pid<br>
+
+COMPLETE: H:chubox:264
+JOB: Headcam linearactuator and temperature controller start pid 1858
+<br>
+
+COMPLETE: H:chubox:265
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:266
+JOB: finish<br>
+
+COMPLETE: H:chubox:267
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 8075
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:268
+JOB: Powerpumpssocket pid  killed<br>
+
+COMPLETE: H:chubox:269
+JOB: Powerpumpssocket pid  killed<br>
+
+COMPLETE: H:chubox:270
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:271
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:272
+JOB: finish<br>
+
+COMPLETE: H:chubox:273
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 8075
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:274
+JOB: Powerpumpssocket pid  killed<br>
+
+COMPLETE: H:chubox:275
+JOB: Powerpumpssocket pid  killed<br>
+
+COMPLETE: H:chubox:276
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:277
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:278
+JOB: finish<br>
+
+COMPLETE: H:chubox:279
+JOB: Smoothiesocket started pid 831
+ Smoothie gearman socket started pid 917
+<br>
+
+COMPLETE: H:chubox:280
+JOB: Powerpumpssocket start 2368
+<br>
+
+COMPLETE: H:chubox:281
+JOB: Syringesocket start pid2378
+<br>
+
+COMPLETE: H:chubox:282
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': -200.0}<br>
+
+COMPLETE: H:chubox:284
+JOB: finish<br>
+
+COMPLETE: H:chubox:285
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': -200.0}<br>
+
+COMPLETE: H:chubox:286
+JOB: finish<br>
+
+COMPLETE: H:chubox:287
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': -200.0}<br>
+
+COMPLETE: H:chubox:288
+JOB: finish<br>
+
+COMPLETE: H:chubox:289
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': -200.0}<br>
+
+COMPLETE: H:chubox:290
+JOB: finish<br>
+
+COMPLETE: H:chubox:291
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': -200.0}<br>
+
+COMPLETE: H:chubox:292
+JOB: finish<br>
+
+COMPLETE: H:chubox:293
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': -200.0}<br>
+
+COMPLETE: H:chubox:294
+JOB: finish<br>
+
+COMPLETE: H:chubox:295
+JOB: {'Y': 10.0, 'X': 10.0, 'Z': 0.0, 'E': -150.0}<br>
+
+COMPLETE: H:chubox:296
+JOB: finish<br>
+
+COMPLETE: H:chubox:297
+JOB: {'Y': 5.0, 'X': 10.0, 'Z': 0.0, 'E': -175.0}<br>
+
+COMPLETE: H:chubox:298
+JOB: finish<br>
+
+COMPLETE: H:chubox:299
+JOB: {'Y': 10.0, 'X': 10.0, 'Z': 0.0, 'E': -185.0}<br>
+
+COMPLETE: H:chubox:300
+JOB: finish<br>
+
+COMPLETE: H:chubox:301
+JOB: {'Y': 10.0, 'X': 10.0, 'Z': 0.0, 'E': -185.0}<br>
+
+COMPLETE: H:chubox:302
+JOB: finish<br>
+
+COMPLETE: H:chubox:303
+JOB: {'Y': 10.0, 'X': 10.0, 'Z': 0.0, 'E': -185.0}<br>
+
+COMPLETE: H:chubox:304
+JOB: finish<br>
+
+COMPLETE: H:chubox:305
+JOB: {'Y': 10.0, 'X': 10.0, 'Z': 0.0, 'E': -185.0}<br>
+
+COMPLETE: H:chubox:306
+JOB: finish<br>
+
+COMPLETE: H:chubox:307
+JOB: Smoothiesocket started pid 1383
+ Smoothie gearman socket started pid 1457
+<br>
+
+COMPLETE: H:chubox:308
+JOB: Powerpumpssocket start 2439
+<br>
+
+COMPLETE: H:chubox:309
+JOB: Syringesocket start pid2449
+<br>
+
+COMPLETE: H:chubox:310
+JOB: Headcam linearactuator and temperature controller start pid <br>
+
+COMPLETE: H:chubox:311
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:312
+JOB: finish<br>
+
+COMPLETE: H:chubox:313
+JOB: {'Y': 10.0, 'X': 10.0, 'Z': 0.0, 'E': -185.0}<br>
+
+COMPLETE: H:chubox:314
+JOB: finish<br>
+
+COMPLETE: H:chubox:315
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 1457
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:316
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:317
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:318
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:319
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:320
+JOB: finish<br>
+
+COMPLETE: H:chubox:321
+JOB: Smoothiesocket started pid 953
+ Smoothie gearman socket started pid 1001
+<br>
+
+COMPLETE: H:chubox:322
+JOB: Powerpumpssocket start 2356
+<br>
+
+COMPLETE: H:chubox:323
+JOB: Smoothiesocket started pid 953
+ Smoothie gearman socket started pid 1001
+<br>
+
+COMPLETE: H:chubox:324
+JOB: Syringesocket start pid2366
+<br>
+
+COMPLETE: H:chubox:325
+JOB: Powerpumpssocket start 2356
+<br>
+
+COMPLETE: H:chubox:326
+JOB: Headcam linearactuator and temperature controller start pid 1007
+<br>
+
+COMPLETE: H:chubox:327
+JOB: Syringesocket start pid2366
+<br>
+
+COMPLETE: H:chubox:328
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:329
+JOB: finish<br>
+
+COMPLETE: H:chubox:330
+JOB: Headcam linearactuator and temperature controller start pid 1007
+<br>
+
+COMPLETE: H:chubox:331
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:332
+JOB: finish<br>
+
+COMPLETE: H:chubox:333
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 1001
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:334
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:335
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:336
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:337
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:338
+JOB: finish<br>
+
+COMPLETE: H:chubox:339
+JOB: Smoothiesocket started pid 1169
+ Smoothie gearman socket started pid 1217
+<br>
+
+COMPLETE: H:chubox:340
+JOB: Powerpumpssocket start 2390
+<br>
+
+COMPLETE: H:chubox:341
+JOB: Syringesocket start pid2400
+<br>
+
+COMPLETE: H:chubox:342
+JOB: Headcam linearactuator and temperature controller start pid 1081
+<br>
+
+COMPLETE: H:chubox:343
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:344
+JOB: finish<br>
+
+COMPLETE: H:chubox:345
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:346
+JOB: finish<br>
+
+COMPLETE: H:chubox:347
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:348
+JOB: finish<br>
+
+COMPLETE: H:chubox:349
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:350
+JOB: finish<br>
+
+COMPLETE: H:chubox:351
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:352
+JOB: finish<br>
+
+COMPLETE: H:chubox:353
+JOB: {'Y': 10.0, 'X': 100.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:354
+JOB: finish<br>
+
+COMPLETE: H:chubox:355
+JOB: {'Y': 10.0, 'X': 100.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:356
+JOB: finish<br>
+
+COMPLETE: H:chubox:357
+JOB: {'Y': 10.0, 'X': 100.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:358
+JOB: finish<br>
+
+COMPLETE: H:chubox:359
+JOB: {'Y': 10.0, 'X': 100.0, 'Z': 0.0, 'E': 5.0}<br>
+
+COMPLETE: H:chubox:360
+JOB: finish<br>
+
+COMPLETE: H:chubox:361
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:362
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:363
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:364
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:365
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:366
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:367
+JOB: finish<br>
+
+COMPLETE: H:chubox:368
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:369
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:370
+JOB: {'Y': 10.0, 'X': 100.0, 'Z': 0.0, 'E': 10.0}<br>
+
+COMPLETE: H:chubox:371
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:372
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:373
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:374
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:375
+JOB: finish<br>
+
+COMPLETE: H:chubox:376
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 1217
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:377
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:378
+JOB: Powerpumpssocket pid 0 killed<br>
+
+COMPLETE: H:chubox:379
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:380
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:381
+JOB: finish<br>
+
+COMPLETE: H:chubox:382
+JOB: Smoothiesocket started pid 1459
+ Smoothie gearman socket started pid 1507
+<br>
+
+COMPLETE: H:chubox:383
+JOB: Powerpumpssocket start <br>
+
+COMPLETE: H:chubox:384
+JOB: Syringesocket start pid<br>
+
+COMPLETE: H:chubox:385
+JOB: Headcam linearactuator and temperature controller start pid 1204
+<br>
+
+COMPLETE: H:chubox:386
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:387
+JOB: finish<br>
+
+COMPLETE: H:chubox:388
+JOB: Smoothiesocket started pid killed 0 Smoothie gearman socket pid 1507
+ killed. The gearman socket is still on so that has to turn off too<br>
+
+COMPLETE: H:chubox:389
+JOB: Powerpumpssocket pid  killed<br>
+
+COMPLETE: H:chubox:390
+JOB: Powerpumpssocket pid  killed<br>
+
+COMPLETE: H:chubox:391
+JOB: Headcam linearactuator and temperature controller pid 0 killed<br>
+
+COMPLETE: H:chubox:392
+JOB: Socket flag indicator off<br><br>
+
+COMPLETE: H:chubox:393
+JOB: finish<br>
+
+COMPLETE: H:chubox:394
+JOB: Smoothiesocket started pid 957
+ Smoothie gearman socket started pid 1005
+<br>
+
+COMPLETE: H:chubox:395
+JOB: Powerpumpssocket start 2366
+<br>
+
+COMPLETE: H:chubox:396
+JOB: Syringesocket start pid2376
+<br>
+
+COMPLETE: H:chubox:397
+JOB: Headcam linearactuator and temperature controller start pid <br>
+
+COMPLETE: H:chubox:398
+JOB: Socket flag indicator on<br><br>
+
+COMPLETE: H:chubox:399
+JOB: finish<br>
+
+COMPLETE: H:chubox:400
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:401
+JOB: finish<br>
+
+COMPLETE: H:chubox:402
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:403
+JOB: finish<br>
+
+COMPLETE: H:chubox:404
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:405
+JOB: finish<br>
+
+COMPLETE: H:chubox:406
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:407
+JOB: finish<br>
+
+COMPLETE: H:chubox:408
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:409
+JOB: finish<br>
+
+COMPLETE: H:chubox:410
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:411
+JOB: finish<br>
+
+COMPLETE: H:chubox:412
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:413
+JOB: finish<br>
+
+COMPLETE: H:chubox:414
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:415
+JOB: finish<br>
+
+COMPLETE: H:chubox:416
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:417
+JOB: finish<br>
+
+COMPLETE: H:chubox:418
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:419
+JOB: finish<br>
+
+COMPLETE: H:chubox:420
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:421
+JOB: finish<br>
+
+COMPLETE: H:chubox:422
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:423
+JOB: finish<br>
+
+COMPLETE: H:chubox:424
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:425
+JOB: finish<br>
+
+COMPLETE: H:chubox:426
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:427
+JOB: finish<br>
+
+COMPLETE: H:chubox:428
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:429
+JOB: finish<br>
+
+COMPLETE: H:chubox:430
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:431
+JOB: finish<br>
+
+COMPLETE: H:chubox:432
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:433
+JOB: finish<br>
+
+COMPLETE: H:chubox:434
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:435
+JOB: finish<br>
+
+COMPLETE: H:chubox:436
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:437
+JOB: finish<br>
+
+COMPLETE: H:chubox:438
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:439
+JOB: finish<br>
+
+COMPLETE: H:chubox:440
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:441
+JOB: finish<br>
+
+COMPLETE: H:chubox:442
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:443
+JOB: finish<br>
+
+COMPLETE: H:chubox:444
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:445
+JOB: finish<br>
+
+COMPLETE: H:chubox:446
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:447
+JOB: finish<br>
+
+COMPLETE: H:chubox:448
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:449
+JOB: finish<br>
+
+COMPLETE: H:chubox:450
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:451
+JOB: finish<br>
+
+COMPLETE: H:chubox:452
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:453
+JOB: finish<br>
+
+COMPLETE: H:chubox:454
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:455
+JOB: finish<br>
+
+COMPLETE: H:chubox:456
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:457
+JOB: finish<br>
+
+COMPLETE: H:chubox:458
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:459
+JOB: finish<br>
+
+COMPLETE: H:chubox:460
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:461
+JOB: finish<br>
+
+COMPLETE: H:chubox:462
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:463
+JOB: finish<br>
+
+COMPLETE: H:chubox:464
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:465
+JOB: finish<br>
+
+COMPLETE: H:chubox:466
+JOB: {'Y': 0.0, 'X': 0.0, 'Z': 0.0, 'E': 0.0}<br>
+
+COMPLETE: H:chubox:467
+JOB: finish<br>
+
+COMPLETE: H:chubox:468
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:469
+JOB: finish<br>
+
+COMPLETE: H:chubox:470
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:471
+JOB: finish<br>
+
+COMPLETE: H:chubox:472
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:473
+JOB: finish<br>
+
+COMPLETE: H:chubox:474
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:475
+JOB: finish<br>
+
+COMPLETE: H:chubox:476
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:477
+JOB: finish<br>
+
+COMPLETE: H:chubox:478
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:479
+JOB: finish<br>
+
+COMPLETE: H:chubox:480
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:481
+JOB: finish<br>
+
+COMPLETE: H:chubox:482
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:483
+JOB: finish<br>
+
+COMPLETE: H:chubox:484
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:485
+JOB: finish<br>
+
+COMPLETE: H:chubox:486
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:487
+JOB: finish<br>
+
+COMPLETE: H:chubox:488
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:489
+JOB: finish<br>
+
+COMPLETE: H:chubox:490
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:491
+JOB: finish<br>
+
+COMPLETE: H:chubox:492
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:493
+JOB: finish<br>
+
+COMPLETE: H:chubox:494
+JOB: {'Y': 15.0, 'X': 30.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:495
+JOB: finish<br>
+
+COMPLETE: H:chubox:496
+JOB: {'Y': 15.0, 'X': 30.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:497
+JOB: finish<br>
+
+COMPLETE: H:chubox:498
+JOB: {'Y': 15.0, 'X': 30.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:499
+JOB: finish<br>
+
+COMPLETE: H:chubox:500
+JOB: {'Y': 15.0, 'X': 30.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:501
+JOB: finish<br>
+
+COMPLETE: H:chubox:502
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:503
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:504
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:505
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:506
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:507
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:508
+JOB: finish<br>
+
+COMPLETE: H:chubox:509
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:510
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:511
+JOB: {'Y': 15.0, 'X': 30.0, 'Z': 0.0, 'E': -8.0}<br>
+
+COMPLETE: H:chubox:512
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:513
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:514
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:515
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:516
+JOB: finish<br>
+
+COMPLETE: H:chubox:517
+JOB: {'Y': 15.0, 'X': 30.0, 'Z': 0.0, 'E': 25.0}<br>
+
+COMPLETE: H:chubox:518
+JOB: finish<br>
+
+COMPLETE: H:chubox:519
+JOB: S1 valve input<br>
+
+COMPLETE: H:chubox:520
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:521
+JOB: {'Y': 15.0, 'X': 30.0, 'Z': 0.0, 'E': 25.0}<br>
+
+COMPLETE: H:chubox:522
+JOB: S1 valve bypass<br>
+
+COMPLETE: H:chubox:523
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:524
+JOB: S1 valve output<br>
+
+COMPLETE: H:chubox:525
+JOB: VendLab sleeping 2<br>
+
+COMPLETE: H:chubox:526
+JOB: finish<br>
+
+COMPLETE: H:chubox:527
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': 25.0}<br>
+
+COMPLETE: H:chubox:528
+JOB: finish<br>
+
+COMPLETE: H:chubox:529
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': 25.0}<br>
+
+COMPLETE: H:chubox:530
+JOB: finish<br>
+
+COMPLETE: H:chubox:531
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': 25.0}<br>
+
+COMPLETE: H:chubox:532
+JOB: finish<br>
+
+COMPLETE: H:chubox:533
+JOB: {'Y': 15.0, 'X': 50.0, 'Z': 0.0, 'E': 25.0}<br>
+
+COMPLETE: H:chubox:534
+JOB: finish<br>
+
+COMPLETE: H:chubox:535

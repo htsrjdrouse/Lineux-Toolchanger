@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font: 13px Helvetica, Arial; }
+      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+      /*
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+      #messages { margin-bottom: 40px }
+      */
+    </style>
+  </head>
+  <body>
+    <table><tr><td>
+    <!--<ul id="messages"></ul>-->
+    </td><td>
+    Xpos: <span id="xpos"></span><br>
+    Ypos: <span id="ypos"></span><br>
+    Zpos: <span id="zpos"></span><br>
+    Epos: <span id="epos"></span><br>
+    </td></tr></table>
+    </td></tr></table>
+    <br>
+    <div id="series_chart_div" style="width: 900px; height: 500px;"></div>
+
+    <!--
+    <div id='content'>testing</div>
+    <form action="">
+      <input id="m" autocomplete="off" /><button>Send</button>
+    </form>
+    -->
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="http://192.168.122.119/google.charts/loader.js"></script>
+    <script>
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+      var res;
+      var xpos;
+      $(function () {
+        var socket = io();
+        $('form').submit(function(){
+          socket.emit('chat message', $('#m').val());
+          $('#m').val('');
+          return false;
+        });
+        socket.on('chat message', function(msg){
+          //$('#messages').($('<li>').text(msg));
+ 	  res = msg.split("_");
+  	  document.getElementById('xpos').innerHTML = res[0];
+  	  document.getElementById('ypos').innerHTML = res[1];
+  	  document.getElementById('zpos').innerHTML = res[2];
+  	  document.getElementById('epos').innerHTML = res[3];
+	  xpos = res[0];
+          window.scrollTo(0, document.body.scrollHeight);
+	  drawSeriesChart(res);
+       });
+      });
+     function drawSeriesChart(res) {
+      /*
+      var data = google.visualization.arrayToDataTable([
+        ['X', 'Y' ],
+        [parseFloat(res[0]), parseFloat(res[1])],
+	["1000", "2000"],
+      ]);
+      */
+      var data = google.visualization.arrayToDataTable([
+        ['X', 'pos','wash','waste','dry','homexy'],
+        [parseFloat(res[0]), parseFloat(res[1]),null,null,null,null],
+        [25585, null,7281,null,null,null],
+        [25585, null,null,9300,null,null],
+        [17414, null,null,null,11095,null],
+        [2700, null,null,null,null,20188]
+      ]);
+      var options = {
+        title: 'Gantry Head Position ', 
+        hAxis: {title: 'X Position',minValue:1, maxValue:25000},
+        vAxis: {title: 'Y Position',minValue:1, maxValue:25000},
+	legend: 'none',
+        //pointSize: 30,
+        series: {
+                0: { pointShape: 'circle',pointSize: 30},
+                1: { pointShape: 'square',pointSize: 20 },
+                2: { pointShape: 'square',pointSize: 20 },
+                3: { pointShape: 'square',pointSize: 20 },
+                4: { pointShape: 'square',pointSize: 20 }
+
+                //2: { pointShape: 'square' },
+                //3: { pointShape: 'diamond' },
+                //4: { pointShape: 'star' },
+                //5: { pointShape: 'polygon' }
+        }
+      };
+      var chart = new google.visualization.ScatterChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+     
+    </script>
+
+
+  </body>
+</html>

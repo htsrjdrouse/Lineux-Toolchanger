@@ -1,0 +1,103 @@
+<b>HTSR Syringe pump<br>
+<br>
+<?= $json['htsrsyringe']['settings'] ?><br>
+<form action=gui.mod.php method=get>
+<input type=hidden name="view" value="H">
+<input type=hidden name="act" value="Syringepump">
+<br><br>
+<fieldset><legend><b>Syringe pump controller</b></legend>
+<br>
+
+<?php 
+if ($json['syringesocket'] == 0){
+ echo "<br><font size=2><b>You need to turn on the socket: syringesocket start</b></font>";
+}
+?>
+
+<?php
+if ($json['syringesocket'] == "0"){ ?>
+<input type=submit name=connect class="red" value="Connect">
+<?php } ?>
+<?php if ($json['syringesocket'] == "1"){ ?>
+<input type=submit name=disconnect class="red" value="Disconnect">
+<input type=submit name=initialization class="red" value="Initialize">
+<input type=submit name=terminate class="red" value="Stop">
+<?php } ?>
+<!--
+<input type=submit name=filltubing class="red" value="Fill Tubing">
+<font size=1><b>Cycles: </b></font><input type=text class="txt" name=filltubingcycles value="<?php// echo $json['syringepump']['filltubingcycles']; ?>" size=2> <font size=1><b>(1 cycle is 250&micro;l = <?php //echo intval($json['syringepump']['filltubingcycles']) * 250; ?>&micro;l)</b></font> -->
+<br>
+</form>
+<br><font size=2><b>Calibrate HTSR syringe</b></font><br>
+<?php
+//Steps:1000,Steprate:500,Stepcount:0,Endstopstatus:0,Valveencoder:290
+/*
+$ar = preg_split('/,/', $json['htsrsyringe']['settings']);
+$json['htsrsyringe']['steps'] = $ar[0];
+$json['htsrsyringe']['steprate'] = $ar[1];
+*/
+
+
+//echo preg_replace('/^.*:/', '',$ar[0]).'<br>';
+?>
+
+<!--
+<input type=submit name=disconnect class="red" value="Disconnect">
+<input type=submit name=homing class="red" value="Homing">
+-->
+<br>
+<form action=gui.mod.php method=get>
+<input type=hidden name="view" value="H">
+<input type=hidden name="act" value="Syringepump">
+<input type=submit name="Syringe Volume" class="red" value="Syringe Volume">
+<input type=text name=syringevolume class="txt" value="<?=$json['htsrsyringevol']?>" size=5><font size=1> <b>ml</b> <b>(What size syringe are you using?)</b></font>
+<input type=text name=stepsperml class="txt" value="<?=$json['htsrsyringestepsperml']?>" size=5><font size=1> <b>steps</b> <b>(How many steps per ml?)</b></font>
+<br>
+<font size=1><b>Calculated steps to fill syringe: <u><?=$json['htsrsyringevol']?></u> * <u><?=$json['htsrsyringestepsperml']?></u> = <u><?=$json['htsrsyringestepspersyringe']?></u></b></font>
+</form>
+<br>
+<table><tr><td>
+<form action=gui.mod.php method=get>
+<input type=hidden name="view" value="H">
+<input type=hidden name="act" value="Syringepump">
+<input type=submit name=steps class="red" value="Steps">
+<font size=1>
+<b>Steps: </b>
+<input type=text name=stepspermove class="txt" value="<?php echo preg_replace('/^.*:/', '',$json['htsrsyringe']['steps']); ?>" size=5>
+</form>
+</td><td>
+<form action=gui.mod.php method=get>
+<input type=hidden name="view" value="H">
+<input type=hidden name="act" value="Syringepump">
+<input type=submit name=steprate class="red" value="Steprate"> 
+<input type=text name=stepspermoverate class="txt" value="<?php echo preg_replace('/^.*:/', '',$json['htsrsyringe']['steprate']); ?>" size=5> <font size=1><b>&nbsp;&micro;s per steps = 
+<? echo round(((1000 / ((preg_replace('/^.*:/', '',$json['htsrsyringe']['steprate'])) * 2) * 1000) / $json['htsrsyringestepsperml'])*1000,2);// / $json['htsrsyringestepsperml']) * 1000; ?> &nbsp;&micro;l per second</font>
+</b>
+</form>
+</td></tr></table>
+<form action=syringemove.php method=get>
+<input type=submit name=aspirate class="red" value="Aspirate">
+<font size=1>
+<b>Volume: </b><input type=text name=aspiratevol class="txt" value="<?php echo $json['syringepump']['aspiratevol']; ?>" size=5><b>&nbsp;&micro;l</b>
+<b>Flow rate: </b><input type=text name=aspirateflo class="txt" value="<?php echo $json['syringepump']['aspirateflo']; ?>" size=5><b>&nbsp;&micro;l/second</b>
+&nbsp;&nbsp;&nbsp;<b>Total volume aspirated: </b><?php echo $json['syringepump']['trackaspvol']; ?>
+<br> 
+<br>
+<input type=submit name=dispense class="red" value="Dispense">
+<b>Volume: </b><input type=text name=dispensevol class="txt" value="<?php echo $json['syringepump']['dispensevol']; ?>" size=5><b>&nbsp;&micro;l</b>
+<b>Flow rate: </b><input type=text name=dispenseflo class="txt" value="<?php echo $json['syringepump']['dispenseflo']; ?>" size=5><b>&nbsp;&micro;l/second</b>
+<br>
+<br>
+<input type=submit name=fillsyringe class="red" value="Fill Syringe">
+<b>Volume: </b><input type=text name=fillvol class="txt" value="<?php echo $json['syringepump']['fillvol']; ?>" size=5><b>&nbsp;&micro;l</b>
+<b>Flow rate: </b><input type=text name=fillflo class="txt" value="<?php echo $json['syringepump']['fillflo']; ?>" size=5><b>&nbsp;&micro;l/second</b>
+</font>
+</fieldset><p>
+</form>
+
+
+
+
+
+
+

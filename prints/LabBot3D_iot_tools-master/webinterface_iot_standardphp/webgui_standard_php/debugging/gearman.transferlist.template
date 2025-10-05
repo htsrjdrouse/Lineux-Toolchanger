@@ -1,0 +1,93 @@
+	if (preg_match('/^G28 X0/', $cleancmd)){
+	  $json = smoothiesockethoming('G28 X0',$json);
+	  $json = smoothiesocketreportposition('M114',$json);
+ 	  $inputcmd = $json['ramplastcommand'];
+ 	  logger($logger, 'Homing X axis '.$json['smoothiemessage'].'<br>',1);
+	}
+	else if (preg_match('/^G28 Y0/', $cleancmd)){
+	  $json = smoothiesockethoming('G28 Y0',$json);
+	  $json = smoothiesocketreportposition('M114',$json);
+ 	  $inputcmd = $json['ramplastcommand'];
+ 	  logger($logger, 'Homing Y axis '.$json['smoothiemessage'].'<br>',1);
+	}
+	else if (preg_match('/^G28 Z0/', $cleancmd)){
+	  $json = smoothiesockethoming('G28 Z0',$json);
+	  $json = smoothiesocketreportposition('M114',$json);
+ 	  $inputcmd = $json['ramplastcommand'];
+ 	  logger($logger, 'Homing Z axis '.$json['smoothiemessage'].'<br>',1);
+	}
+	else if ((preg_match('/^fan on/', $cleancmd)) or (preg_match('/^MH1/', $cleancmd))){
+	   if ($json['pressureconnect'] == 1){
+	     $result = pressuresocketclient('fan on',$json);
+  	     $msg =  'Turning fan on<br>';
+	     logger($logger, $msg,1);
+	   }
+	   else {
+	 	 logger($logger, 'Pressure, Wash, Dry, Linear actuator, Fan, Headcam led socket not connected<br>',1);
+		 break;
+	  }
+	}
+	else if ((preg_match('/^fan off/', $cleancmd)) or (preg_match('/^MH2/', $cleancmd))){
+	   if ($json['pressureconnect'] == 1){
+	     $result = pressuresocketclient('fan off',$json);
+  	     $msg =  'Turning fan off<br>';
+	     logger($logger, $msg,1);
+	   }
+	   else {
+	 	 logger($logger, 'Pressure, Wash, Dry, Linear actuator, Fan, Headcam led socket not connected<br>',1);
+		 break;
+	  }
+	}
+
+ 	else if (preg_match('/^G1/', $cleancmd)){
+		if ($json["stop"] == "0"){
+		  $json = smoothiesocketmove($htscmd,$json,$logger);
+		  echo $json['smoothiemessage'].'<br>';
+		 }
+		 else {
+		  $msg = 'System halted, you need to press the "GO" button!<br>';
+ 	 	  logger($logger, $msg.'<br>',1);
+		  break;
+		 }
+	}
+	else if ((preg_match('/^trigger on/', $cleancmd)) or (preg_match('/^MH3/', $cleancmd))){
+		$json = smoothiesockettrigger('M106', $json);
+	   	logger($logger, '5V trigger on<br>',1);
+	}
+	else if ((preg_match('/^trigger off/', $cleancmd)) or (preg_match('/^MH4/', $cleancmd))){
+		$json = smoothiesockettrigger('M107', $json);
+	   	logger($logger, '5V trigger off<br>',1);
+	}
+
+        /*
+	else if (preg_match('/^IH/', $cleancmd)){
+                $pgx = $json['trackxyz']['x'];
+                $pgy = $json['trackxyz']['y'];
+                $pgz = $json['trackxyz']['z'];
+                $pgcoords = $pgx."_".$pgy."_".$pgz;
+		$timer = time();
+                //print 'snpshtflg: '+str(snpshtflg)
+		$cmd = 'take photo';
+	  	$json['gcodetrack'][$i] = $cmd;
+		$snpshtflg = 0;
+                if ($snpshtflg == 1){
+               		takephotofasterdir($timer,$pgcoords,$createdir);
+		}
+                else{
+                        takephotofaster($timer,$pgcoords,$json);
+		}
+	}
+
+	else if (preg_match('/^D/', $cleancmd)){
+          preg_match('/^D(.*)/',$cleancmd, $delay);
+	  $cmd = 'delay: '.$delay[0];
+	  $json['gcodetrack'][$i] = $cmd;
+	  echo $cmd.'<br>';
+          //sleep($delay);
+	}
+	*/
+
+
+
+
+

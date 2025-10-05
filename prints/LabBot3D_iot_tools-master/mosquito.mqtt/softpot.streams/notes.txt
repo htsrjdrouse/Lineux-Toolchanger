@@ -1,0 +1,55 @@
+sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+sudo apt-key add mosquitto-repo.gpg.key
+cd /etc/apt/sources.list.d/
+sudo wget http://repo.mosquitto.org/debian/mosquitto-jessie.list
+sudo apt-get update
+sudo apt-get install mosquitto
+
+sudo apt-get install mosquitto mosquitto-clients python-mosquitto
+
+sudo /etc/init.d/mosquitto stop
+
+
+
+Now that the MQTT broker is installed on the Pi we will add some basic security.
+
+Create a config file:
+
+$ cd /etc/mosquitto/conf.d/
+
+$ sudo nano mosquitto.conf
+
+Let's stop anonymous clients connecting to our broker by adding a few lines to your config file. To control client access to the broker we also need to define valid client names and passwords. Add the lines:
+
+allow_anonymous false
+
+password_file /etc/mosquitto/conf.d/passwd
+
+require_certificate false
+
+Save and exit your editor (nano in this case).
+
+For a comprehensive list of config options see http://mosquitto.org/man/mosquitto-conf-5.html
+
+From the current /conf.d directory, create an empty password file:
+
+$ sudo touch passwd
+
+We will to use the mosquitto_passwd tool to create a password hash for user pi:
+
+$ sudo mosquitto_passwd -c /etc/mosquitto/conf.d/passwd pi
+
+You will be asked to enter your password twice. Enter the password you wish to use for the user you defined.
+
+Username is pi
+Password is 6pack5
+
+
+sudo /etc/init.d/mosquitto start
+
+
+mosquitto_sub -v -t 'topic/test' -u pi -P 6pack5
+
+
+
+

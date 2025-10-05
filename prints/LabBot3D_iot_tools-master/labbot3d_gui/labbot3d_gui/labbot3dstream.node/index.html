@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Labbot3d Tracker Node</title>
+  </head>
+  <body>
+   <font face =arial>
+   <br>
+    <b>Tracking data: </b>
+    <br>
+     <font size=1>
+      <span id="apos"></span>
+     </font>
+    </font>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script>
+      var res;
+      var xpos;
+      console.log(localStorage.getItem("cmd"));
+      if (localStorage.getItem("cmd") === null) {
+       var datar = [];
+      } else {
+       var datar = localStorage.getItem("cmd");
+      }
+      res = datar.toString().replace(/,/g,"<br>");
+      document.getElementById('apos').innerHTML = res; 
+      $(function () {
+        var socket = io();
+        socket.on('array single message', function(msg){
+          if (msg == "clear"){
+           console.log("it matches");
+	   datar = "";
+           localStorage.setItem("cmd", datar);
+	  } else {
+           datar = msg +","+datar;
+           localStorage.setItem("cmd", datar);
+          }
+       });
+        socket.on('array message', function(msg){
+          console.log(res);
+ 	  res = msg.replace(/,/g,"<br>");
+  	  document.getElementById('apos').innerHTML = res; 
+       });
+      });
+    </script>
+  </body>
+  </html>
+

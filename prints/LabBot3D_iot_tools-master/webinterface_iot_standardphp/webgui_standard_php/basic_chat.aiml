@@ -1,0 +1,265 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+
+    <category>
+        <pattern>LINEAR ACTUATOR</pattern>
+        <template>
+	The linear actuator provides another way to move in the z direction other then the z bed. It is a Firgelli closed 
+	-- loop DC motor using a PID controller. As opposed to the other devices (with exception to cameras), it is run
+	-- using linearactuatorsocket start/stop. The PID controller is a Pololu Jrk 21v3 (https://www.pololu.com/product/1394)
+	-- Here are the following commands:
+	-- $$P1move (500-3500) move controller to defined position
+	-- $$P1position reports linear actuator position
+	-- $$P1motoroff reports linear actuator position
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>MJPG STREAMER</pattern>
+        <template>
+	MJPG Streamer (https://sourceforge.net/projects/mjpg-streamer/) makes jpg streams from UVC compatible web cams
+	-- This is the experimental version (https://github.com/jacksonliam/mjpg-streamer) that works with the Raspicam 
+	-- which is the camera used for the stroboscope. In order to compile this you need to make sure your Raspi has
+	-- cmake and libjpeg62-dev installed.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SSH CONNECT</pattern>
+        <template>
+	This is an extra PHP library that you need to separately install in order to run 
+	-- ssh connections through the web browser which is used to manage the sockets. To install
+	-- this you enter this command: 'sudo apt-get install libssh2-php' then restart apache. 
+	-- To test your socket connects, I made this script, start.this.thing.php.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CALIBRATING SYRINGE PUMP</pattern>
+        <template>
+	The current Arduino sketch has issues with large integers so rather then playing aroudn with this code, this 10ml syringe
+	-- is moved based on ml increments. So say there are 14000 steps per ml (around 30000 is the upper limit regarding how many 
+	-- steps per motion that you can do. Regarding steprate, 100 is 1 step per 200 microseconds, that is 5 steps per 1 millisecond 
+	-- or 5000 steps per second, then is 357 microliters per second. If you want to home with a tip you should set the steprate to
+	-- around 10000 which would be 3.57 microliters per second. From experimenting with a Nano-tip was able to aspirate and dispense
+	-- at 2000 but this is the highest speed I would recommend. This equates to about 18 microliters per second which is about right.
+	-- Its probably too high. From using a pipetter to calibrate its about 100 steps for 10 microliters at 6000 microsecond speed 
+	-- which is close to 140. 
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>LIST SOCKETS</pattern>
+        <template>
+	Here are the following sockets being used in this system:
+	-- chatbotsocket is me, the chatbot (chubox)
+	-- powerpumpssocket is the power, wash, dry and pressure compensation socket (powerpumpsraspi)
+	-- it also applies power to the syringe pump
+	-- $$ for more info ask, 'chatbot powerpumpssocket'
+	-- syringeandpiezosocket connects to a microcontroller that sends serial commands to 
+	-- $$$$ syringe pump devices and piezo devices (powerpumpsraspi) 'chatbot syringe and piezo server'
+	-- syringesocket connects to a microcontroller that sends serial commands to 
+	-- $$$$ syringe pump devices (powerpumpsraspi) 'chatbot syringe server'
+and piezo devices (powerpumpsraspi) 'chatbot syringe server'
+	-- piezosocket connects to a microcontroller that sends serial commands to 
+	-- $$$$ piezo devices (chubox) 'chatbot piezo server'
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SYRINGE AND PIEZO SOCKET</pattern>
+        <template>
+	The raspi computer only has so many usb ports and maybe you get a bit frazzled by having so many different cables
+	-- lying around. So this is basically an Arduino microcontroller that receives commands from the raspi (powerpumpsraspi).
+	-- Then sends and receives commands from other microcontrollers that run different devices (syringepump 
+	-- ). If you want to know about the syringe pump utility, please ask 'chatbot syringepump'. If you want to learn
+	-- about the piezoelectric amplifier, please ask 'chatbot piezoelectric amplifier'. The sketch for this is called: 
+	-- syringeserver.ino. To turn on this socket, 'syringesocket start/stop'
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>PIEZOELECTRIC AMPLIFIER</pattern>
+        <template>
+	This pertains to the HTSR piezoelectric amplifier device that is controlled by the piezosocket socket. Here are the following commands:
+	-- $$p1connect checks to see if you are connected to the piezo amplifier 
+	-- $$p1settings displays the settings of the system
+	-- $$p1dispense generates a dispensed droplet or droplets 
+	-- $$p1stroboscope turns on the synchronized LED with the piezo actuation wave 
+	-- $$p1volt (integer) adjusts the voltage
+	-- $$p1frequency (integer) adjusts the frequency
+	-- $$p1pulse (integer) adjusts the pulse
+	-- $$p1leddelay (integer) time delay from piezo actuation wave generation and led flashing
+	-- $$p1ledtime (integer) how long the led flashes
+	-- $$p1setflag (integer) sets the flag so that you can send a 3V trigger to dispense 
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SYRINGEPUMP</pattern>
+        <template>
+	This pertains to the HTSR syringepump device that is controlled by the syringesocket socket. Here are the following
+	-- commands (not s1 is syringepump1 s2 would be syringepump2):
+	-- $$s1check check to see if there is a connection to syringepump
+	-- $$s1valveoutput positions the syringe1 valve to output
+	-- $$s1valveinput positions the syringe1 valve to input
+	-- $$s1valvebypass positions the syringe1 valve to bypass
+	-- $$s1settings gets the stepper motor details (steps, steprate, stepcount, endstop status and valve position
+	-- $$s1forward moves the syringe plunger forward so many steps 
+	-- $$s1backward moves the syringe plunger backward so many steps 
+	-- $$s1homing homes the syringe plunger and sets the step count to 0 
+	-- $$s1steprate sets the stepper motor feedrate
+	-- $$s1steps sets the stepper motor steps per forward and backward command
+	-- The syringepump client sketch is: syringeclient_shield_args.ino
+	-- Note there is also an option to configure a Cavro style syringe pump. You can set which type you prefer:
+	-- "set syringe pump type (cavro or htsr)"
+        </template>
+    </category>
+
+
+
+
+
+    <category>
+        <pattern>SOCKETS</pattern>
+        <template>
+	  The different computers controlling various of the automation workflow communicate via TCP sockets. 
+	  -- A socket makes it possible to establish a persistant connection with a computer to a device like a microcontroller.
+	  -- This OS allows you to configure, run and manage the socket processes. When starting a process, 
+	  -- the process id is stored in the JSON object so that the process is monitored or killed when turning off.
+	  -- Even I, chatbot, am running using a socket, to start me you have to type 'chatbox start'.
+	  -- The thing about how these sockets work is that there is a data exchange between a server and a client.
+	  -- So this means you need to start the socket server script and these will reside on these other computers,
+	  -- and you should collect the process id (PID) so that you can kill the script when you want turn the socket off. 
+	  -- For more info, ask 'chatbox controlling sockets' or to get the socket list, ask 'chatbox list sockets'.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>CONTROLLING SOCKETS</pattern>
+        <template>
+	  It is possible to do this by running an extra script the executes the server program and collects the PID. This
+	  -- script too may reside on the remote computer so you from the main webserver computer you can execute remotely 
+	  -- through ssh. It is possible to do this via PHP in a secure way by creating a file that contains the user login and
+	  -- password which is located outside the webroot as a PHP include (user should be a sudoer). You can set the path of 
+	  -- server side includes in your PHP.ini file which normally is in /etc/php5/apache2/php.ini like so: 
+	  -- include_path = ".:/usr/share/php:/var/include". The function that executes the ssh command resides in 
+	  -- repstrapfunctionslib.php and it is called: sshcontrolcaller. To learn more about sockets, ask 'chatbox sockets'.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SERVERS</pattern>
+        <template>
+	 The servers are the different computers that run the sockets 
+	 -- The settings for correlating the hostname to ip address are in the imgdataset json object (servers)
+	 -- For this system the following servers:
+	 -- $$smoothiedriver = 192.168.1.83 operates the motion controller board (smoothiesocket)
+	 -- $$powerpumpsraspi = 	192.168.1.76 operates the wash, dry and pressure compensation pumps (powerpumpssocket)
+	 -- $$$$It also operates microcontroller that sends serial commands to the syringe pump/valve and piezo amplifier
+	 -- $$gantryhead = 192.168.1.94 operates the head camera and the linear actuator
+	 -- $$strobcampi = 192.168.1.72 operates the stroboscope camera
+	 -- $$chubox = 192.168.1.67 is the main webserver and does the imageprocessing
+        </template>
+    </category>
+
+
+
+
+    <category>
+        <pattern>POWERPUMPSSOCKET</pattern>
+        <template>
+	  We have: powerpumpraspi running powerpumpssocket.py  socket using the sketch 
+	  -- and pressure compensation sockets. It also has the feedback for the pressure 
+	  -- compensation vessel. The current raspi ip is 192.168.1.76 and the port number is 8888
+	  -- To turn on/off you call powerpumpssocket start/stop
+	  -- $$poweron/off = Connects/disconnects 12V power to the motion controller board
+	  -- $$pressurepump on/off = Turns on/off the pressure compensation vessel pump (at firmware its pcvon)
+	  -- $$wash on/off = Turns on/off the wash pump (at firmware its washon)
+	  -- $$syringemotor on/off = Turns on/off syringepump (at firmware its syringepumpon)
+	  -- $$syringevalve on/off = Turns on/off the syringevalve (at firmware its syringevalveon)
+	  -- $$dry on/off = Turns on/off the dry pump (at firmware its dryon)
+	  -- $$setlevel (integer) = sets the liquid level that will be maintained
+	  -- $$reportliquidlevel = gets the liquid level (at firmware its liquidlevel)
+        </template>
+    </category>
+
+
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a htsresources IOT-server chatbot, silly!
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>
+         For an overview of the system and commands, just enter help. 
+	 -- If you want to know where to start configuring, ask 'chatbot where to start'
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE TO START</pattern>
+        <template>
+	   Start by configuring the TCP sockets, first type: servers to see the socket correlation
+	   -- Or if you want to learn about basic unix permissions for this webservice, you can ask 'chatbot permissions'
+        </template>
+    </category>
+
+    <category>
+        <pattern>PERMISSIONS</pattern>
+        <template>
+	  This robot operating system runs as a webservice through the Apache webserver on a linux platform. 
+	  -- Apache is installed having a linux group id name being www-data so you have to add this group 
+	  -- to /etc/sudoers list to be to run commands using sudo like so:
+	  -- $$ # Allow members of group sudo to execute any command
+	  -- $$ %www-data ALL=(ALL:ALL) ALL
+	  -- $$ www-data ALL=(ALL) NOPASSWD: ALL  
+	  -- Also don't forget to make sure the user is a part of the group www-data. To do this:
+	  -- $$ usermod -G your_username www-data
+        </template>
+    </category>
+
+
+
+
+
+<category>
+    <pattern>ONE TIME I *</pattern>
+    <template>
+        <random>
+            <li>Go on.</li>
+            <li>How old are you?</li>
+            <li>Be more specific.</li>
+            <li>I did not know that.</li>
+            <li>Are you telling the truth?</li>
+            <li>I don't know what that means.</li>
+            <li>Try to tell me that another way.</li>
+            <li>Are you talking about an animal, vegetable or mineral?</li>
+            <li>What is it?</li>
+        </random>
+    </template>
+</category>
+    
+</aiml>

@@ -1,0 +1,145 @@
+<?php
+include('repstrapfunctionslib.php');
+
+$json = openjson();
+$json['tranferslistfile'] = 1;
+closejson($json);
+
+
+# create the gearman client
+$gmc= new GearmanClient();
+
+# add the default server (localhost)
+$gmc->addServer();
+
+# register some callbacks
+$gmc->setCreatedCallback("created");
+$gmc->setDataCallback("data");
+$gmc->setStatusCallback("status");
+$gmc->setCompleteCallback("complete");
+$gmc->setFailCallback("fail");
+
+$jsonjob = taskjobread(); //This opens taskjob
+
+tasklogger($msg,0);
+$msg = 'begin';
+$myfile = fopen("testfile.txt", "w");
+for($i=0;$i<count($jsonjob['transferlist']);$i++){
+    tasklogger($jsonjob['transferlist'][$i],1);
+    print $jsonjob['transferlist'][$i];
+    $cmdr = preg_split('/ /', $jsonjob['transferlist'][$i]);
+    $func = $cmdr[0];
+    echo 'func '.var_dump($func);
+    $sub = $cmdr[1];
+    echo ' cmdr '.var_dump($cmdr);
+    echo $jsonjob['transferlist'][$i];
+    echo $func;
+    echo $sub;
+    fwrite($myfile,$jsonjob['transferlist'][$i]);
+    $task= $gmc->addTask($func, $sub, NULL);
+    # run the tasks in parallel (assuming multiple workers)
+    if (! $gmc->runTasks())
+    {
+      echo "ERROR " . $gmc->error() . "\n";
+      exit;
+    }
+    echo "DONE\n";
+}
+file_put_contents($logger, json_encode($jsonlog));
+fclose($myfile);
+
+/*
+
+# add two tasks
+$task= $gmc->addTask($func, $sub, NULL);
+//$task= $gmc->addTask("right", "10", NULL);
+//$task= $gmc->addTask("reverse", "foo", NULL);
+//$task2= $gmc->addTaskLow("reverse", "bar", NULL);
+//$task3= $gmc->addTaskLow("normal", "foo", NULL);
+
+
+
+# run the tasks in parallel (assuming multiple workers)
+if (! $gmc->runTasks())
+{
+    echo "ERROR " . $gmc->error() . "\n";
+    exit;
+}
+
+echo "DONE\n";
+*/
+
+
+function created($task)
+{
+    echo "CREATED: " . $task->jobHandle() . "\n";
+}
+
+function status($task)
+{
+    //$msg = "STATUS: "  $func ." ".$sub." " . $task->jobHandle() . " - " . $task->taskNumerator() . "/" . $task->taskDenominator() . "\n";
+    //tasklogger($msg,1);
+    //$job->sendData($json['smoothiemessage'].'<br>';);
+    echo "STATUS: " . $task->jobHandle();// . " - " . $task->taskNumerator() . 
+         //"/" . $task->taskDenominator() . "\n";
+    $msg = "STATUS: " . $task->jobHandle();
+    tasklogger($msg,1);
+}
+
+function complete($task)
+{
+    echo "COMPLETE: " . $task->jobHandle(); // . ", " . $task->data() . "\n";
+    $msg = "COMPLETE: " . $task->jobHandle(); // . ", " . $task->data() . "\n";
+    tasklogger($msg,1);
+}
+
+function fail($task)
+{
+    echo "FAILED: " . $task->jobHandle() . "\n";
+}
+
+function data($task)
+{
+    echo "JOB: " . $task->data() . "\n";
+    $msg =  "JOB: " . $task->data() . "\n";
+    tasklogger($msg,1);
+}
+
+
+//logger for cli interface
+function tasklogger($msg,$func){
+        $logger = './tasklogger';
+        $jsonlog = json_decode(file_get_contents($logger), true);
+        if ($func == 0){
+         $jsonlog['logs'] = array();
+        }
+        array_push($jsonlog['logs'],$msg);
+	$myfile = fopen("testfile.txt", "a");
+    	fwrite($myfile,$msg);
+	fclose($myfile);
+        file_put_contents($logger, json_encode($jsonlog));
+	return $jsonlog;
+}
+
+/*
+//setting up taskjob list
+function taskjob($msg,$func){
+        $logger = './taskjob';
+        $jsonjob = json_decode(file_get_contents($logger), true);
+        if ($func == 0){
+         $jsonlog['transferlist'] = array();
+        }
+        array_push($jsonlog['transferlist'],$msg);
+        file_put_contents($logger, json_encode($jsonlog));
+}
+*/
+
+//reading through taskjob list
+function taskjobread(){
+        $logger = './taskjob';
+        $jsonjob = json_decode(file_get_contents($logger), true);
+	return $jsonjob;
+}
+
+?>
+

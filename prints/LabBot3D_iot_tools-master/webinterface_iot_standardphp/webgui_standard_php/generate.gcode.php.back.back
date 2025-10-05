@@ -1,0 +1,388 @@
+<?php error_reporting(E_ERROR | E_PARSE); ?>
+<?php
+
+$filename = $_POST['filename'];
+$layernum = $_POST['layernum'];
+
+
+$jsonerror->error = "";
+file_put_contents('slicermodules/error.json', json_encode($jsonerror));
+
+if (isset($_POST['compgcode'])){
+ displaygcodemix($filename,$layernum,'','0');
+}
+else if (isset($_POST['savemdd'])){
+ $svmodname =$_POST['svmodname'];
+  $kk ="0";
+  $dir = 'slicermodules';
+  if (strlen($svmodname) >0){
+    $sfiles = scandir($dir);
+    foreach ($sfiles as $key => $value) {
+     if ($value == $svmodname){
+      $kk = "1";
+     }
+   }
+  }
+  else if(strlen($svmodname) == 0){
+    $kk = "2";
+  }
+ $svmodname =  $dir.'/'.$svmodname;
+ echo $svmodname.'<br>';
+ //echo $kk.'<br>';
+ $jsondata = displaygcodemix($filename,$layernum,$svmodname,$kk);
+ file_put_contents($svmodname.'.json', json_encode($jsondata), FILE_APPEND | LOCK_EX);
+ 
+ header("Location: details.php?id=".$filename);
+}
+
+
+/*
+else if(isset($_POST['runslicerfile'])){
+ echo "its running<br>";
+ $jsontasker3 = json_decode(file_get_contents('taskjob3'), true);
+ $jsonslicer = json_decode(file_get_contents('jsondata/'.$filename.'.json'), true);
+ $jsonmodule = json_decode(file_get_contents('module.json'), true);
+ $slf = preg_replace('/ -.*/', '', $_POST['slicerfiles']);
+ $jsonfile = json_decode(file_get_contents('slicermodules/'.$slf.'.json'), true);
+ $lkey = array_keys($jsonfile['location'],"0");
+
+ if (count($lkey) > 0) {
+  for($i=0;$i<count($lkey);$i++){
+   $modfilename = $jsonfile['module'][$key[$i]];
+   $fkey = array_search($modfilename, $jsontasker3['filename']);
+   echo "<br>BEGIN----MODULE----<br>";
+   foreach ($jsontasker3['data'][$fkey] as $key => $value) {
+    echo $value.'<br>';
+   } 
+   echo "<br>END----MODULE----<br>";
+  }
+ }
+
+ if ($jsonfile['layers'] == 'all'){
+  $llayers = count($jsonslicer['lineslayer']);
+ }
+ else {
+  $llayers = $jsonfile['layers'];
+ }
+
+ for($i=0;$i<count($llayers);$i++){
+  $cct = 0;
+  echo "<br>BEGIN----SLIC3RFILE----<br>";
+  foreach ($jsonslicer['lineslayer'][$i] as $lkey => $lvalue) {
+   if (preg_match('/^G1 .*/', $lvalue)){
+    $msg = gcodeparser($lvalue,$jsonslicer,$cct);
+    echo $msg.'<br>';
+   }
+   else {
+    echo $lvalue.'<br>';
+   }
+    $cct = $cct+1;
+  }
+  echo "<br>END----SLIC3RFILE----<br>";
+  $cc = array_keys($jsonfile['location'], (string)($i+1));
+   if (count($cc) > 0){
+    for($j=0;$j<count($cc);$j++){
+      $modfilename = $jsonfile['module'][$cc[$j]];
+      $fkey = array_search($modfilename, $jsontasker3['filename']);
+      echo "<br>BEGIN----MODULE----<br>";
+      foreach ($jsontasker3['data'][$fkey] as $key => $value) {
+       echo $value.'<br>';
+      } 
+      echo "<br>END----MODULE----<br>";
+    }
+   }
+ }
+
+
+
+
+
+}
+*/
+
+
+
+
+else if (isset($_POST['delmdd'])){
+ $jsonmodule = json_decode(file_get_contents('module.json'), true);
+ $mdd = $_POST['mdd'];
+ for($i=0;$i<count($mdd);$i++){
+  unset($jsonmodule['module']['filename'][$mdd[$i]]);
+  unset($jsonmodule['module']['location'][$mdd[$i]]);
+  unset($jsonmodule['module']['source'][$mdd[$i]]);
+ }
+ file_put_contents('module.json', json_encode($jsonmodule));
+ header("Location: details.php?id=".$filename);
+}
+
+
+//<input type=submit name="deleteslicerfile" value="Delete slicer file">
+else if (isset($_POST['deleteslicerfile'])){
+ $slf = preg_replace('/ -.*/', '', $_POST['slicerfiles']);
+ unlink('slicermodules/'.$slf);
+ unlink('slicermodules/'.$slf.'.json');
+ header("Location: details.php?id=".$filename);
+}
+
+
+
+
+else if (isset($_POST['moduleadd'])){
+ $printmodules = $_POST['printmodules'];
+ $jsonmodule = json_decode(file_get_contents('module.json'), true);
+ $jsonmodule['addmodule'] = 0;
+ if (strlen($_POST['insertmodule']) > 0){
+  $insertmodule = $_POST['insertmodule'];
+  $key = array_search($printmodules, $jsonmodule['potentialmodules']['filename']);
+  $jsonmodule['pmo'] = $printmodules;
+  $jsonmodule['key'] = $key;
+  array_push($jsonmodule['module']['source'],$jsonmodule['potentialmodules']['source'][$key]);
+  array_push($jsonmodule['module']['filename'],$printmodules);
+  array_push($jsonmodule['module']['location'],$insertmodule);
+  $jsonmodule['error'] = "";
+ } else {
+  $jsonmodule['error'] = '<br><font color=red>You need to select a position to put the module</font><br>';
+ }
+ file_put_contents('module.json', json_encode($jsonmodule));
+ header("Location: details.php?id=".$filename);
+}
+
+
+else if (isset($_POST['addmodule'])){
+ echo "module is added<br>";
+ $jsonmodule = json_decode(file_get_contents('module.json'), true);
+ $jsontasker3 = json_decode(file_get_contents('taskjob3'), true);
+ $jsonmodule['error'] = '';
+ $jsonmodule['potentialmodules'] = array();
+ for($i=0;$i<count($jsontasker3['filename']);$i++){
+  if (strlen($jsontasker3['filename'][$i]) > 0) {
+  $jsonmodule['potentialmodules']['filename'][$i] = $jsontasker3['filename'][$i];
+  $jsonmodule['potentialmodules']['source'][$i] = 'module';
+  }
+ }
+
+ $dir    = 'uploads';
+ $files1 = scandir($dir);
+ for($i=2;$i<count($files1);$i++){
+  array_push($jsonmodule['potentialmodules']['filename'],$files1[$i]);
+  array_push($jsonmodule['potentialmodules']['source'],'slicer');
+ }
+ $jsonmodule['addmodule'] = 1;
+ file_put_contents('module.json', json_encode($jsonmodule));
+ header("Location: details.php?id=".$filename);
+}
+
+
+else {
+
+//$insertphotoscan = $_POST['insertphotoscan'];
+//$reloadsyringe = $_POST['reloadsyringe'];
+
+
+
+$msg = 'sudo python create.gcode.scripts.py '.$filename;
+//echo '<br>'.$msg.'<br>';
+
+if (strlen($layernum)){
+  if ($layernum != 'all'){
+   $msg = $msg.' -l '.$layernum;
+  }
+}
+
+/*
+if (strlen($insertphotoscan) > 0){
+   $msg = $msg.' -p '.$insertphotoscan;
+}
+
+if (strlen($reloadsyringe) > 0){
+   $msg = $msg.' -v '.$reloadsyringe;
+}
+*/
+
+//echo $msg.'<br>';
+exec($msg);
+sleep(2);
+$dat = file('result.gcode');
+//echo $dat[0];
+//var_dump($dat);
+}
+?>
+
+
+<?php
+
+function gcodeparser($str,$setjson,$ct){
+ $msg = 'G1';
+ if (preg_match('/^G1.*X(.*)$/', $str, $sck)){
+  $X = $sck[1];
+  $X = preg_replace("/ .*/", "", $X);
+  $X = $X - $setjson['minx'] + $setjson['originx'];
+  $msg = $msg.'X'.$X;
+ }
+ if (preg_match('/^G1.*Y(.*)$/', $str, $sck)){
+  $Y = $sck[1];
+  $Y = preg_replace("/ .*/", "", $Y);
+  $Y = $Y - $setjson['miny'] + $setjson['originy'];
+  $msg = $msg.'Y'.$Y;
+ }
+ if (preg_match('/^G1.*Z(.*)$/', $str, $sck)){
+  $Z = $sck[1];
+  $Z = preg_replace("/ .*/", "", $Z);
+  $Z = $setjson['originz'] - $Z - $setjson['minz'];
+  $msg = $msg.'Z'.$Z;
+ }
+ if (preg_match('/^G1.*E(.*)$/', $str, $sck)){
+  $E = $sck[1];
+  $E = preg_replace("/ .*/", "", $E);
+  if (($ct == $setjson['retraction']) and ($setjson['retraction'] > 0)){
+     $E = $E * ($setjson['retractionvol']/100);
+  }
+  else {
+     $E = $E * ($setjson['extrusionvol']/100);
+   }
+  $msg = $msg.'E'.$E;
+ }
+ return $msg;
+}
+
+function layerstoprint($layernum){
+ $layersry = array();
+ if (preg_match('/(.*)-(.*)/', $layernum,$gv)){
+  for($i=$gv[1];$i<($gv[2]+1);$i++){
+   array_push($layersry, $i);
+  }
+ }
+ else if (preg_match('/.*,/', $layernum)){
+  $layersry = preg_split('/,/', $layernum);
+ }
+ else {
+  array_push($layersry, $layernum);
+ }
+ return $layersry;
+}
+
+
+
+function displaygcodemix($filename,$layernum,$svfile,$error){
+   $jsonmodule = json_decode(file_get_contents('module.json'), true);
+   $jsonslicer = json_decode(file_get_contents('jsondata/'.$filename.'.json'), true);
+   $taskjob3 = json_decode(file_get_contents('taskjob3'), true);
+   //get the first modules before the gcode lines are printed
+   $jsondata->module  = $jsonmodule['module']['filename'];
+   $jsondata->location  = $jsonmodule['module']['location'];
+   $jsondata->slicerfilename = $filename;
+   $jsondata->layers  = $layernum;
+   if ($error == "0"){
+    $jsonerror->error  = "";
+   }
+   else if ($error == "1"){
+     $jsonerror->error = "<font color=red><b>This file already exists please rename if you want to save or delete the file</b></font><br>";
+   }
+   else if ($error == "2"){
+     $jsonerror->error = "<font color=red><b>You need to enter a filename.</b></font><br>";
+   }
+   file_put_contents('slicermodules/error.json', json_encode($jsonerror));
+   /* 
+   if ($error == "0"){
+   echo "testing";
+   */
+   if ($layernum == 'all'){
+    $layernumry = array();
+    for($i=1;$i<count($jsonslicer['lineslayer'])+1;$i++){
+     array_push($layernumry,$i);
+    }
+   } 
+ else {
+  $layernumry = layerstoprint($layernum);
+ }
+ foreach ($jsonmodule['module']['filename'] as $key => $value) {
+  if ($jsonmodule['module']['location'][$key] == 0){
+    //echo $jsonmodule['module']['filename'][$key].' ';
+    //echo $jsonmodule['module']['source'][$key].' lines -- ';
+    //echo $jsonmodule['module']['location'][$key].' taskjob key ';
+    $tjkey = array_search($jsonmodule['module']['filename'][$key],$taskjob3['filename']);
+    //echo $tjkey.'<br>';
+    //var_dump($taskjob3['data'][$tjkey]);
+    //Here looping through all the lines in a specific layer
+    foreach ($taskjob3['data'][$tjkey] as $tkey => $tvalue) {
+     //here we need to parse this
+     if (strlen($svfile) == 0){ 
+      echo $tvalue.'<br>';
+     } 
+     //else {
+     else if ($error == "0"){
+      file_put_contents($svfile, $tvalue."\r\n", FILE_APPEND | LOCK_EX);
+     }
+    }
+    //array_search($jsonmodule['module']['filename'][$key],$taskjob3['filename']).'<br>';
+  }
+ }
+  $layers = $jsonslicer['lineslayer'];
+  for($i=0;$i<count($layernumry);$i++){
+   $layer = $layernumry[$i];
+   //echo 'layer '.$i.' ';
+   //echo 'layer count '.count($layers[$i-1]).'<br>';
+   $cct = 0;
+   foreach ($layers[$layer-1] as $lkey => $lvalue) {
+     if (preg_match('/^G1 .*/', $lvalue)){
+      $msg = gcodeparser($lvalue,$jsonslicer,$cct);
+      if (strlen($svfile) == 0){ 
+       echo $msg.'<br>';
+      } 
+      //else {
+      else if ($error == "0"){
+       file_put_contents($svfile, $msg."\r\n", FILE_APPEND | LOCK_EX);
+      }
+     }
+     else {
+      if (strlen($svfile) == 0){ 
+       echo $lvalue.'<br>';
+      } 
+      //else {
+      else if ($error == "0"){
+       file_put_contents($svfile, $lvalue."\r\n", FILE_APPEND | LOCK_EX);
+      }
+     }
+     $cct = $cct + 1;
+     //echo $lvalue.'layer test<br>';
+     }
+     //get the rest modules before the gcode lines are printed in coarse of printing the gcode lines
+     foreach ($jsonmodule['module']['filename'] as $key => $value) {
+      if ($jsonmodule['module']['location'][$key] == $i){
+       //echo $jsonmodule['module']['filename'][$key].' ';
+       //echo $jsonmodule['module']['source'][$key].' lines -- ';
+       //echo $jsonmodule['module']['location'][$key].' -- taskjob key ';
+       $tjkey = array_search($jsonmodule['module']['filename'][$key],$taskjob3['filename']);
+       //echo $tjkey.'<br>';
+       //var_dump($taskjob3['data'][$tjkey]);
+       foreach ($taskjob3['data'][$tjkey] as $tkey => $tvalue) {
+        if (strlen($svfile) == 0){ 
+         echo $tvalue.'<br>';
+        } 
+        else if ($error == "0"){
+         file_put_contents($svfile, $tvalue."\r\n", FILE_APPEND | LOCK_EX);
+        }
+       }
+       //echo array_search($jsonmodule['module']['filename'][$key],$taskjob3['filename']).'<br>';
+     }
+    }
+   }
+ /*
+ $jsonmodule = json_decode(file_get_contents('module.json'), true);
+  array_push($jsonmodule['module']['source'],$jsonmodule['potentialmodules']['source'][$key]);
+  array_push($jsonmodule['module']['filename'],$printmodules);
+  array_push($jsonmodule['module']['location'],$insertmodule);
+ */
+   return $jsondata;
+} //end function
+
+
+?>
+
+
+
+
+
+
+
+

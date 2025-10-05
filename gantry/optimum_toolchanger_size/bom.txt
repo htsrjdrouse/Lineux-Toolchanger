@@ -1,0 +1,73 @@
+
+G91
+G0 Z10 F250
+G1 X45 Y411 F6000
+G28 Z0
+G0 Z25 F250
+G1 X147 Y211 F6000
+
+
+
+BIGTREETECH TMC2209 V1.3 Stepper Motor Driver+ BTT Octopus V1.1 32bit Control Board Compatible with BTT PI V1.2/HDMI5, Raspberry-Pi for Voron 2.4, CoreXY, VZbot 3D Printer Running Klipper - $88.49
+
+BIGTREETECH U2C V2.1 Adapter Board Supports CAN-Bus Connection, with 3 CAN Output Interface for 3D Printer DIY - $25
+
+F695 Bearing -  20 units - https://www.aliexpress.us/item/2251832814871526.html?gatewayAdapt=glo2usa4itemAdapt - $33.47
+Gates GT-2 belt - https://www.aliexpress.us/item/2251832667244886.html?gatewayAdapt=glo2usa4itemAdapt - $21
+GT2 20T (6mm wide) Pulley (5mm bore) POWGE GT GT3 20 Teeth 2GT 2MGT Timing Pulley Bore 5/6/6.35/8mm for Belt width 6/10/15mm Pulleys Small Backlash 20Teeth 20T,50PCS - https://www.aliexpress.us/item/2251801543713188.html?spm=a2g0o.cart.0.0.354338dayaDRWi&mp=1&pdp_npi=5%40dis%21USD%21USD%2049.99%21USD%2044.99%21%21%21%21%21%402103010e17412083153768440ee843%2112000038630454694%21ct%21US%214623444261%21%211%210&gatewayAdapt=glo2usa $44 (for 50 pieces) 
+GT2 20T (6mm wide) Toothed Idler (5mm bore) - https://www.aliexpress.us/item/2251832539995194.html?spm=2114.12010612.8148356.2.276b2892QClFQd&gatewayAdapt=glo2usa4itemAdapt $3.59 (for 10 pieces)
+
+Nema 17 Bipolar 59Ncm(83.55oz.in) 2A 42x42x48mm 4 Wires w/ 1m Cable & Connector https://www.omc-stepperonline.com/nema-17-bipolar-59ncm-84oz-in-2a-42x48mm-4-wires-w-1m-cable-connector-17hs19-2004s1 $9.62 (per unit) need 2
+
+	
+MEAN WELL USA Inc. (8.8 A 211W) https://www.digikey.com/en/products/detail/mean-well-usa-inc/LRS-200-24/7705026?s=N4IgTCBcDaIDYCcDOBaMAGdaAsIC6AvkA $29.84 
+
+Meanwell RS-25-5 PSU https://www.digikey.com/en/products/detail/mean-well-usa-inc/RS-25-5/7706180 $11.94
+
+ZF - Rocker Switches DPST 16A ON-OFF https://www.digikey.com/en/products/detail/zf-electronics/WRG32F2FBBNN/446050?s=N4IgTCBcDaIO4CcDmBmMAzDAjLA7XIAugL5A $2.49
+Fuse Medium Time Delay Acting 8A 250V Holder Cartridge 5 X 20mm Glass https://www.digikey.com/en/products/detail/littelfuse-inc/0232008-MXP/778029?s=N4IgTCBcDaIAxgMxjnAHAOgLYA8AOIAugL5A $1.09 (per unit) need 2
+Fuse Medium Time Delay Acting 4A 250V Holder Cartridge 5 X 20mm Glass https://www.digikey.com/en/products/detail/littelfuse-inc/0232004-MXP/778023 $1.09 (per unit) need 2
+TycoElectronics - 10EGG1-2 (Normal) or 10EHG1-2 (Medical): Filtered Power Inlet https://www.digikey.com/en/products/detail/te-connectivity-corcom-filters/3-1609115-3/2032291?s=N4IgTCBcDaIMwFoCMA2ADATiUgrAuIAugL5A  $24.98
+Thermal Fuse https://www.aliexpress.us/item/2251832699177528.html?gatewayAdapt=glo2usa4itemAdapt $3.00 (10 pieces for this price)
+
+BIGTREETECH Octopus V1.1 BTT Motherboard 3D Printer Parts vs Spider V2.2 TMC5160 TMC2209 Ender 3 V2 Pro For Voron 2.4 Kits https://www.aliexpress.us/item/3256802425339653.html?gatewayAdapt=glo2usa4itemAdapt $39.99
+BIGTREETECH TMC2209 V1.3 Stepper Motor Driver UART VS TMC2208 TMC2130 3D Printer Parts For Octopus V1.1 SKR 2 Board Ender 3 V2 https://www.aliexpress.us/item/2251832841735393.html?spm=a2g0o.productlist.main.5.23ec36eadRNPts&algo_pvid=44258b04-36ca-4a19-9a73-45e4942b687a&algo_exp_id=44258b04-36ca-4a19-9a73-45e4942b687a-4&pdp_ext_f=%7B%22order%22%3A%22805%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%213.99%213.99%21%21%213.99%213.99%21%402101e9a217413241790205741e59d1%2112000041238691049%21sea%21US%214623444261%21X&curPageLogUid=F3hIAloHjRJI&utparam-url=scene%3Asearch%7Cquery_from%3A  $3.99 (need 6) 
+
+Universal Type NS35 Steel/Aluminium DIN Rail For C45 DZ47 Terminal Blocks Relay Contactor etc 35mm wide 7.5mm high https://www.aliexpress.us/item/2255800815947422.html?gatewayAdapt=glo2usa4itemAdapt $6.35 (350mm piece)
+
+Linear Rail MGN9H NEW 9mm Linear Guide MGN9 450mm $16.79 (per unit) need 3 
+RobotDigg MGN9H NEW 9mm Linear Guide MGN9 450mm (anodized)  $17 (per unit) need 3
+Linear Rail MGN9H for Z Axis 300mm Black anodized linear rail 7, 9, 12 and 15 $13 (per unit) need 4
+Integrated Lead Screw/Stepper Motors - 300mm, 2/4/8mm pitch  NEMA 17 300mm T8 Lead Screw 3D Pinter Stepper Motor 30000Hrs 80cm/31.5in Cable https://www.aliexpress.us/item/3256805201006266.html?spm=a2g0o.productlist.main.2.6e881c9e1hpsUw&algo_pvid=80fb441d-7c58-4d8b-b623-356116be08cc&algo_exp_id=80fb441d-7c58-4d8b-b623-356116be08cc-1&pdp_ext_f=%7B%22order%22%3A%2225%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%2118.83%219.41%21%21%2118.83%219.41%21%402103245417413257028131171e5242%2112000032845676283%21sea%21US%214623444261%21X&curPageLogUid=vSXL1kyUhUKR&utparam-url=scene%3Asearch%7Cquery_from%3A $9.41 (per unit) need 4
+
+
+
+misumi $355.15 + $260 bed
+HFSB5-2020-500-LCP-RCP-AV360
+HFSB5-2020-500-LCP-RCP-AV360
+HFSB5-2020-500-LCP-RCP-AV360
+HFSB5-2020-500-LCP-RCP-AV360
+HFSB5-2020-660-TPW
+HFSB5-2020-660-TPW
+HFSB5-2020-660-TPW
+HFSB5-2020-660-TPW
+HFSB5-2020-660-TPW
+HFSB5-2020-660-TPW
+HFSB5-2020-660-TPW
+HFSB5-2020-550-TPW
+HFSB5-2020-550-TPW
+HFSB5-2020-550-TPW
+HFSB5-2020-550-TPW
+HFSB5-2020-550-TPW
+HFSB5-2020-550-TPW
+HFSB5-2020-660-AV335
+HFSB5-2020-660-AV335
+HFSB5-2020-660-AV335
+HFSB5-2020-270-TPW
+HFSB5-2020-260-TPW
+HFSB5-2020-520-AV89.5-BV430.5
+HFSB5-2020-520-AV89.5-BV430.5
+HFSB5-2020-480
+
+
+

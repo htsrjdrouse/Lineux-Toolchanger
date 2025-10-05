@@ -1,0 +1,10 @@
+This is an example of mqtt subscriber written in node.js. This uses socket.io to send messages to the browser upon receiving a published mqtt message. 
+
+An example of publishing a message (in the message the mosquitto broker is set up with a username (smoothie) and password (labbot3d) and topic labbot3d_1_control). 
+
+mosquitto_pub  -t 'labbot3d_1_control' -u smoothie -P labbot3d -d -m "this is a message"
+
+The data is stored in a browser session and it can be cleared by sending "clear" as the message
+
+mosquitto_pub  -t 'labbot3d_1_control' -u smoothie -P labbot3d -d -m "clear"
+

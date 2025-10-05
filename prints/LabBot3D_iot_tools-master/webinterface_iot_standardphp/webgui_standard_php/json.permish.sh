@@ -1,0 +1,12 @@
+chmod 777 imgdataset
+chmod 777 loggerdataset
+chmod 777 strobdataset
+chmod 777 strobdatasetprocessing
+chmod 777 taskjob
+chmod 777 taskjob2
+chmod 777 taskjob3
+chmod 777 taskjoberror
+chmod 777 taskjobtracker
+chmod 777 tasklogger
+chmod 777 repstrap.py
+chmod 777 pythoncode

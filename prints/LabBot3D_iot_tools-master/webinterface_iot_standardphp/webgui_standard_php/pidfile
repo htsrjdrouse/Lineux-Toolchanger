@@ -1,0 +1,2 @@
+root      2683  0.0  0.0   2280   592 ?        S    15:08   0:00 sh -c ps aux | grep 'smoothie.gearman.client.list.php' > pidfile
+root      2685  0.0  0.0   2612   696 ?        S    15:08   0:00 grep smoothie.gearman.client.list.php
